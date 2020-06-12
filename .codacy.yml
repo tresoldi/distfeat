@@ -1,0 +1,6 @@
+exclude_paths:
+    - "AUTHORS.md"
+    - "README.md"
+    - "CONTRIBUTING.md"
+    - "distfeat/__init__.py"
+    - "tests/*.py"
