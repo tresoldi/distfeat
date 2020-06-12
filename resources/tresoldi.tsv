@@ -1,0 +1,586 @@
+Grapheme	Name	Alias	anterior	approximant	back	click	consonantal	constricted	continuant	coronal	distributed	dorsal	high	labial	laryngeal	lateral	long	low	nasal	pharyngeal	place	preaspirated	preglottalized	prenasal	round	sibilant	sonorant	spread	strident	syllabic	tense	voice
+a	unrounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	+	-	0	+	0	0	0	0	-	+	-	-	+	+	+
+aː	long unrounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	+	+	-	0	+	0	0	0	0	-	+	-	-	+	+	+
+ã	nasalized unrounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	+	+	0	+	0	0	0	0	-	+	-	-	+	+	+
+ãː	long nasalized unrounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	+	+	+	0	+	0	0	0	0	-	+	-	-	+	+	+
+ă	ultra-short unrounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	-	+	-	0	+	0	0	0	0	-	+	-	-	+	+	+
+ḁ	devoiced unrounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	+	-	0	+	0	0	0	0	-	+	-	-	+	+	-
+a̯	non-syllabic unrounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	+	-	0	+	0	0	0	0	-	+	-	-	-	+	+
+b	voiced bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	-	0	-	-	+
+bv	voiced labio-dental affricate consonant		+	-	0	-	+	-	-	+	+	-	0	+	+	-	0	0	+	0	+	0	0	0	-	-	+	-	-	-	-	+
+bʰ	aspirated voiced bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	+	0	-	-	+
+bʰː	aspirated long voiced bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	+	0	-	0	+	0	0	0	-	0	-	+	0	-	-	+
+bʱ	breathy voiced bilabial stop consonant	bʰ	0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	+	0	-	-	+
+bʱː	long breathy voiced bilabial stop consonant	bʰː	0	-	0	-	+	-	-	-	0	-	0	+	+	-	+	0	-	0	+	0	0	0	-	0	-	+	0	-	-	+
+bʲ	palatalized voiced bilabial stop consonant		-	-	0	-	+	-	-	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	-	-	-	+
+bʷ	labialized voiced bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	+	0	-	-	0	-	-	+
+bʷː	labialized long voiced bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	+	0	-	0	+	0	0	0	+	0	-	-	0	-	-	+
+bː	long voiced bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	+	0	-	0	+	0	0	0	-	0	-	-	0	-	-	+
+bˠ	velarized voiced bilabial stop consonant		0	-	+	-	+	-	-	-	0	+	+	+	+	-	0	-	-	0	+	0	0	0	-	0	-	-	0	-	-	+
+bˤː	pharyngealized long voiced bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	+	0	-	+	+	0	0	0	-	0	-	-	0	-	-	+
+b̥	devoiced voiced bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	-	0	-	-	-
+b̥ʰ	aspirated devoiced voiced bilabial stop consonant	pʰ	0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	+	0	-	-	-
+b̪	voiced labio-dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	-	-	-	+
+bβ	voiced bilabial affricate consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	0	0	-	0	+	-	0	-	-	+
+bⁿ	with-nasal-release voiced bilabial stop consonant	m	0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	0	0	-	0	-	-	0	-	-	+
+c	voiceless palatal stop consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	-
+cç	voiceless palatal affricate consonant		-	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	+	0	+	0	0	0	0	-	+	0	-	-	-	0
+cçʰ	aspirated voiceless palatal affricate consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	+	+	-	-	-	-
+cʰ	aspirated voiceless palatal stop consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	+	-	-	-	-
+cʼ	voiceless palatal ejective stop consonant		-	-	0	-	+	+	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	-
+cː	long voiceless palatal stop consonant		-	-	0	-	+	0	-	+	+	-	0	-	-	-	+	0	-	0	+	0	0	0	0	-	-	0	-	-	-	0
+ç	voiceless palatal sibilant fricative consonant		-	-	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	+	-	-	-
+d	voiced alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+dz	voiced alveolar sibilant affricate consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	+	+	-	-	-	-	+
+dzː	long voiced alveolar sibilant affricate consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	+	0	+	0	+	0	0	0	0	+	+	-	-	-	-	+
+dz̪	voiced dental sibilant affricate consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	+	+	-	-	-	+	+
+dz̪ː	long voiced dental sibilant affricate consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	+	0	+	0	+	0	0	0	0	+	+	-	-	-	+	+
+dð	voiced dental affricate consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	+	-	-	-	+	+
+dɮ	voiced alveolar lateral affricate consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	+	0	0	+	0	+	0	0	0	0	-	+	-	-	-	-	+
+dʑ	voiced alveolo-palatal sibilant affricate consonant		-	-	-	-	+	-	-	+	-	+	+	-	+	-	0	-	+	0	+	0	0	0	0	+	+	-	-	-	+	+
+dʑː	long voiced alveolo-palatal sibilant affricate consonant		-	-	-	-	+	-	-	+	-	+	+	-	+	-	+	-	+	0	+	0	0	0	0	+	+	-	-	-	+	+
+dʒ	voiced post-alveolar sibilant affricate consonant		-	-	0	-	+	-	-	+	-	0	0	0	+	-	0	0	+	0	-	0	0	0	0	+	+	-	-	-	-	+
+dʒʱ	breathy voiced post-alveolar sibilant affricate consonant		-	-	0	-	+	-	-	+	-	0	0	0	+	-	0	0	+	0	-	0	0	0	0	+	+	+	-	-	-	+
+dʒʲ	palatalized voiced post-alveolar sibilant affricate consonant		-	-	0	-	+	-	-	+	+	0	0	0	+	-	0	0	+	0	-	0	0	0	0	+	+	-	-	-	-	+
+dʒʷ	labialized voiced post-alveolar sibilant affricate consonant		-	-	0	-	+	-	-	+	-	0	0	+	+	-	0	0	+	0	-	0	0	0	+	+	+	-	-	-	-	+
+dʰ	aspirated voiced alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	+	-	-	-	+
+dʰː	aspirated long voiced alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	-	+	-	-	-	+
+dʱ	breathy voiced alveolar stop consonant	dʰ	+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	+	-	-	-	+
+dʱː	long breathy voiced alveolar stop consonant	dʰː	+	-	0	-	+	-	-	+	-	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	-	+	-	-	-	+
+dʲ	palatalized voiced alveolar stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+dː	long voiced alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+dːʒ	long voiced post-alveolar sibilant affricate consonant		-	-	0	-	+	-	-	+	-	0	0	0	+	-	+	0	+	0	-	0	0	0	0	+	+	-	-	-	-	+
+dˤ	pharyngealized voiced alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	+	+	0	0	0	0	-	-	-	-	-	-	+
+d̠	voiced post-alveolar stop consonant		0	-	0	-	+	-	-	0	0	0	0	0	+	-	0	0	-	0	-	0	0	0	0	0	-	-	0	-	-	+
+d̥	devoiced voiced alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	-
+d̥ⁿ	with-nasal-release devoiced voiced alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	-	-
+d̪	voiced dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	+	+
+d̪ɮ	voiced dental lateral affricate consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	+	0	0	+	0	+	0	0	0	0	-	+	-	-	-	+	+
+d̪ʱ	breathy voiced dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	+	-	-	+	+
+d̪ʱː	long breathy voiced dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	-	+	-	-	+	+
+d̪ʲ	palatalized voiced dental stop consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	+	+
+d̪ː	long voiced dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	-	-	-	-	+	+
+d̪ˠ	velarized voiced dental stop consonant		+	-	+	-	+	-	-	+	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	-	-	-	-	-	+	+
+d̪ˤ	pharyngealized voiced dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	+	+	0	0	0	0	-	-	-	-	-	+	+
+d̪̥ⁿ	with-nasal-release devoiced voiced dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	+	-
+d̪ⁿ	with-nasal-release voiced dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	+	+
+d̼	voiced linguolabial stop consonant		+	-	0	-	+	-	-	+	-	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	-	-	-	+
+dⁿ	with-nasal-release voiced alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	-	+
+e	unrounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	-	+	-	-	+	+	+
+eː	long unrounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	+	-	-	0	+	0	0	0	0	-	+	-	-	+	+	+
+ẽ	nasalized unrounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	-	+	0	+	0	0	0	0	-	+	-	-	+	+	+
+ẽː	long nasalized unrounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	+	-	+	0	+	0	0	0	0	-	+	-	-	+	+	+
+ĕ	ultra-short unrounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	-	-	-	0	+	0	0	0	0	-	+	-	-	+	+	+
+e̤	breathy unrounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	-	+	+	-	+	+	+
+e̥	devoiced unrounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	-	+	-	-	+	+	-
+e̯	non-syllabic unrounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	-	+	-	-	-	+	+
+f	voiceless labio-dental fricative consonant		+	-	0	-	+	0	+	+	+	-	0	+	-	-	0	0	-	0	+	0	0	0	-	-	-	0	+	-	-	0
+fʰ	aspirated voiceless labio-dental fricative consonant		+	-	0	-	+	-	+	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	+	+	-	-	-
+fʲ	palatalized voiceless labio-dental fricative consonant		-	-	0	-	+	0	+	+	+	-	0	+	-	-	0	0	-	0	+	0	0	0	-	-	-	0	+	-	-	0
+fʷː	labialized long voiceless labio-dental fricative consonant		+	-	0	-	+	0	+	+	+	-	0	+	-	-	+	0	-	0	+	0	0	0	+	-	-	0	+	-	-	0
+fʼ	voiceless labio-dental ejective fricative consonant		+	-	0	-	+	+	+	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	+	-	-	-
+fː	long voiceless labio-dental fricative consonant		+	-	0	-	+	0	+	+	+	-	0	+	-	-	+	0	-	0	+	0	0	0	-	-	-	0	+	-	-	0
+fˠ	velarized voiceless labio-dental fricative consonant		+	-	+	-	+	0	+	+	+	+	+	+	-	-	0	-	-	0	+	0	0	0	-	-	-	0	+	-	-	0
+g	voiced velar stop consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	+
+gǀ	voiced dental click consonant		+	-	0	+	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	+	+
+gǁ	voiced lateral click consonant		0	-	0	+	+	-	-	-	0	-	0	-	+	+	0	0	-	0	+	0	0	0	0	0	-	-	0	-	-	+
+gǂ	voiced palatal click consonant		-	-	0	+	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+gǃ	voiced alveolar click consonant		+	-	0	+	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+gǃǃ	voiced retroflex click consonant		-	-	0	+	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+gɣ	voiced velar affricate consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	-	-	+
+gʘ	voiced labial click consonant		0	-	0	+	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	-	0	-	-	+
+gʰ	aspirated voiced velar stop consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	+	0	-	-	+
+gʱ	breathy voiced velar stop consonant	gʰ	0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	+	0	-	-	+
+gʲ	palatalized voiced velar stop consonant		-	-	+	-	+	-	-	+	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+gʷ	labialized voiced velar stop consonant		0	-	+	-	+	-	-	-	0	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	-	-	0	-	-	+
+gː	long voiced velar stop consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	+	-	-	0	+	0	0	0	0	0	-	-	0	-	-	+
+g̊	devoiced voiced velar stop consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	-
+g̊ʰ	aspirated devoiced voiced velar stop consonant	kʰ	0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	+	0	-	-	-
+h	voiceless glottal fricative consonant		0	-	0	-	-	-	+	0	0	0	0	0	+	-	0	0	-	0	-	0	0	0	0	0	-	+	0	-	-	-
+h̃	nasalized voiceless glottal fricative consonant		0	-	0	-	-	0	+	0	0	0	0	0	-	-	0	0	+	0	-	0	0	0	0	0	-	0	0	-	-	0
+i	unrounded close front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	-	+	-	-	+	+	+
+iː	long unrounded close front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	+	-	-	0	+	0	0	0	0	-	+	-	-	+	+	+
+ĩ	nasalized unrounded close front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	0	-	+	0	+	0	0	0	0	-	+	-	-	+	+	+
+ĩː	long nasalized unrounded close front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	+	-	+	0	+	0	0	0	0	-	+	-	-	+	+	+
+i̤	breathy unrounded close front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	-	+	+	-	+	+	+
+i̥	devoiced unrounded close front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	-	+	-	-	+	+	-
+j	voiced palatal approximant consonant		-	-	0	0	-	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+jː	long voiced palatal approximant consonant		-	-	0	0	-	-	+	+	+	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+j̃	nasalized voiced palatal approximant consonant		-	-	0	0	-	-	+	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	+	-	-	-	-	+
+j̊	devoiced voiced palatal approximant consonant		-	-	0	0	-	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	-
+k	voiceless velar stop consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	-	0	-	-	0	+	0	0	0	0	0	-	0	0	-	-	0
+kx	voiceless velar affricate consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	-	0	-	+	0	+	0	0	0	0	0	+	0	0	-	-	0
+kʰ	aspirated voiceless velar stop consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	+	0	-	-	-
+kʲ	palatalized voiceless velar stop consonant		-	-	+	-	+	0	-	+	+	+	+	-	-	-	0	-	-	0	+	0	0	0	0	-	-	0	-	-	-	0
+kʷ	labialized voiceless velar stop consonant		0	-	+	-	+	0	-	-	0	+	+	+	-	-	0	-	-	0	+	0	0	0	+	0	-	0	0	-	-	0
+kʷʰ	labialized aspirated voiceless velar stop consonant		0	-	+	-	+	-	-	-	0	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	-	+	0	-	-	-
+kʷː	labialized long voiceless velar stop consonant		0	-	+	-	+	0	-	-	0	+	+	+	-	-	+	-	-	0	+	0	0	0	+	0	-	0	0	-	-	0
+kʼ	voiceless velar ejective stop consonant		0	-	+	-	+	+	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	-
+kʼʷ	labialized voiceless velar ejective stop consonant		0	-	+	-	+	+	-	-	0	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	-	-	0	-	-	-
+kː	long voiceless velar stop consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	-	+	-	-	0	+	0	0	0	0	0	-	0	0	-	-	0
+k̬	revoiced voiced velar stop consonant	g	0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	+
+kʟ̝̊	voiceless velar lateral affricate consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	+	0	-	+	0	+	0	0	0	0	0	+	0	0	-	-	0
+kʟ̝̊ʼ	voiceless velar ejective lateral affricate consonant		0	-	+	-	+	+	-	-	0	+	+	-	+	+	0	-	+	0	+	0	0	0	0	0	+	-	0	-	-	-
+l	voiced alveolar lateral approximant consonant		+	+	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+lʱ	breathy voiced alveolar lateral approximant consonant		+	+	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	+	-	-	-	+
+lʲ	palatalized voiced alveolar lateral approximant consonant		-	+	0	-	+	-	-	+	+	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+lː	long voiced alveolar lateral approximant consonant		+	+	0	-	+	-	-	+	-	-	0	-	+	+	+	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+lˠ	velarized voiced alveolar lateral approximant consonant		+	+	+	-	+	-	-	+	-	+	+	-	+	+	0	-	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+l̠	voiced post-alveolar lateral approximant consonant		0	+	0	-	+	-	-	0	0	0	0	0	+	+	0	0	-	0	-	0	0	0	0	0	+	-	0	-	-	+
+l̠ʲ	palatalized voiced post-alveolar lateral approximant consonant		-	+	0	-	+	-	-	+	+	0	0	0	+	+	0	0	-	0	-	0	0	0	0	-	+	-	-	-	-	+
+l̥	devoiced voiced alveolar lateral approximant consonant		+	+	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	-
+l̩	syllabic voiced alveolar lateral approximant consonant		+	+	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	+	-	+
+l̪	voiced dental lateral approximant consonant		+	+	0	-	+	-	-	+	+	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	+	+
+l̪ʲ	palatalized voiced dental lateral approximant consonant		-	+	0	-	+	-	-	+	+	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	+	+
+l̪ː	long voiced dental lateral approximant consonant		+	+	0	-	+	-	-	+	+	-	0	-	+	+	+	0	-	0	+	0	0	0	0	-	+	-	-	-	+	+
+l̪̥	devoiced voiced dental lateral approximant consonant		+	+	0	-	+	-	-	+	+	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	+	-
+l̪̩	syllabic voiced dental lateral approximant consonant		+	+	0	-	+	-	-	+	+	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	+	+	+
+l̻	voiced laminal alveolar lateral approximant consonant	l	+	+	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+l̼	voiced linguolabial lateral approximant consonant		+	+	0	-	+	-	-	+	-	-	0	+	+	+	0	0	-	0	+	0	0	0	-	-	+	-	-	-	-	+
+m	voiced bilabial nasal consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	0	0	-	0	-	-	0	-	-	+
+mʰ	aspirated voiced bilabial nasal consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	0	0	-	0	-	+	0	-	-	+
+mʱ	breathy voiced bilabial nasal consonant	mʰ	0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	0	0	-	0	-	+	0	-	-	+
+mʲ	palatalized voiced bilabial nasal consonant		-	-	0	-	+	-	-	+	+	-	0	+	+	-	0	0	+	0	+	0	0	0	-	-	-	-	+	-	-	+
+mʷ	labialized voiced bilabial nasal consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	0	0	+	0	-	-	0	-	-	+
+mʷː	labialized long voiced bilabial nasal consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	+	0	+	0	+	0	0	0	+	0	-	-	0	-	-	+
+mː	long voiced bilabial nasal consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	+	0	+	0	+	0	0	0	-	0	-	-	0	-	-	+
+mˠ	velarized voiced bilabial nasal consonant		0	-	+	-	+	-	-	-	0	+	+	+	+	-	0	-	+	0	+	0	0	0	-	0	-	-	0	-	-	+
+mˤː	pharyngealized long voiced bilabial nasal consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	+	0	+	+	+	0	0	0	-	0	-	-	0	-	-	+
+m̥	devoiced voiced bilabial nasal consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	0	0	-	0	-	-	0	-	-	-
+m̩	syllabic voiced bilabial nasal consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	0	0	-	0	-	-	0	+	-	+
+n	voiced alveolar nasal consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	-	-	+
+nʲ	palatalized voiced alveolar nasal consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	-	-	+
+nː	long voiced alveolar nasal consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	+	0	+	0	+	0	0	0	0	-	-	-	+	-	-	+
+nˤ	pharyngealized voiced alveolar nasal consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	+	+	0	0	0	0	-	-	-	+	-	-	+
+n̥	devoiced voiced alveolar nasal consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	-	-	-
+n̩	syllabic voiced alveolar nasal consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	+	-	+
+n̪	voiced dental nasal consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	-	+	+
+n̪ˠ	velarized voiced dental nasal consonant		+	-	+	-	+	-	-	+	+	+	+	-	+	-	0	-	+	0	+	0	0	0	0	-	-	-	+	-	+	+
+n̻	voiced laminal alveolar nasal consonant	n	+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	-	-	+
+n̼	voiced linguolabial nasal consonant		+	-	0	-	+	-	-	+	-	-	0	+	+	-	0	0	+	0	+	0	0	0	-	-	-	-	+	-	-	+
+o	rounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+oː	long rounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	+	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+oˤ	pharyngealized rounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	-	-	+	+	0	0	0	+	0	+	-	0	+	+	+
+õ	nasalized rounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	-	+	0	+	0	0	0	+	0	+	-	0	+	+	+
+õː	long nasalized rounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	+	-	+	0	+	0	0	0	+	0	+	-	0	+	+	+
+ŏ	ultra-short rounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	-	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+o̤	breathy rounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	0	+	+	0	+	+	+
+o̥	devoiced rounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	+	-
+o̯	non-syllabic rounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	-	+	+
+p	voiceless bilabial stop consonant		0	-	0	-	+	0	-	-	0	-	0	+	-	-	0	0	-	0	+	0	0	0	-	0	-	0	0	-	-	0
+pf	voiceless labio-dental affricate consonant		+	-	0	-	+	0	-	+	+	-	0	+	-	-	0	0	+	0	+	0	0	0	-	-	+	0	-	-	-	0
+pfʰ	aspirated voiceless labio-dental affricate consonant		+	-	0	-	+	-	-	+	+	-	0	+	+	-	0	0	+	0	+	0	0	0	-	-	+	+	-	-	-	-
+pfʼ	voiceless labio-dental ejective affricate consonant		+	-	0	-	+	+	-	+	+	-	0	+	+	-	0	0	+	0	+	0	0	0	-	-	+	-	-	-	-	-
+pɸ	voiceless bilabial affricate consonant		0	-	0	-	+	0	-	-	0	-	0	+	-	-	0	0	+	0	+	0	0	0	-	0	+	0	0	-	-	0
+pʰ	aspirated voiceless bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	+	0	-	-	-
+pʰʲ	palatalized aspirated voiceless bilabial stop consonant		-	-	0	-	+	-	-	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	+	-	-	-	-
+pʰː	aspirated long voiceless bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	+	0	-	0	+	0	0	0	-	0	-	+	0	-	-	-
+pʲ	palatalized voiceless bilabial stop consonant		-	-	0	-	+	0	-	+	+	-	0	+	-	-	0	0	-	0	+	0	0	0	-	-	-	0	-	-	-	0
+pʷ	labialized voiceless bilabial stop consonant		0	-	0	-	+	0	-	-	0	-	0	+	-	-	0	0	-	0	+	0	0	0	+	0	-	0	0	-	-	0
+pʼ	voiceless bilabial ejective stop consonant		0	-	0	-	+	+	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	-	0	-	-	-
+pː	long voiceless bilabial stop consonant		0	-	0	-	+	0	-	-	0	-	0	+	-	-	+	0	-	0	+	0	0	0	-	0	-	0	0	-	-	0
+pˠ	velarized voiceless bilabial stop consonant		0	-	+	-	+	0	-	-	0	+	+	+	-	-	0	-	-	0	+	0	0	0	-	0	-	0	0	-	-	0
+p̪	voiceless labio-dental stop consonant		+	-	0	-	+	0	-	+	+	-	0	+	-	-	0	0	-	0	+	0	0	0	-	-	-	0	-	-	-	0
+p̬	revoiced voiceless bilabial stop consonant	b	0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	-	0	-	-	+
+q	voiceless uvular stop consonant		0	-	+	-	+	0	-	-	0	+	-	-	-	-	0	-	-	0	+	0	0	0	0	0	-	0	0	-	-	0
+qʰ	aspirated voiceless uvular stop consonant		0	-	+	-	+	-	-	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	-	+	0	-	-	-
+qʷ	labialized voiceless uvular stop consonant		0	-	+	-	+	0	-	-	0	+	-	+	-	-	0	-	-	0	+	0	0	0	+	0	-	0	0	-	-	0
+qʷʰ	labialized aspirated voiceless uvular stop consonant		0	-	+	-	+	-	-	-	0	+	-	+	+	-	0	-	-	0	+	0	0	0	+	0	-	+	0	-	-	-
+qʼ	voiceless uvular ejective stop consonant		0	-	+	-	+	+	-	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	-
+qʼʷ	labialized voiceless uvular ejective stop consonant		0	-	+	-	+	+	-	-	0	+	-	+	+	-	0	-	-	0	+	0	0	0	+	0	-	-	0	-	-	-
+qχ	voiceless uvular affricate consonant		0	-	+	-	+	0	-	-	0	+	-	-	-	-	0	-	+	0	+	0	0	0	0	0	+	0	0	-	-	0
+r	voiced alveolar trill consonant		+	+	0	-	+	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+rʲ	palatalized voiced alveolar trill consonant		-	+	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+rː	long voiced alveolar trill consonant		+	+	0	-	+	-	+	+	-	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+rˤ	pharyngealized voiced alveolar trill consonant		+	+	0	-	+	-	+	+	-	-	0	-	+	-	0	0	-	+	+	0	0	0	0	-	+	-	-	-	-	+
+rˤː	pharyngealized long voiced alveolar trill consonant		+	+	0	-	+	-	+	+	-	-	0	-	+	-	+	0	-	+	+	0	0	0	0	-	+	-	-	-	-	+
+r̃	nasalized voiced alveolar trill consonant		+	+	0	-	+	-	+	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	+	-	-	-	-	+
+r̥	devoiced voiced alveolar trill consonant		+	+	0	-	+	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	-
+r̩	syllabic voiced alveolar trill consonant		+	+	0	-	+	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	+	-	+
+r̪	voiced dental trill consonant		+	+	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	+	+
+r̪ː	long voiced dental trill consonant		+	+	0	-	+	-	+	+	+	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	+	-	-	-	+	+
+r̪ˤ	pharyngealized voiced dental trill consonant		+	+	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	+	+	0	0	0	0	-	+	-	-	-	+	+
+r̪̥	devoiced voiced dental trill consonant		+	+	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	+	-
+r̼	voiced linguolabial trill consonant		+	+	0	-	+	-	+	+	-	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	+	-	-	-	-	+
+s	voiceless alveolar sibilant fricative consonant		+	-	0	-	+	0	+	+	-	-	0	-	-	-	0	0	-	0	+	0	0	0	0	+	-	0	+	-	-	0
+sʲ	palatalized voiceless alveolar sibilant fricative consonant		-	-	0	-	+	0	+	+	+	-	0	-	-	-	0	0	-	0	+	0	0	0	0	+	-	0	+	-	-	0
+sʼ	voiceless alveolar ejective sibilant fricative consonant		+	-	0	-	+	+	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	+	-	-	+	-	-	-
+sː	long voiceless alveolar sibilant fricative consonant		+	-	0	-	+	0	+	+	-	-	0	-	-	-	+	0	-	0	+	0	0	0	0	+	-	0	+	-	-	0
+sˠ	velarized voiceless alveolar sibilant fricative consonant		+	-	+	-	+	0	+	+	-	+	+	-	-	-	0	-	-	0	+	0	0	0	0	+	-	0	+	-	-	0
+s̩	syllabic voiceless alveolar sibilant fricative consonant		+	-	0	-	+	0	+	+	-	-	0	-	-	-	0	0	-	0	+	0	0	0	0	+	-	0	+	+	-	0
+s̪	voiceless dental sibilant fricative consonant		+	-	0	-	+	0	+	+	+	-	0	-	-	-	0	0	-	0	+	0	0	0	0	+	-	0	+	-	+	0
+s̪ʲ	palatalized voiceless dental sibilant fricative consonant		-	-	0	-	+	0	+	+	+	-	0	-	-	-	0	0	-	0	+	0	0	0	0	+	-	0	+	-	+	0
+s̪ʼ	voiceless dental ejective sibilant fricative consonant		+	-	0	-	+	+	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	+	-	-	+	-	+	-
+s̪ˠ	velarized voiceless dental sibilant fricative consonant		+	-	+	-	+	0	+	+	+	+	+	-	-	-	0	-	-	0	+	0	0	0	0	+	-	0	+	-	+	0
+s̬	revoiced voiceless alveolar sibilant fricative consonant	z	+	-	0	-	+	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	+	-	-	+	-	-	+
+s̻	voiceless laminal alveolar sibilant fricative consonant	s	+	-	0	-	+	0	+	+	-	-	0	-	-	-	0	0	-	0	+	0	0	0	0	+	-	0	+	-	-	0
+t	voiceless alveolar stop consonant		+	-	0	-	+	0	-	+	-	-	0	-	-	-	0	0	-	0	+	0	0	0	0	-	-	0	-	-	-	0
+ts	voiceless alveolar sibilant affricate consonant		+	-	0	-	+	0	-	+	-	-	0	-	-	-	0	0	+	0	+	0	0	0	0	+	+	0	-	-	-	0
+tsʰ	aspirated voiceless alveolar sibilant affricate consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	+	+	+	-	-	-	-
+tsʲ	palatalized voiceless alveolar sibilant affricate consonant		-	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	+	0	+	0	0	0	0	+	+	0	-	-	-	0
+tsʼ	voiceless alveolar ejective sibilant affricate consonant		+	-	0	-	+	+	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	+	+	-	-	-	-	-
+tsː	long voiceless alveolar sibilant affricate consonant		+	-	0	-	+	0	-	+	-	-	0	-	-	-	+	0	+	0	+	0	0	0	0	+	+	0	-	-	-	0
+ts̪	voiceless dental sibilant affricate consonant		+	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	+	0	+	0	0	0	0	+	+	0	-	-	+	0
+ts̪ʰ	aspirated voiceless dental affricate consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	+	+	-	-	+	-
+ts̪ʲ	palatalized voiceless dental sibilant affricate consonant		-	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	+	0	+	0	0	0	0	+	+	0	-	-	+	0
+ts̪ʼ	voiceless dental ejective sibilant affricate consonant		+	-	0	-	+	+	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	+	+	-	-	-	+	-
+ts̪ː	long voiceless dental sibilant affricate consonant		+	-	0	-	+	0	-	+	+	-	0	-	-	-	+	0	+	0	+	0	0	0	0	+	+	0	-	-	+	0
+tɕ	voiceless alveolo-palatal sibilant affricate consonant		-	-	-	-	+	0	-	+	-	+	+	-	-	-	0	-	+	0	+	0	0	0	0	+	+	0	-	-	+	0
+tɕʰ	aspirated voiceless alveolo-palatal sibilant affricate consonant		-	-	-	-	+	-	-	+	-	+	+	-	+	-	0	-	+	0	+	0	0	0	0	+	+	+	-	-	+	-
+tɕː	long voiceless alveolo-palatal sibilant affricate consonant		-	-	-	-	+	0	-	+	-	+	+	-	-	-	+	-	+	0	+	0	0	0	0	+	+	0	-	-	+	0
+tɬ	voiceless alveolar lateral affricate consonant		+	-	0	-	+	0	-	+	-	-	0	-	-	+	0	0	+	0	+	0	0	0	0	-	+	0	-	-	-	0
+tɬʰ	aspirated voiceless alveolar lateral affricate consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	+	0	0	+	0	+	0	0	0	0	-	+	+	-	-	-	-
+tɬʼ	voiceless alveolar ejective lateral affricate consonant		+	-	0	-	+	+	-	+	-	-	0	-	+	+	0	0	+	0	+	0	0	0	0	-	+	-	-	-	-	-
+tɬ̪	voiceless dental lateral affricate consonant		+	-	0	-	+	0	-	+	+	-	0	-	-	+	0	0	+	0	+	0	0	0	0	-	+	0	-	-	+	0
+tɬ̪ʰ	aspirated voiceless dental lateral affricate consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	+	0	0	+	0	+	0	0	0	0	-	+	+	-	-	+	-
+tɬ̪ʼ	voiceless dental ejective lateral affricate consonant		+	-	0	-	+	+	-	+	+	-	0	-	+	+	0	0	+	0	+	0	0	0	0	-	+	-	-	-	+	-
+tʃ	voiceless post-alveolar sibilant affricate consonant		-	-	0	-	+	0	-	+	-	0	0	0	-	-	0	0	+	0	-	0	0	0	0	+	+	0	-	-	-	0
+tʃʰ	aspirated voiceless post-alveolar sibilant affricate consonant		-	-	0	-	+	-	-	+	-	0	0	0	+	-	0	0	+	0	-	0	0	0	0	+	+	+	-	-	-	-
+tʃʲ	palatalized voiceless post-alveolar sibilant affricate consonant		-	-	0	-	+	0	-	+	+	0	0	0	-	-	0	0	+	0	-	0	0	0	0	+	+	0	-	-	-	0
+tʃʷ	labialized voiceless post-alveolar sibilant affricate consonant		-	-	0	-	+	0	-	+	-	0	0	+	-	-	0	0	+	0	-	0	0	0	+	+	+	0	-	-	-	0
+tʃʼ	voiceless post-alveolar ejective sibilant affricate consonant		-	-	0	-	+	+	-	+	-	0	0	0	+	-	0	0	+	0	-	0	0	0	0	+	+	-	-	-	-	-
+tʃʼː	long voiceless post-alveolar ejective sibilant affricate consonant		-	-	0	-	+	+	-	+	-	0	0	0	+	-	+	0	+	0	-	0	0	0	0	+	+	-	-	-	-	-
+tʃː	long voiceless post-alveolar sibilant affricate consonant		-	-	0	-	+	0	-	+	-	0	0	0	-	-	+	0	+	0	-	0	0	0	0	+	+	0	-	-	-	0
+tʰ	aspirated voiceless alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	+	-	-	-	-
+tʲ	palatalized voiceless alveolar stop consonant		-	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	-	0	+	0	0	0	0	-	-	0	-	-	-	0
+tʲʰ	palatalized aspirated voiceless alveolar stop consonant	cʰ	-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	+	-	-	-	-
+tʷ	labialized voiceless alveolar stop consonant		+	-	0	-	+	0	-	+	-	-	0	+	-	-	0	0	-	0	+	0	0	0	+	-	-	0	-	-	-	0
+tʷʰ	labialized aspirated voiceless alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	+	+	-	0	0	-	0	+	0	0	0	+	-	-	+	-	-	-	-
+tʼ	voiceless alveolar ejective stop consonant		+	-	0	-	+	+	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	-
+tː	long voiceless alveolar stop consonant		+	-	0	-	+	0	-	+	-	-	0	-	-	-	+	0	-	0	+	0	0	0	0	-	-	0	-	-	-	0
+tˤ	pharyngealized voiceless alveolar stop consonant		+	-	0	-	+	0	-	+	-	-	0	-	-	-	0	0	-	+	+	0	0	0	0	-	-	0	-	-	-	0
+t̠	voiceless post-alveolar stop consonant		0	-	0	-	+	0	-	0	0	0	0	0	-	-	0	0	-	0	-	0	0	0	0	0	-	0	0	-	-	0
+t̪	voiceless dental stop consonant		+	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	-	0	+	0	0	0	0	-	-	0	-	-	+	0
+t̪ʰ	aspirated voiceless dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	+	-	-	+	-
+t̪ʰʲ	palatalized aspirated voiceless dental stop consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	+	-	-	+	-
+t̪ʰː	aspirated long voiceless dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	-	+	-	-	+	-
+t̪ʲ	palatalized voiceless dental stop consonant		-	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	-	0	+	0	0	0	0	-	-	0	-	-	+	0
+t̪ʷ	labialized voiceless dental stop consonant		+	-	0	-	+	0	-	+	+	-	0	+	-	-	0	0	-	0	+	0	0	0	+	-	-	0	-	-	+	0
+t̪ʷʰ	labialized aspirated voiceless dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	+	-	-	+	-	-	+	-
+t̪ʼ	voiceless dental ejective stop consonant		+	-	0	-	+	+	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	+	-
+t̪ː	long voiceless dental stop consonant		+	-	0	-	+	0	-	+	+	-	0	-	-	-	+	0	-	0	+	0	0	0	0	-	-	0	-	-	+	0
+t̪ˠ	velarized voiceless dental stop consonant		+	-	+	-	+	0	-	+	+	+	+	-	-	-	0	-	-	0	+	0	0	0	0	-	-	0	-	-	+	0
+t̪ˤ	pharyngealized voiceless dental stop consonant		+	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	-	+	+	0	0	0	0	-	-	0	-	-	+	0
+t̪ⁿ	with-nasal-release voiceless dental stop consonant		+	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	+	0	+	0	0	0	0	-	-	0	-	-	+	0
+t̬	revoiced voiceless alveolar stop consonant	d	+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+t̼	voiceless linguolabial stop consonant		+	-	0	-	+	0	-	+	-	-	0	+	-	-	0	0	-	0	+	0	0	0	-	-	-	0	-	-	-	0
+tθ	voiceless dental affricate consonant		+	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	+	0	+	0	0	0	0	-	+	0	-	-	+	0
+tⁿ	with-nasal-release voiceless alveolar stop consonant		+	-	0	-	+	0	-	+	-	-	0	-	-	-	0	0	+	0	+	0	0	0	0	-	-	0	-	-	-	0
+u	rounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+uː	long rounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	+	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+ũ	nasalized rounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	0	-	+	0	+	0	0	0	+	0	+	-	0	+	+	+
+ũː	long nasalized rounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	+	-	+	0	+	0	0	0	+	0	+	-	0	+	+	+
+ṳ	breathy rounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	+	+	0	+	+	+
+u̥	devoiced rounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	+	-
+v	voiced labio-dental fricative consonant		+	-	0	-	+	-	+	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	+	-	-	+
+vʲ	palatalized voiced labio-dental fricative consonant		-	-	0	-	+	-	+	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	+	-	-	+
+vː	long voiced labio-dental fricative consonant		+	-	0	-	+	-	+	+	+	-	0	+	+	-	+	0	-	0	+	0	0	0	-	-	-	-	+	-	-	+
+v̥	devoiced voiced labio-dental fricative consonant		+	-	0	-	+	-	+	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	+	-	-	-
+v̩	syllabic voiced labio-dental fricative consonant		+	-	0	-	+	-	+	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	+	+	-	+
+w	voiced labio-velar approximant consonant		0	+	+	0	-	0	+	-	0	+	+	+	-	-	0	-	-	0	+	0	0	0	+	0	+	0	0	-	-	0
+wː	long voiced labio-velar approximant consonant		0	-	0	0	-	-	+	0	0	0	0	0	+	-	+	0	-	0	-	0	0	0	0	0	+	-	0	-	-	+
+w̃	nasalized voiced labio-velar approximant consonant		0	-	0	0	-	-	+	0	0	0	0	0	+	-	0	0	+	0	-	0	0	0	0	0	+	-	0	-	-	+
+x	voiceless velar fricative consonant		0	-	+	-	+	0	+	-	0	+	+	-	-	-	0	-	-	0	+	0	0	0	0	0	-	0	0	-	-	0
+xʲ	palatalized voiceless velar fricative consonant		-	-	+	-	+	0	+	+	+	+	+	-	-	-	0	-	-	0	+	0	0	0	0	-	-	0	+	-	-	0
+xʷ	labialized voiceless velar fricative consonant		0	-	+	-	+	0	+	-	0	+	+	+	-	-	0	-	-	0	+	0	0	0	+	0	-	0	0	-	-	0
+xʼ	voiceless velar ejective fricative consonant		0	-	+	-	+	+	+	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	-
+y	rounded close front vowel		+	+	-	-	-	-	+	+	+	+	+	+	+	-	0	-	-	0	+	0	0	0	+	-	+	-	-	+	+	+
+yː	long rounded close front vowel		+	+	-	-	-	-	+	+	+	+	+	+	+	-	+	-	-	0	+	0	0	0	+	-	+	-	-	+	+	+
+ỹ	nasalized rounded close front vowel		+	+	-	-	-	-	+	+	+	+	+	+	+	-	0	-	+	0	+	0	0	0	+	-	+	-	-	+	+	+
+ỹː	long nasalized rounded close front vowel		+	+	-	-	-	-	+	+	+	+	+	+	+	-	+	-	+	0	+	0	0	0	+	-	+	-	-	+	+	+
+z	voiced alveolar sibilant fricative consonant		+	-	0	-	+	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	+	-	-	+	-	-	+
+zʲ	palatalized voiced alveolar sibilant fricative consonant		-	-	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	+	-	-	+	-	-	+
+z̥	devoiced voiced alveolar sibilant fricative consonant		+	-	0	-	+	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	+	-	-	+	-	-	-
+z̩	syllabic voiced alveolar sibilant fricative consonant		+	-	0	-	+	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	+	-	-	+	+	-	+
+z̪	voiced dental sibilant fricative consonant		+	-	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	+	-	-	+	-	+	+
+z̪̥	devoiced voiced dental sibilant fricative consonant		+	-	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	+	-	-	+	-	+	-
+æ	unrounded near-open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	+	-	0	+	0	0	0	0	-	+	-	-	+	-	+
+æː	long unrounded near-open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	+	+	-	0	+	0	0	0	0	-	+	-	-	+	-	+
+æ̃	nasalized unrounded near-open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	0	+	+	0	+	0	0	0	0	-	+	-	-	+	-	+
+æ̃ː	long nasalized unrounded near-open front vowel		+	+	-	-	-	-	+	+	+	+	-	-	+	-	+	+	+	0	+	0	0	0	0	-	+	-	-	+	-	+
+ð	voiced dental fricative consonant		+	-	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	+	-	+	+
+ðː	long voiced dental fricative consonant		+	-	0	-	+	-	+	+	+	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	-	-	+	-	+	+
+ð̞	voiced dental approximant consonant		+	-	0	0	-	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	+	+
+ð̼	voiced linguolabial fricative consonant		+	-	0	-	+	-	+	+	-	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	+	-	-	+
+ø	rounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	-	+	-	-	+	+	+
+øː	long rounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	+	-	-	0	+	0	0	0	+	-	+	-	-	+	+	+
+ø̃	nasalized rounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	0	-	+	0	+	0	0	0	+	-	+	-	-	+	+	+
+ø̃ː	long nasalized rounded close-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	+	-	+	0	+	0	0	0	+	-	+	-	-	+	+	+
+ħ	voiceless pharyngeal fricative consonant		0	-	0	-	+	-	+	-	0	-	0	-	+	-	0	0	-	+	+	0	0	0	0	0	-	-	0	-	-	-
+ŋ	voiced velar nasal consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	-	-	0	-	-	+
+ŋǀ	voiced dental nasal-click consonant		+	-	0	+	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	+	+
+ŋǁ	voiced lateral nasal-click consonant		0	-	0	+	+	-	-	-	0	-	0	-	+	+	0	0	+	0	+	0	0	0	0	0	-	-	0	-	-	+
+ŋǂ	voiced palatal nasal-click consonant		-	-	0	+	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	-	+
+ŋǃ	voiced alveolar nasal-click consonant		+	-	0	+	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	-	+
+ŋǃǃ	voiced retroflex nasal-click consonant		-	-	0	+	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	-	+
+ŋʘ	voiced labial nasal-click consonant		0	-	0	+	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	0	0	-	0	-	-	0	-	-	+
+ŋʷ	labialized voiced velar nasal consonant		0	-	+	-	+	-	-	-	0	+	+	+	+	-	0	-	+	0	+	0	0	0	+	0	-	-	0	-	-	+
+ŋː	long voiced velar nasal consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	+	-	+	0	+	0	0	0	0	0	-	-	0	-	-	+
+ŋ̊	devoiced voiced velar nasal consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	-	-	0	-	-	-
+ŋ̊ǀ	devoiced voiced dental nasal-click consonant		+	-	0	+	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	+	-
+ŋ̊ǁ	devoiced voiced lateral nasal-click consonant		0	-	0	+	+	-	-	-	0	-	0	-	+	+	0	0	+	0	+	0	0	0	0	0	-	-	0	-	-	-
+ŋ̊ǂ	devoiced voiced palatal nasal-click consonant		-	-	0	+	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	-	-
+ŋ̊ǃ	devoiced voiced alveolar nasal-click consonant		+	-	0	+	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	-	-
+ŋ̊ǃǃ	devoiced voiced retroflex nasal-click consonant		-	-	0	+	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	-	-	-	-
+ŋ̊ʘ	devoiced voiced labial nasal-click consonant		0	-	0	+	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	0	0	-	0	-	-	0	-	-	-
+ŋ̍	syllabic voiced velar nasal consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	-	-	0	+	-	+
+œ	rounded open-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	-	+	-	-	+	-	+
+œː	long rounded open-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	+	-	-	0	+	0	0	0	+	-	+	-	-	+	-	+
+œ̃	nasalized rounded open-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	0	-	+	0	+	0	0	0	+	-	+	-	-	+	-	+
+œ̃ː	long nasalized rounded open-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	+	-	+	0	+	0	0	0	+	-	+	-	-	+	-	+
+ǀ	voiceless dental click consonant		+	-	0	+	+	0	-	+	+	-	0	-	-	-	0	0	-	0	+	0	0	0	0	-	-	0	-	-	+	0
+ǁ	voiceless lateral click consonant		0	-	0	+	+	0	-	-	0	-	0	-	-	+	0	0	-	0	+	0	0	0	0	0	-	0	0	-	-	0
+ǂ	voiceless palatal click consonant		-	-	0	+	+	0	-	+	+	-	0	-	-	-	0	0	-	0	+	0	0	0	0	-	-	0	-	-	-	0
+ǃ	voiceless alveolar click consonant		+	-	0	+	+	0	-	+	-	-	0	-	-	-	0	0	-	0	+	0	0	0	0	-	-	0	-	-	-	0
+ǃǃ	voiceless retroflex click consonant		-	-	0	+	+	0	-	+	-	-	0	-	-	-	0	0	-	0	+	0	0	0	0	-	-	0	-	-	-	0
+ȡ	voiced alveolo-palatal stop consonant		0	-	-	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	+	+
+ȴ	voiced alveolo-palatal lateral approximant consonant		0	+	-	-	+	-	-	-	0	+	+	-	+	+	0	-	-	0	+	0	0	0	0	0	+	-	0	-	+	+
+ȵ	voiced alveolo-palatal nasal consonant		0	-	-	-	+	-	-	-	0	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	-	-	0	-	+	+
+ȵ̊	devoiced voiced alveolo-palatal nasal consonant		0	-	-	-	+	-	-	-	0	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	-	-	0	-	+	-
+ȶ	voiceless alveolo-palatal stop consonant		0	-	-	-	+	0	-	-	0	+	+	-	-	-	0	-	-	0	+	0	0	0	0	0	-	0	0	-	+	0
+ɐ	unrounded near-open central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	0	+	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɐː	long unrounded near-open central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	+	+	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɐ̃	nasalized unrounded near-open central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	0	+	+	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɐ̃ː	long nasalized unrounded near-open central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	+	+	+	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɐ̯	non-syllabic unrounded near-open central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	0	+	-	0	+	0	0	0	0	0	+	-	0	-	-	+
+ɑ	unrounded open back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	0	+	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɑː	long unrounded open back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	+	+	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɑ̃	nasalized unrounded open back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	0	+	+	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɑ̃ː	long nasalized unrounded open back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	+	+	+	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɒ	rounded open back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	+	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+ɒː	long rounded open back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	+	+	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+ɒ̃	nasalized rounded open back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	+	+	0	+	0	0	0	+	0	+	-	0	+	+	+
+ɒ̃ː	long nasalized rounded open back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	+	+	+	0	+	0	0	0	+	0	+	-	0	+	+	+
+ɓ	voiced bilabial implosive consonant		0	-	0	0	+	+	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	-	0	-	-	+
+ɓʲ	palatalized voiced bilabial implosive consonant		-	-	0	0	+	+	-	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	-	-	-	+
+ɔ	rounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɔː	long rounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	+	-	-	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɔ̃	nasalized rounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	-	+	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɔ̃ː	long nasalized rounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	+	-	+	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɔ̯	non-syllabic rounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	-	-	+
+ɕ	voiceless alveolo-palatal sibilant fricative consonant		-	-	-	-	+	0	+	+	-	+	+	-	-	-	0	-	-	0	+	0	0	0	0	+	-	0	+	-	+	0
+ɖ	voiced retroflex stop consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+ɖʐ	voiced retroflex sibilant affricate consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	+	+	-	-	-	-	+
+ɖʱ	breathy voiced retroflex stop consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	+	-	-	-	+
+ɗ	voiced dental implosive consonant		+	-	0	0	+	+	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	+	+
+ɗ̥	devoiced voiced dental implosive consonant		+	-	0	0	+	+	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	+	-
+ɘ	unrounded close-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɘː	long unrounded close-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	+	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɘ̃	nasalized unrounded close-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɘ̃ː	long nasalized unrounded close-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	+	-	+	0	+	0	0	0	0	0	+	-	0	+	+	+
+ə	unrounded mid central vowel		-	+	0	-	-	0	+	-	+	+	0	0	+	-	0	0	-	0	+	0	0	0	0	0	+	0	0	+	-	+
+ɜ	unrounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɜː	long unrounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	+	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɜ̃	nasalized unrounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɜ̃ː	long nasalized unrounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	+	-	+	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɞ	rounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɞː	long rounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	+	-	-	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɞ̃	nasalized rounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	0	-	+	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɞ̃ː	long nasalized rounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	+	-	+	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɞ̞	rounded near-open central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	0	+	-	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɞ̞ː	long rounded near-open central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	+	+	-	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɞ̞̃	nasalized rounded near-open central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	0	+	+	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɞ̞̃ː	long nasalized rounded near-open central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	+	+	+	0	+	0	0	0	+	0	+	-	0	+	-	+
+ɟ	voiced palatal stop consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+ɟʝ	voiced palatal affricate consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	+	-	-	-	-	+
+ɠ	voiced velar implosive consonant		0	-	+	0	+	+	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	+
+ɢ	voiced uvular stop consonant		0	-	+	-	+	-	-	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	+
+ɢʁ	voiced uvular affricate consonant		0	-	+	-	+	-	-	-	0	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	-	-	+
+ɢʰ	aspirated voiced uvular stop consonant		0	-	+	-	+	-	-	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	-	+	0	-	-	+
+ɣ	voiced velar fricative consonant		0	-	+	-	+	-	+	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	+
+ɣʷ	labialized voiced velar fricative consonant		0	-	+	-	+	-	+	-	0	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	-	-	0	-	-	+
+ɣ̊	devoiced voiced velar fricative consonant		0	-	+	-	+	-	+	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	-
+ɤ	unrounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɤː	long unrounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	+	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɤ̃	nasalized unrounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɤ̃ː	long nasalized unrounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	+	-	+	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɤ̆	ultra-short unrounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	-	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɤ̯	non-syllabic unrounded close-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	-	+	+
+ɥ	voiced labio-palatal approximant consonant		-	-	0	0	-	-	+	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	+	-	-	-	-	+
+ɦ	voiced glottal fricative consonant		0	-	0	-	-	-	+	0	0	0	0	0	+	-	0	0	-	0	-	0	0	0	0	0	-	-	0	-	-	+
+ɧ	voiceless palatal-velar fricative consonant		0	-	0	-	+	0	+	0	0	0	0	0	-	-	0	0	-	0	-	0	0	0	0	0	-	0	0	-	-	0
+ɨ	unrounded close central vowel		-	+	-	-	-	-	+	-	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɨː	long unrounded close central vowel		-	+	-	-	-	-	+	-	+	+	+	-	+	-	+	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɨ̃	nasalized unrounded close central vowel		-	+	-	-	-	-	+	-	+	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɨ̃ː	long nasalized unrounded close central vowel		-	+	-	-	-	-	+	-	+	+	+	-	+	-	+	-	+	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɪ	unrounded near-close near-front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	-	+	-	-	+	-	+
+ɪː	long unrounded near-close near-front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	+	-	-	0	+	0	0	0	0	-	+	-	-	+	-	+
+ɪ̃	nasalized unrounded near-close near-front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	0	-	+	0	+	0	0	0	0	-	+	-	-	+	-	+
+ɪ̃ː	long nasalized unrounded near-close near-front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	+	-	+	0	+	0	0	0	0	-	+	-	-	+	-	+
+ɪ̈	unrounded near-close central vowel		-	+	-	-	-	-	+	-	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɪ̈ː	long unrounded near-close central vowel		-	+	-	-	-	-	+	-	+	+	+	-	+	-	+	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɪ̈̃	nasalized unrounded near-close central vowel		-	+	-	-	-	-	+	-	+	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɪ̈̃ː	long nasalized unrounded near-close central vowel		-	+	-	-	-	-	+	-	+	+	+	-	+	-	+	-	+	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɪ̥	devoiced unrounded near-close near-front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	-	+	-	-	+	-	-
+ɪ̯	non-syllabic unrounded near-close near-front vowel		+	+	-	-	-	-	+	+	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+ɬ	voiceless alveolar lateral fricative consonant		+	-	0	-	+	0	+	+	-	-	0	-	-	+	0	0	-	0	+	0	0	0	0	-	-	0	+	-	-	0
+ɬʼ	voiceless alveolar ejective lateral fricative consonant		+	-	0	-	+	+	+	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	-	-	+	-	-	-
+ɬ̪	voiceless dental lateral fricative consonant		+	-	0	-	+	0	+	+	+	-	0	-	-	+	0	0	-	0	+	0	0	0	0	-	-	0	+	-	+	0
+ɬ̪ʼ	voiceless dental ejective lateral fricative consonant		+	-	0	-	+	+	+	+	+	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	-	-	+	-	+	-
+ɬ̼	voiceless linguolabial lateral fricative consonant		+	-	0	-	+	0	+	+	-	-	0	+	-	+	0	0	-	0	+	0	0	0	-	-	-	0	+	-	-	0
+ɭ	voiced retroflex lateral approximant consonant		-	+	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+ɭ̊	devoiced voiced retroflex lateral approximant consonant		-	+	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	-
+ɭ̩	syllabic voiced retroflex lateral approximant consonant		-	+	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	+	-	+
+ɮ	voiced alveolar lateral fricative consonant		+	-	0	-	+	-	+	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	-	-	+	-	-	+
+ɮ̼	voiced linguolabial lateral fricative consonant		+	-	0	-	+	-	+	+	-	-	0	+	+	+	0	0	-	0	+	0	0	0	-	-	-	-	+	-	-	+
+ɯ	unrounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɯː	long unrounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	+	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɯ̃	nasalized unrounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɯ̃ː	long nasalized unrounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	+	-	+	0	+	0	0	0	0	0	+	-	0	+	+	+
+ɯ̤	breathy unrounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	+	+	0	+	+	+
+ɯ̥	devoiced unrounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	+	-
+ɯ̥̃	nasalized devoiced unrounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	+	-
+ɯ̯	non-syllabic unrounded close back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	-	+	+
+ɯ̽	unrounded near-close near-back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɯ̽ː	long unrounded near-close near-back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	+	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɯ̽̃	nasalized unrounded near-close near-back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɯ̽̃ː	long nasalized unrounded near-close near-back vowel		-	+	+	-	-	-	+	-	+	+	+	-	+	-	+	-	+	0	+	0	0	0	0	0	+	-	0	+	-	+
+ɰ	voiced velar approximant consonant		0	+	+	0	-	-	+	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	-	-	+
+ɱ	voiced labio-dental nasal consonant		+	-	0	-	+	-	-	+	+	-	0	+	+	-	0	0	+	0	+	0	0	0	-	-	-	-	+	-	-	+
+ɱ̊	devoiced voiced labio-dental nasal consonant		+	-	0	-	+	-	-	+	+	-	0	+	+	-	0	0	+	0	+	0	0	0	-	-	-	-	+	-	-	-
+ɲ	voiced palatal nasal consonant		-	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	+	0	+	0	0	0	0	-	-	0	+	-	-	0
+ɲː	long voiced palatal nasal consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	+	0	+	0	+	0	0	0	0	-	-	-	+	-	-	+
+ɲ̊	devoiced voiced palatal nasal consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	-	-	-
+ɲ̍	syllabic voiced palatal nasal consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	+	-	+
+ɳ	voiced retroflex nasal consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	-	-	+
+ɳ̊	devoiced voiced retroflex nasal consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	-	-	-
+ɳ̍	syllabic voiced retroflex nasal consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	-	-	-	+	+	-	+
+ɴ	voiced uvular nasal consonant		0	-	+	-	+	-	-	-	0	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	-	-	0	-	-	+
+ɴ̥	devoiced voiced uvular nasal consonant		0	-	+	-	+	-	-	-	0	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	-	-	0	-	-	-
+ɴ̩	syllabic voiced uvular nasal consonant		0	-	+	-	+	-	-	-	0	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	-	-	0	+	-	+
+ɵ	rounded close-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+ɵː	long rounded close-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	+	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+ɵ̃	nasalized rounded close-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	0	-	+	0	+	0	0	0	+	0	+	-	0	+	+	+
+ɵ̃ː	long nasalized rounded close-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	+	+	-	+	-	+	0	+	0	0	0	+	0	+	-	0	+	+	+
+ɶ	rounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	0	+	-	0	+	0	0	0	+	-	+	-	-	+	+	+
+ɶː	long rounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	+	+	-	0	+	0	0	0	+	-	+	-	-	+	+	+
+ɶ̃	nasalized rounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	0	+	+	0	+	0	0	0	+	-	+	-	-	+	+	+
+ɶ̃ː	long nasalized rounded open front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	+	+	+	0	+	0	0	0	+	-	+	-	-	+	+	+
+ɸ	voiceless bilabial fricative consonant		0	-	0	-	+	0	+	-	0	-	0	+	-	-	0	0	-	0	+	0	0	0	-	0	-	0	0	-	-	0
+ɹ	voiced alveolar approximant consonant		+	-	0	0	-	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+ɹ̠	voiced post-alveolar approximant consonant		0	-	0	0	-	-	+	0	0	0	0	0	+	-	0	0	-	0	-	0	0	0	0	0	+	-	0	-	-	+
+ɹ̩	syllabic voiced alveolar approximant consonant		+	-	0	0	-	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	+	-	+
+ɺ	voiced alveolar lateral tap consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+ɻ	voiced retroflex approximant consonant		-	-	0	0	-	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+ɽ	voiced retroflex tap consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+ɽʱ	breathy voiced retroflex tap consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	+	-	-	-	+
+ɾ	voiced alveolar tap consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
+ɾ̥	devoiced voiced alveolar tap consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	-
+ɾ̼	voiced linguolabial tap consonant		+	-	0	-	+	-	-	+	-	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	+	-	-	-	-	+
+ɿ	unrounded close with-frication back vowel		-	+	+	0	-	-	+	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ʀ	voiced uvular trill consonant		0	+	+	-	+	-	+	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	-	-	+
+ʀ̥	devoiced voiced uvular trill consonant		0	+	+	-	+	-	+	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	-	-	-
+ʁ	voiced uvular fricative consonant		0	-	+	-	+	-	+	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	+
+ʁ̞	voiced uvular approximant consonant		0	-	+	0	-	-	+	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	-	-	+
+ʁ̥	devoiced voiced uvular fricative consonant		0	-	+	-	+	-	+	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	-
+ʂ	voiceless retroflex sibilant fricative consonant		-	-	0	-	+	0	+	+	-	-	0	-	-	-	0	0	-	0	+	0	0	0	0	+	-	0	+	-	-	0
+ʃ	voiceless post-alveolar sibilant fricative consonant		-	-	0	-	+	0	+	+	-	0	0	0	-	-	0	0	-	0	-	0	0	0	0	+	-	0	+	-	-	0
+ʃʲ	palatalized voiceless post-alveolar sibilant fricative consonant		-	-	0	-	+	0	+	+	+	0	0	0	-	-	0	0	-	0	-	0	0	0	0	+	-	0	+	-	-	0
+ʃʼ	voiceless post-alveolar ejective sibilant fricative consonant		-	-	0	-	+	+	+	+	-	0	0	0	+	-	0	0	-	0	-	0	0	0	0	+	-	-	+	-	-	-
+ʄ	voiced palatal implosive consonant		-	-	0	0	+	+	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+ʅ	unrounded close with-frication central vowel		-	+	-	0	-	-	+	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	+	+
+ʇ̼	voiced linguolabial click consonant		+	-	0	+	+	-	-	+	-	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	-	-	-	-	-	+
+ʈ	voiceless retroflex stop consonant		-	-	0	-	+	0	-	+	-	-	0	-	-	-	0	0	-	0	+	0	0	0	0	-	-	0	-	-	-	0
+ʈʂ	voiceless retroflex sibilant affricate consonant		-	-	0	-	+	0	-	+	-	-	0	-	-	-	0	0	+	0	+	0	0	0	0	+	+	0	-	-	-	0
+ʈʂʰ	aspirated voiceless retroflex sibilant affricate consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	+	+	+	-	-	-	-
+ʈʂː	long voiced retroflex sibilant affricate consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	+	0	+	0	+	0	0	0	0	+	+	-	-	-	-	+
+ʈʂ’	voiceless retroflex ejective sibilant affricate consonant		-	-	0	-	+	+	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	0	0	+	+	-	-	-	-	-
+ʈʰ	aspirated voiceless retroflex stop consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	+	-	-	-	-
+ʈʰː	aspirated long voiceless retroflex stop consonant		-	-	0	-	+	-	-	+	-	-	0	-	+	-	+	0	-	0	+	0	0	0	0	-	-	+	-	-	-	-
+ʉ	rounded close central vowel		-	+	-	-	-	-	+	-	+	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+ʉː	long rounded close central vowel		-	+	-	-	-	-	+	-	+	+	+	+	+	-	+	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+ʉ̃	nasalized rounded close central vowel		-	+	-	-	-	-	+	-	+	+	+	+	+	-	0	-	+	0	+	0	0	0	+	0	+	-	0	+	+	+
+ʉ̃ː	long nasalized rounded close central vowel		-	+	-	-	-	-	+	-	+	+	+	+	+	-	+	-	+	0	+	0	0	0	+	0	+	-	0	+	+	+
+ʊ	rounded near-close near-back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	-	+
+ʊː	long rounded near-close near-back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	+	-	-	0	+	0	0	0	+	0	+	-	0	+	-	+
+ʊ̃	nasalized rounded near-close near-back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	0	-	+	0	+	0	0	0	+	0	+	-	0	+	-	+
+ʊ̃ː	long nasalized rounded near-close near-back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	+	-	+	0	+	0	0	0	+	0	+	-	0	+	-	+
+ʊ̈	rounded near-close central vowel		-	+	-	-	-	-	+	-	+	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	-	+
+ʊ̈ː	long rounded near-close central vowel		-	+	-	-	-	-	+	-	+	+	+	+	+	-	+	-	-	0	+	0	0	0	+	0	+	-	0	+	-	+
+ʊ̈̃	nasalized rounded near-close central vowel		-	+	-	-	-	-	+	-	+	+	+	+	+	-	0	-	+	0	+	0	0	0	+	0	+	-	0	+	-	+
+ʊ̈̃ː	long nasalized rounded near-close central vowel		-	+	-	-	-	-	+	-	+	+	+	+	+	-	+	-	+	0	+	0	0	0	+	0	+	-	0	+	-	+
+ʊ̥	devoiced rounded near-close near-back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	-	-
+ʊ̯	non-syllabic rounded near-close near-back vowel		-	+	+	-	-	-	+	-	+	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	-	-	+
+ʋ	voiced labio-dental approximant consonant		+	-	0	0	-	-	+	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	+	-	-	-	-	+
+ʌ	unrounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ʌː	long unrounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	+	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ʌ̃	nasalized unrounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	-	+
+ʌ̃ː	long nasalized unrounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	+	-	+	0	+	0	0	0	0	0	+	-	0	+	-	+
+ʌ̆	ultra-short unrounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	-	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
+ʌ̤	breathy unrounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	+	+	0	+	-	+
+ʌ̤̃	nasalized breathy unrounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	+	+	0	+	-	+
+ʌ̯ː	long non-syllabic unrounded open-mid back vowel		-	+	+	-	-	-	+	-	+	+	-	-	+	-	+	-	-	0	+	0	0	0	0	0	+	-	0	-	-	+
+ʍ	voiceless labio-velar approximant consonant		0	-	0	0	-	0	+	0	0	0	0	0	-	-	0	0	-	0	-	0	0	0	0	0	+	0	0	-	-	0
+ʎ	voiced palatal lateral approximant consonant		-	+	0	-	+	0	-	+	+	-	0	-	-	+	0	0	-	0	+	0	0	0	0	-	+	0	-	-	-	0
+ʎ̥	devoiced voiced palatal lateral approximant consonant		-	+	0	-	+	-	-	+	+	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	-
+ʏ	rounded near-close near-front vowel		+	+	-	-	-	-	+	+	+	+	+	+	+	-	0	-	-	0	+	0	0	0	+	-	+	-	-	+	-	+
+ʏː	long rounded near-close near-front vowel		+	+	-	-	-	-	+	+	+	+	+	+	+	-	+	-	-	0	+	0	0	0	+	-	+	-	-	+	-	+
+ʏ̃	nasalized rounded near-close near-front vowel		+	+	-	-	-	-	+	+	+	+	+	+	+	-	0	-	+	0	+	0	0	0	+	-	+	-	-	+	-	+
+ʏ̃ː	long nasalized rounded near-close near-front vowel		+	+	-	-	-	-	+	+	+	+	+	+	+	-	+	-	+	0	+	0	0	0	+	-	+	-	-	+	-	+
+ʐ	voiced retroflex sibilant fricative consonant		-	-	0	-	+	-	+	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	+	-	-	+	-	-	+
+ʑ	voiced alveolo-palatal sibilant fricative consonant		-	-	-	-	+	-	+	+	-	+	+	-	+	-	0	-	-	0	+	0	0	0	0	+	-	-	+	-	+	+
+ʒ	voiced post-alveolar sibilant fricative consonant		-	-	0	-	+	-	+	+	-	0	0	0	+	-	0	0	-	0	-	0	0	0	0	+	-	-	+	-	-	+
+ʒ̊	devoiced voiced post-alveolar sibilant fricative consonant		-	-	0	-	+	-	+	+	-	0	0	0	+	-	0	0	-	0	-	0	0	0	0	+	-	-	+	-	-	-
+ʒ̍	syllabic voiced post-alveolar sibilant fricative consonant		-	-	0	-	+	-	+	+	-	0	0	0	+	-	0	0	-	0	-	0	0	0	0	+	-	-	+	+	-	+
+ʔ	voiceless glottal stop consonant		0	-	0	-	-	+	-	0	0	0	0	0	+	-	0	0	-	0	-	0	0	0	0	0	-	-	0	-	-	-
+ʔh	voiceless glottal affricate consonant		0	-	0	-	-	0	-	0	0	0	0	0	-	-	0	0	+	0	-	0	0	0	0	0	-	0	0	-	-	0
+ʔʲ	palatalized voiceless glottal stop consonant		-	-	0	-	-	0	-	+	+	0	0	0	-	-	0	0	-	0	-	0	0	0	0	-	-	0	-	-	-	0
+ʔʷ	labialized voiceless glottal stop consonant		0	-	0	-	-	0	-	0	0	0	0	+	-	-	0	0	-	0	-	0	0	0	+	0	-	0	0	-	-	0
+ʕ	voiced pharyngeal fricative consonant		0	-	0	-	+	-	+	-	0	-	0	-	+	-	0	0	-	+	+	0	0	0	0	0	-	-	0	-	-	+
+ʘ	voiceless labial click consonant		0	-	0	+	+	0	-	-	0	-	0	+	-	-	0	0	-	0	+	0	0	0	-	0	-	0	0	-	-	0
+ʙ	voiced bilabial trill consonant		0	+	0	-	+	-	+	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	+	-	0	-	-	+
+ʙ̥	devoiced voiced bilabial trill consonant		0	+	0	-	+	-	+	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	+	-	0	-	-	-
+ʙ̩	syllabic voiced bilabial trill consonant		0	+	0	-	+	-	+	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	+	-	0	+	-	+
+ʛ	voiced uvular implosive consonant		0	-	+	0	+	+	-	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	+
+ʛ̥	voiceless uvular implosive consonant		0	-	+	0	+	+	-	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	-
+ʜ	voiceless epiglottal fricative consonant		0	+	0	-	+	-	+	-	0	-	0	-	+	-	0	0	-	+	+	0	0	0	0	0	+	-	0	-	-	-
+ʝ	voiced palatal fricative consonant		-	-	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	+	-	-	+
+ʟ	voiced velar lateral approximant consonant		0	+	+	-	+	-	-	-	0	+	+	-	+	+	0	-	-	0	+	0	0	0	0	0	+	-	0	-	-	+
+ʟ̥	devoiced voiced velar lateral approximant consonant		0	+	+	-	+	-	-	-	0	+	+	-	+	+	0	-	-	0	+	0	0	0	0	0	+	-	0	-	-	-
+ʡ	voiceless epiglottal stop consonant		0	-	0	-	+	-	-	-	0	-	0	-	+	-	0	0	-	+	+	0	0	0	0	0	-	-	0	-	-	-
+ʢ	voiced epiglottal fricative consonant		0	+	0	-	+	-	+	-	0	-	0	-	+	-	0	0	-	+	+	0	0	0	0	0	+	-	0	-	-	+
+ʮ	rounded close with-frication back vowel		-	+	+	0	-	-	+	-	0	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+ʯ	rounded close with-frication central vowel		-	+	-	0	-	-	+	-	0	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	+	-	0	+	+	+
+ʰk	pre-aspirated voiceless velar stop consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	-	0	-	-	0	+	+	0	0	0	0	-	0	0	-	-	0
+ʰp	pre-aspirated voiceless bilabial stop consonant		0	-	0	-	+	0	-	-	0	-	0	+	-	-	0	0	-	0	+	+	0	0	-	0	-	0	0	-	-	0
+ʰt	pre-aspirated voiceless alveolar stop consonant		+	-	0	-	+	0	-	+	-	-	0	-	-	-	0	0	-	0	+	+	0	0	0	-	-	0	-	-	-	0
+ʰtʰ	pre-aspirated aspirated voiceless alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	+	0	0	0	-	-	+	-	-	-	-
+ʰt̪	pre-aspirated voiceless dental stop consonant		+	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	-	0	+	+	0	0	0	-	-	0	-	-	+	0
+ʰt̪ʰ	pre-aspirated aspirated voiceless dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	+	0	0	0	-	-	+	-	-	+	-
+ˀŋǀ	pre-glottalized voiced dental nasal-click consonant		+	-	0	+	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	+	0	0	-	-	-	-	-	+	+
+ˀŋǁ	pre-glottalized voiced lateral nasal-click consonant		0	-	0	+	+	-	-	-	0	-	0	-	+	+	0	0	+	0	+	0	+	0	0	0	-	-	0	-	-	+
+ˀŋǂ	pre-glottalized voiced palatal nasal-click consonant		-	-	0	+	+	-	-	+	+	-	0	-	+	-	0	0	+	0	+	0	+	0	0	-	-	-	-	-	-	+
+ˀŋǃ	pre-glottalized voiced alveolar nasal-click consonant		+	-	0	+	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	+	0	0	-	-	-	-	-	-	+
+ˀŋǃǃ	pre-glottalized voiced retroflex nasal-click consonant		-	-	0	+	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	+	0	0	-	-	-	-	-	-	+
+ˀŋʘ	pre-glottalized voiced labial nasal-click consonant		0	-	0	+	+	-	-	-	0	-	0	+	+	-	0	0	+	0	+	0	+	0	-	0	-	-	0	-	-	+
+β	voiced bilabial fricative consonant		0	-	0	-	+	-	+	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	-	-	0	-	-	+
+βʷ	labialized voiced bilabial fricative consonant		0	-	0	-	+	-	+	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	+	0	-	-	0	-	-	+
+β̞	voiced bilabial approximant consonant		0	-	0	0	-	-	+	-	0	-	0	+	+	-	0	0	-	0	+	0	0	0	-	0	+	-	0	-	-	+
+θ	voiceless dental fricative consonant		+	-	0	-	+	0	+	+	+	-	0	-	-	-	0	0	-	0	+	0	0	0	0	-	-	0	+	-	+	0
+θː	long voiceless dental fricative consonant		+	-	0	-	+	0	+	+	+	-	0	-	-	-	+	0	-	0	+	0	0	0	0	-	-	0	+	-	+	0
+θ̬	revoiced voiceless dental fricative consonant	ð	+	-	0	-	+	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	+	-	+	+
+θ̼	voiceless linguolabial fricative consonant		+	-	0	-	+	0	+	+	-	-	0	+	-	-	0	0	-	0	+	0	0	0	-	-	-	0	+	-	-	0
+χ	voiceless uvular fricative consonant		0	-	+	-	+	0	+	-	0	+	-	-	-	-	0	-	-	0	+	0	0	0	0	0	-	0	0	-	-	0
+χʷ	labialized voiceless uvular fricative consonant		0	-	+	-	+	0	+	-	0	+	-	+	-	-	0	-	-	0	+	0	0	0	+	0	-	0	0	-	-	0
+χʼ	voiceless uvular ejective fricative consonant		0	-	+	-	+	+	+	-	0	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	-
+ᶑ	voiced retroflex implosive consonant		-	-	0	0	+	+	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	-	-	-	-	-	+
+ⁿb	pre-nasalized voiced bilabial stop consonant		0	-	0	-	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	+	-	0	-	-	0	-	-	+
+ⁿd	pre-nasalized voiced alveolar stop consonant		+	-	0	-	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	+	0	-	-	-	-	-	-	+
+ⁿdʒ	pre-nasalized voiced post-alveolar affricate consonant		0	-	0	-	+	-	-	0	0	0	0	0	+	-	0	0	+	0	-	0	0	+	0	0	+	-	0	-	-	+
+ⁿd̪	pre-nasalized voiced dental stop consonant		+	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	+	0	-	-	-	-	-	+	+
+ⁿd̼	pre-nasalized voiced linguolabial stop consonant		+	-	0	-	+	-	-	+	-	-	0	+	+	-	0	0	-	0	+	0	0	+	-	-	-	-	-	-	-	+
+ⁿg	pre-nasalized voiced velar stop consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	+	0	0	-	-	0	-	-	+
+ⁿgǀ	pre-nasalized voiced dental click consonant		+	-	0	+	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	+	0	-	-	-	-	-	+	+
+ⁿgǁ	pre-nasalized voiced lateral click consonant		0	-	0	+	+	-	-	-	0	-	0	-	+	+	0	0	-	0	+	0	0	+	0	0	-	-	0	-	-	+
+ⁿgǂ	pre-nasalized voiced palatal click consonant		-	-	0	+	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	+	0	-	-	-	-	-	-	+
+ⁿgǃ	pre-nasalized voiced alveolar nasal-click consonant		+	-	0	+	+	-	-	+	-	-	0	-	+	-	0	0	+	0	+	0	0	+	0	-	-	-	-	-	-	+
+ⁿgǃǃ	pre-nasalized voiced retroflex click consonant		-	-	0	+	+	-	-	+	-	-	0	-	+	-	0	0	-	0	+	0	0	+	0	-	-	-	-	-	-	+
+ⁿgʘ	pre-nasalized voiced labial click consonant		0	-	0	+	+	-	-	-	0	-	0	+	+	-	0	0	-	0	+	0	0	+	-	0	-	-	0	-	-	+
+ⁿk	pre-nasalized voiceless velar stop consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	-	0	-	-	0	+	0	0	+	0	0	-	0	0	-	-	0
+ⁿkʷ	pre-nasalized labialized voiceless velar stop consonant		0	-	+	-	+	0	-	-	0	+	+	+	-	-	0	-	-	0	+	0	0	+	+	0	-	0	0	-	-	0
+ⁿp	pre-nasalized voiceless bilabial stop consonant		0	-	0	-	+	0	-	-	0	-	0	+	-	-	0	0	-	0	+	0	0	+	-	0	-	0	0	-	-	0
+ⁿt	pre-nasalized voiceless alveolar stop consonant		+	-	0	-	+	0	-	+	-	-	0	-	-	-	0	0	-	0	+	0	0	+	0	-	-	0	-	-	-	0
+ⁿtʃ	pre-nasalized voiceless post-alveolar sibilant affricate consonant		-	-	0	-	+	0	-	+	-	0	0	0	-	-	0	0	+	0	-	0	0	+	0	+	+	0	-	-	-	0
+ⁿt̪	pre-nasalized voiceless dental stop consonant		+	-	0	-	+	0	-	+	+	-	0	-	-	-	0	0	-	0	+	0	0	+	0	-	-	0	-	-	+	0
+ⁿɟ	pre-nasalized voiced palatal stop consonant		-	-	0	-	+	-	-	+	+	-	0	-	+	-	0	0	-	0	+	0	0	+	0	-	-	-	-	-	-	+
+ⱱ	voiced labio-dental tap consonant		+	-	0	-	+	-	-	+	+	-	0	+	+	-	0	0	-	0	+	0	0	0	-	-	+	-	-	-	-	+
