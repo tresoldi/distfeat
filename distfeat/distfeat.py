@@ -2,8 +2,6 @@
 Main module for the DistFeat library.
 """
 
-# TODO: allow to specify and deal with geometry
-
 # Import Python libraries
 import csv
 from pathlib import Path
@@ -112,7 +110,7 @@ class DistFeat:
 
         return features
 
-    def features2graphemes(self, features, drop_na=False):
+    def features2graphemes(self, features, t_values=False, drop_na=False):
         """
         Return a list of graphemes matching user-provided feature restrictions.
 
@@ -120,6 +118,10 @@ class DistFeat:
         ----------
         features : dict
             A dictionary of features and their values, for the filtering.
+        t_values : bool
+            A flag indicating whether to use values
+            mapped to their truth values (False/None/True) or not
+            (default: True).
         drop_na : bool
             A flag indicating whether to discard undefined feature values
             from the comparison, so that it can match both positive and
@@ -131,6 +133,14 @@ class DistFeat:
             A sorted list of the graphemes matching the requested feature
             restrictions.
         """
+
+        if t_values:
+            # NOTE: no `None` in the mapping as it cannot be specified, we
+            #       then map with the 0/1 value for False/True
+            features = {
+                feat_name: [self._tvalues_list[0], self._tvalues_list[1]][feat_val]
+                for feat_name, feat_val in features.items()
+            }
 
         graphemes = []
         for grapheme in self._model:
