@@ -3,7 +3,6 @@ Main module for the DistFeat library.
 """
 
 # TODO: allow to specify and deal with geometry
-# TODO: allow to convert to boolean and all
 
 # Import Python libraries
 import csv
@@ -45,7 +44,8 @@ class DistFeat:
             else:
                 self._bipa = pyclts.CLTS(clts.as_posix()).bipa
 
-        # Set dictionary for mapping truth values
+        # Set dictionary for mapping truth values and reference
+        self._tvalues_list = values
         self._tvalues = {values[0]: False, values[1]: None, values[2]: True}
 
         # Build path, defaulting to `resources`
@@ -112,8 +112,7 @@ class DistFeat:
 
         return features
 
-    # TODO: accept tvalues
-    def features2graphemes(self, features):
+    def features2graphemes(self, features, drop_na=False):
         """
         Return a list of graphemes matching user-provided feature restrictions.
 
@@ -121,6 +120,10 @@ class DistFeat:
         ----------
         features : dict
             A dictionary of features and their values, for the filtering.
+        drop_na : bool
+            A flag indicating whether to discard undefined feature values
+            from the comparison, so that it can match both positive and
+            negative properties (defaults to `False`).
 
         Return
         ------
@@ -131,10 +134,18 @@ class DistFeat:
 
         graphemes = []
         for grapheme in self._model:
-            match = [
-                self._model[grapheme]["features"][feat_name] == feat_val
-                for feat_name, feat_val in features.items()
-            ]
+            if drop_na:
+                match = [
+                    self._model[grapheme]["features"][feat_name] == feat_val
+                    for feat_name, feat_val in features.items()
+                    if feat_val != self._tvalues_list[0]
+                ]
+
+            else:
+                match = [
+                    self._model[grapheme]["features"][feat_name] == feat_val
+                    for feat_name, feat_val in features.items()
+                ]
 
             if all(match):
                 graphemes.append(grapheme)
