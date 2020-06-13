@@ -138,7 +138,7 @@ class DistFeat:
                 match = [
                     self._model[grapheme]["features"][feat_name] == feat_val
                     for feat_name, feat_val in features.items()
-                    if feat_val != self._tvalues_list[0]
+                    if feat_val != self._tvalues_list[1]
                 ]
 
             else:
@@ -152,7 +152,7 @@ class DistFeat:
 
         return sorted(graphemes)
 
-    def minimal_matrix(self, graphemes, t_values=True):
+    def minimal_matrix(self, graphemes, t_values=True, drop_na=False):
         """
         Return the minimal matrix of features for a ser of graphemes.
 
@@ -164,6 +164,14 @@ class DistFeat:
         ----------
         graphemes : list
             A list of the graphemes to be included in the minimal matrix.
+        t_values : bool
+            A flag indicating whether the returned values should be
+            mapped to their truth values (False/None/True) or not
+            (default: True).
+        drop_na : bool
+            A flag indicating whether to discard undefined feature values
+            from the comparison, so that it can match both positive and
+            negative properties (defaults to `False`).
 
         Return
         ------
@@ -184,6 +192,10 @@ class DistFeat:
             values = [
                 self._model[grapheme]["features"][feature] for grapheme in graphemes
             ]
+
+            if drop_na:
+                values = [val for val in values if val != self._tvalues_list[1]]
+
             if len(set(values)) > 1:
                 min_features.append(feature)
 
@@ -203,7 +215,7 @@ class DistFeat:
 
         return matrix
 
-    def class_features(self, graphemes, t_values=True):
+    def class_features(self, graphemes, t_values=True, drop_na=True):
         """
         Return a dictionary of features and values that compose a grapheme class.
 
@@ -215,6 +227,14 @@ class DistFeat:
         ----------
         graphemes : list
             A list of the graphemes to be included in the minimal matrix.
+        t_values : bool
+            A flag indicating whether the returned values should be
+            mapped to their truth values (False/None/True) or not
+            (default: True).
+        drop_na : bool
+            A flag indicating whether to discard undefined feature values
+            from the comparison, so that it can match both positive and
+            negative properties (defaults to `False`).
 
         Return
         ------
@@ -235,6 +255,10 @@ class DistFeat:
             values = [
                 self._model[grapheme]["features"][feature] for grapheme in graphemes
             ]
+
+            if drop_na:
+                values = [val for val in values if val != self._tvalues_list[1]]
+
             if len(set(values)) == 1:
                 if t_values:
                     class_features[feature] = self._tvalues[values[0]]
