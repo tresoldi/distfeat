@@ -15,7 +15,7 @@ import pyclts
 
 
 class DistFeat:
-    def __init__(self, model="tresoldi", path=None, clts=None):
+    def __init__(self, model="tresoldi", path=None, clts=None, values=["-", "0", "+"]):
         """
         Initialize a distinctive feature model.
 
@@ -32,6 +32,9 @@ class DistFeat:
             The path to the CLTS data, if any. If not provided, the
             library will try to load it from "~/.config/cldf/clts",
             the default location for `cldfbench`.
+        values : list
+            A list with the strings representing the truth values, i.e.,
+            [False, None, True], in this order (default: ["-", "0", "+"]).
         """
 
         # Try to load CLTS BIPA
@@ -42,6 +45,9 @@ class DistFeat:
             else:
                 self._bipa = pyclts.CLTS(clts.as_posix()).bipa
 
+        # Set dictionary for mapping truth values
+        self._tvalues = {values[0]: False, values[1]: None, values[2]: True}
+
         # Build path, defaulting to `resources`
         file_path = f"{model}.tsv"
         if not path:
@@ -50,8 +56,8 @@ class DistFeat:
             file_path = Path(path) / file_path
 
         # Load and cache model data
-        self.model = {}
-        self.features = None
+        self._model = {}
+        self._features = None
         with open(file_path.as_posix()) as tsvfile:
             reader = csv.DictReader(tsvfile, delimiter="\t")
             for row in reader:
@@ -61,17 +67,13 @@ class DistFeat:
                 alias = row.pop("Alias")
 
                 # Expand data
-                self.model[grapheme] = {
-                    "name": name,
-                    "alias": alias,
-                    "features": row,
-                }
+                self._model[grapheme] = {"name": name, "alias": alias, "features": row}
 
                 # Extract features from the first row
-                if not self.features:
-                    self.features = sorted(row.keys())
+                if not self._features:
+                    self._features = sorted(row.keys())
 
-    def grapheme2features(self, grapheme):
+    def grapheme2features(self, grapheme, t_values=True):
         """
         Return the feature dictionary for a grapheme.
 
@@ -84,6 +86,10 @@ class DistFeat:
         grapheme : str
             The grapheme of the sound to be converted into a feature
             dictionary.
+        t_values : bool
+            A flag indicating whether the returned values should be
+            mapped to their truth values (False/None/True) or not
+            (default: True).
 
         Return
         ------
@@ -97,10 +103,16 @@ class DistFeat:
             grapheme = str(self._bipa[grapheme])
 
         # Extract and manipulate features
-        features = self.model[grapheme]["features"]
+        features = self._model[grapheme]["features"]
+        if t_values:
+            features = {
+                feature_name: self._tvalues[feature_val]
+                for feature_name, feature_val in features.items()
+            }
 
         return features
 
+    # TODO: accept tvalues
     def features2graphemes(self, features):
         """
         Return a list of graphemes matching user-provided feature restrictions.
@@ -118,9 +130,9 @@ class DistFeat:
         """
 
         graphemes = []
-        for grapheme in self.model:
+        for grapheme in self._model:
             match = [
-                self.model[grapheme]["features"][feat_name] == feat_val
+                self._model[grapheme]["features"][feat_name] == feat_val
                 for feat_name, feat_val in features.items()
             ]
 
@@ -129,7 +141,7 @@ class DistFeat:
 
         return sorted(graphemes)
 
-    def minimal_matrix(self, graphemes):
+    def minimal_matrix(self, graphemes, t_values=True):
         """
         Return the minimal matrix of features for a ser of graphemes.
 
@@ -150,19 +162,16 @@ class DistFeat:
         """
 
         # Normalize graphemes
-        graphemes = [
-            unicodedata.normalize("NFC", grapheme) for grapheme in graphemes
-        ]
+        graphemes = [unicodedata.normalize("NFC", grapheme) for grapheme in graphemes]
         if self._bipa:
             graphemes = [str(self._bipa[grapheme]) for grapheme in graphemes]
 
         # Obtain the minimal set of features
         min_features = []
-        for feature in self.features:
+        for feature in self._features:
             # Collect all values and check if it is a minimal set
             values = [
-                self.model[grapheme]["features"][feature]
-                for grapheme in graphemes
+                self._model[grapheme]["features"][feature] for grapheme in graphemes
             ]
             if len(set(values)) > 1:
                 min_features.append(feature)
@@ -170,14 +179,20 @@ class DistFeat:
         # Build matrix
         matrix = {}
         for grapheme in sorted(graphemes):
-            matrix[grapheme] = {
-                feature: self.model[grapheme]["features"][feature]
-                for feature in min_features
-            }
+            if t_values:
+                matrix[grapheme] = {
+                    feature: self._tvalues[self._model[grapheme]["features"][feature]]
+                    for feature in min_features
+                }
+            else:
+                matrix[grapheme] = {
+                    feature: self._model[grapheme]["features"][feature]
+                    for feature in min_features
+                }
 
         return matrix
 
-    def class_features(self, graphemes):
+    def class_features(self, graphemes, t_values=True):
         """
         Return a dictionary of features and values that compose a grapheme class.
 
@@ -198,21 +213,21 @@ class DistFeat:
         """
 
         # Normalize graphemes
-        graphemes = [
-            unicodedata.normalize("NFC", grapheme) for grapheme in graphemes
-        ]
+        graphemes = [unicodedata.normalize("NFC", grapheme) for grapheme in graphemes]
         if self._bipa:
             graphemes = [str(self._bipa[grapheme]) for grapheme in graphemes]
 
         # Obtain the set of features with the same value
         class_features = {}
-        for feature in self.features:
+        for feature in self._features:
             # Collect all values and check if it is a minimal set
             values = [
-                self.model[grapheme]["features"][feature]
-                for grapheme in graphemes
+                self._model[grapheme]["features"][feature] for grapheme in graphemes
             ]
             if len(set(values)) == 1:
-                class_features[feature] = values[0]
+                if t_values:
+                    class_features[feature] = self._tvalues[values[0]]
+                else:
+                    class_features[feature] = values[0]
 
         return class_features
