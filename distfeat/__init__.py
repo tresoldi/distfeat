@@ -10,4 +10,4 @@ __author__ = "Tiago Tresoldi"
 __email__ = "tresoldi@shh.mpg.de"
 
 # Build the namespace
-from distfeat.distfeat import dummy
+from distfeat.distfeat import DistFeat
