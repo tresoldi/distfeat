@@ -65,12 +65,20 @@ class DistFeat:
                 alias = row.pop("Alias")
 
                 # Expand data
-                self._model[grapheme] = {"name": name, "alias": alias, "features": row}
+                # NOTE: we map the `OrderedDict` returned by `csv.DictReader`
+                #       to a plain dictionary, so that manipulated and non
+                #       manipulated types will be the same
+                self._model[grapheme] = {
+                    "name": name,
+                    "alias": alias,
+                    "features": dict(row),
+                }
 
                 # Extract features from the first row
                 if not self._features:
                     self._features = sorted(row.keys())
 
+    # TODO: have returning an actual vector/list
     def grapheme2features(self, grapheme, t_values=True):
         """
         Return the feature dictionary for a grapheme.
@@ -138,7 +146,7 @@ class DistFeat:
             # NOTE: no `None` in the mapping as it cannot be specified, we
             #       then map with the 0/1 value for False/True
             features = {
-                feat_name: [self._tvalues_list[0], self._tvalues_list[1]][feat_val]
+                feat_name: [self._tvalues_list[0], self._tvalues_list[2]][feat_val]
                 for feat_name, feat_val in features.items()
             }
 
