@@ -4,3 +4,4 @@ exclude_paths:
     - "CONTRIBUTING.md"
     - "distfeat/__init__.py"
     - "tests/*.py"
+    - "docs/*"
