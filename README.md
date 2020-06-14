@@ -22,7 +22,82 @@ usage, along with the following section.
 
 ## Showcase
 
-Basic...
+Functionality is provided by means of a `DistFeat` class, which will
+automatically load the standard model upon instantiation:
+
+```python
+>>> import distfeat
+>>> df = distfeat.DistFeat()
+```
+
+The most common functionality, obtaining a dictionary of features for a
+grapheme, is performed by the `.grapheme2features()` method.
+
+```python
+>>> df.grapheme2features('a')
+{'anterior': True, 'approximant': True, 'back': False, 'click': False, 'consonantal': False, 'constricted': False, 'continuant': True, 'coronal': True, 'distributed': True, 'dorsal': True, 'high': False, 'labial': False, 'laryngeal': True, 'lateral': False, 'long': None, 'low': True, 'nasal': False, 'pharyngeal': None, 'place': True, 'preaspirated': None, 'preglottalized': None, 'prenasal': None, 'round': None, 'sibilant': False, 'sonorant': True, 'spread': False, 'strident': False, 'syllabic': True, 'tense': True, 'voice': True}
+```
+
+The `.graphemes2features()` method will by default returning a dictionary with
+boolean values, with sorted feature names. Arguments allow to skip the
+truth value conversion, returning the strings used for their representation,
+and to return a vector of values as a list.
+
+```python
+>>> df.grapheme2features('a', t_values=False)
+{'anterior': '+', 'approximant': '+', 'back': '-', 'click': '-', 'consonantal': '-', 'constricted': '-', 'continuant': '+', 'coronal': '+', 'distributed': '+', 'dorsal': '+', 'high': '-', 'labial': '-', 'laryngeal': '+', 'lateral': '-', 'long': '0', 'low': '+', 'nasal': '-', 'pharyngeal': '0', 'place': '+', 'preaspirated': '0', 'preglottalized': '0', 'prenasal': '0', 'round': '0', 'sibilant': '-', 'sonorant': '+', 'spread': '-', 'strident': '-', 'syllabic': '+', 'tense': '+', 'voice': '+'}
+>>> df.grapheme2features('a', vector=True)
+[True, True, False, False, False, False, True, True, True, True, False, False, True, False, None, True, False, None, True, None, None, None, None, False, True, False, False, True, True, True]
+```
+
+The operationally inverse method `.features2graphemes()` returns a list of all
+graphemes that satisfy a set of features and their values (which can be
+provided both as truth values or as their strings). It is possible to drop
+undefined values by means of the `drop_na` argument.
+
+```python
+>>> df.features2graphemes({"consonantal": "-", "anterior": "+", "high": "-"})
+['a', 'aː', 'ã', 'ãː', 'ă', 'ḁ', 'a̯', 'e', 'eː', 'ẽ', 'ẽː', 'ĕ', 'e̤', 'e̥', 'e̯', 'æ', 'æː', 'æ̃', 'æ̃ː', 'ø', 'øː', 'ø̃', 'ø̃ː', 'œ', 'œː', 'œ̃', 'œ̃ː', 'ɶ', 'ɶː', 'ɶ̃', 'ɶ̃ː']
+```
+
+A minimal matrix of features needed to distinguish a set of graphemes can be
+obtained with the `.minimal_matrix()` method, which also allows to use
+strings for truth values and to drip undefined values. Like in the
+case of `.grapheme2features()`, a `vector` argument can be passed in order
+to obtain a list of values. As expected, the
+larger and more heterogeneous the set of graphemes, the larger the
+number of features needed. The snippet below also used the auxiliary
+`tabulate_matrix()` function, a wrapper to the `tabulate` library.
+
+```python
+>>> distfeat.tabulate_matrix(df.minimal_matrix(["t", "d"]))
+    constricted    laryngeal    spread    voice
+--  -------------  -----------  --------  -------
+d   False          True         False     True
+t                  False
+>>> distfeat.tabulate_matrix(df.minimal_matrix(["t", "d", "s"]))
+    constricted    continuant    laryngeal    sibilant    spread    strident    voice
+--  -------------  ------------  -----------  ----------  --------  ----------  -------
+d   False          False         True         False       False     False       True
+s                  True          False        True                  True
+t                  False         False        False                 False
+>>> df.minimal_matrix(["t", "d"], vector=True)
+{'d': [False, True, False, True], 't': [None, False, None, None]}
+```
+
+The operationally inverse method to the one above is `.class_features()`,
+which provides a dictionary of features and values to constitute a class of
+sounds from a set of graphemes. Note that, while possible, this method
+does not drop undefined values by default. As expected, the larger and more
+heterogeneous the set graphemes, the fewer the number of feature/value
+pairs in common.
+
+```python
+>>> df.class_features(["t", "d"])
+{'anterior': True, 'approximant': False, 'click': False, 'consonantal': True, 'continuant': False, 'coronal': True, 'distributed': False, 'dorsal': False, 'labial': False, 'lateral': False, 'nasal': False, 'place': True, 'sibilant': False, 'sonorant': False, 'strident': False, 'syllabic': False, 'tense': False}
+>>> df.class_features(["t", "d", "s"])
+{'anterior': True, 'approximant': False, 'click': False, 'consonantal': True, 'coronal': True, 'distributed': False, 'dorsal': False, 'labial': False, 'lateral': False, 'nasal': False, 'place': True, 'sonorant': False, 'syllabic': False, 'tense': False}
+```
 
 ## Changelog
 
