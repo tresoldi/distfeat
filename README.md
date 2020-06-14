@@ -1,4 +1,4 @@
-# `distfeat` Python library
+# DistFeat Python library
 
 DistFeat is a Python library for manipulating segmental/distinctive phonological features.
 
