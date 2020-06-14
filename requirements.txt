@@ -1,1 +1,2 @@
 pyclts
+tabulate

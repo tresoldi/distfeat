@@ -9,6 +9,38 @@ import unicodedata
 
 # Import 3rd party libraries
 import pyclts
+import tabulate
+
+
+def tabulate_matrix(matrix, tablefmt="simple"):
+    """
+    Return a representation of a feature matrix using the `tabulate` library.
+
+    Parameters
+    ----------
+    matrix : dict
+        A dictionary with graphemes as keys and dictionaries of features
+        as values.
+    tablefmt : str
+        The table format to be used for representation, passed to the
+        `tabulate` library (default: `"simple"`).
+
+    Returns
+    -------
+    repr : str
+        A textual tabulated representation of the matrix.
+    """
+
+    # Obtain features from the first entry
+    feature_list = sorted(list(matrix.values())[0].keys())
+
+    # Build list suitable for `tabulate`
+    data = [
+        [grapheme] + [features[f_name] for f_name in feature_list]
+        for grapheme, features in matrix.items()
+    ]
+
+    return tabulate.tabulate(data, headers=feature_list, tablefmt=tablefmt)
 
 
 class DistFeat:
@@ -79,7 +111,7 @@ class DistFeat:
                     self._features = sorted(row.keys())
 
     # TODO: have returning an actual vector/list
-    def grapheme2features(self, grapheme, t_values=True):
+    def grapheme2features(self, grapheme, t_values=True, vector=False):
         """
         Return the feature dictionary for a grapheme.
 
@@ -95,7 +127,10 @@ class DistFeat:
         t_values : bool
             A flag indicating whether the returned values should be
             mapped to their truth values (False/None/True) or not
-            (default: True).
+            (default: `True`).
+        vector : bool
+            A flag indicating whether to return a vector of values as a
+            list (default: `False`).
 
         Return
         ------
@@ -115,6 +150,9 @@ class DistFeat:
                 feature_name: self._tvalues[feature_val]
                 for feature_name, feature_val in features.items()
             }
+
+        if vector:
+            return list(features.values())
 
         return features
 
@@ -170,9 +208,9 @@ class DistFeat:
 
         return sorted(graphemes)
 
-    def minimal_matrix(self, graphemes, t_values=True, drop_na=False):
+    def minimal_matrix(self, graphemes, t_values=True, drop_na=False, vector=False):
         """
-        Return the minimal matrix of features for a ser of graphemes.
+        Return the minimal matrix of features for a set of graphemes.
 
         If the CLTS reference catalog was loaded, it will be used for
         normalizing the graphemes. Otherwise, only unicode normalization is
@@ -185,11 +223,14 @@ class DistFeat:
         t_values : bool
             A flag indicating whether the returned values should be
             mapped to their truth values (False/None/True) or not
-            (default: True).
+            (default: `True`).
         drop_na : bool
             A flag indicating whether to discard undefined feature values
             from the comparison, so that it can match both positive and
             negative properties (defaults to `False`).
+        vector : bool
+            A flag indicating whether to return a vector of values as a
+            list (default: `False`).
 
         Return
         ------
@@ -231,9 +272,16 @@ class DistFeat:
                     for feature in min_features
                 }
 
+        # Return as a vector, if requested
+        if vector:
+            matrix = {
+                grapheme: list(features.values())
+                for grapheme, features in matrix.items()
+            }
+
         return matrix
 
-    def class_features(self, graphemes, t_values=True, drop_na=True):
+    def class_features(self, graphemes, t_values=True, drop_na=False):
         """
         Return a dictionary of features and values that compose a grapheme class.
 
@@ -277,10 +325,13 @@ class DistFeat:
             if drop_na:
                 values = [val for val in values if val != self._tvalues_list[1]]
 
+            # Include the feature if we have only one value and it is
+            # not undefined
             if len(set(values)) == 1:
-                if t_values:
-                    class_features[feature] = self._tvalues[values[0]]
-                else:
-                    class_features[feature] = values[0]
+                if values[0] != "0":
+                    if t_values:
+                        class_features[feature] = self._tvalues[values[0]]
+                    else:
+                        class_features[feature] = values[0]
 
         return class_features

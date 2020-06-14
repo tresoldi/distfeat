@@ -23,10 +23,12 @@ class TestDistFeat(unittest.TestCase):
         # Obtain vectors with and without truth values
         v1 = self.df.grapheme2features("a")
         v2 = self.df.grapheme2features("a", t_values=False)
+        v3 = self.df.grapheme2features("a", vector=True)
 
         # Build comparable values
         v1_tuple = tuple(v1.items())
         v2_tuple = tuple(v2.items())
+        v3_tuple = tuple(v3)
 
         # Assert values
         assert v1_tuple == (
@@ -93,6 +95,7 @@ class TestDistFeat(unittest.TestCase):
             ("tense", "+"),
             ("voice", "+"),
         )
+        assert v3_tuple == tuple(v1.values())
 
     def test_features2graphemes(self):
         # Obtain lists
