@@ -3,6 +3,7 @@
 DistFeat is a Python library for manipulating segmental/distinctive phonological features.
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aee2598d1c6d4e92aa2984a4703a7918)](https://app.codacy.com/manual/tresoldi/distfeat?utm_source=github.com&utm_medium=referral&utm_content=tresoldi/distfeat&utm_campaign=Badge_Grade_Dashboard)
 [![PyPI](https://img.shields.io/pypi/v/distfeat.svg)](https://pypi.org/project/distfeat)
 [![Build Status](https://travis-ci.org/tresoldi/distfeat.svg?branch=master)](https://travis-ci.org/tresoldi/distfeat)
 [![codecov](https://codecov.io/gh/tresoldi/distfeat/branch/master/graph/badge.svg)](https://codecov.io/gh/tresoldi/distfeat)
