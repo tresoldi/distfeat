@@ -34,7 +34,9 @@ Version 0.1:
 - Allow to specify, check, and derive geometries
 - Decide whether to have `.features2graphemes()` defaulting to boolean
   values (i.e., `t_values=True`)
-
+- Decide on how to specify undefined when using truth values, such as in
+  `.features2graphemes()` (considering that `None` cannot be passed as a
+  value)
 
 ## Community guidelines
 
