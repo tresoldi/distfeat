@@ -103,6 +103,8 @@ pairs in common.
 {'anterior': True, 'approximant': False, 'click': False, 'consonantal': True, 'coronal': True, 'distributed': False, 'dorsal': False, 'labial': False, 'lateral': False, 'nasal': False, 'place': True, 'sonorant': False, 'syllabic': False, 'tense': False}
 ```
 
+A simple command-line tool for querying the database is also provided.
+
 ## Changelog
 
 Version 0.1:
@@ -116,6 +118,7 @@ Version 0.1:
 - Decide on how to specify undefined when using truth values, such as in
   `.features2graphemes()` (considering that `None` cannot be passed as a
   value)
+- Extend the command-line tool to call most if not all functions
 
 ## Community guidelines
 
