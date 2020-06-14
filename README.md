@@ -46,6 +46,7 @@ and to return a vector of values as a list.
 ```python
 >>> df.grapheme2features('a', t_values=False)
 {'anterior': '+', 'approximant': '+', 'back': '-', 'click': '-', 'consonantal': '-', 'constricted': '-', 'continuant': '+', 'coronal': '+', 'distributed': '+', 'dorsal': '+', 'high': '-', 'labial': '-', 'laryngeal': '+', 'lateral': '-', 'long': '0', 'low': '+', 'nasal': '-', 'pharyngeal': '0', 'place': '+', 'preaspirated': '0', 'preglottalized': '0', 'prenasal': '0', 'round': '0', 'sibilant': '-', 'sonorant': '+', 'spread': '-', 'strident': '-', 'syllabic': '+', 'tense': '+', 'voice': '+'}
+
 >>> df.grapheme2features('a', vector=True)
 [True, True, False, False, False, False, True, True, True, True, False, False, True, False, None, True, False, None, True, None, None, None, None, False, True, False, False, True, True, True]
 ```
@@ -75,12 +76,14 @@ number of features needed. The snippet below also used the auxiliary
 --  -------------  -----------  --------  -------
 d   False          True         False     True
 t                  False
+
 >>> distfeat.tabulate_matrix(df.minimal_matrix(["t", "d", "s"]))
     constricted    continuant    laryngeal    sibilant    spread    strident    voice
 --  -------------  ------------  -----------  ----------  --------  ----------  -------
 d   False          False         True         False       False     False       True
 s                  True          False        True                  True
 t                  False         False        False                 False
+
 >>> df.minimal_matrix(["t", "d"], vector=True)
 {'d': [False, True, False, True], 't': [None, False, None, None]}
 ```
@@ -95,6 +98,7 @@ pairs in common.
 ```python
 >>> df.class_features(["t", "d"])
 {'anterior': True, 'approximant': False, 'click': False, 'consonantal': True, 'continuant': False, 'coronal': True, 'distributed': False, 'dorsal': False, 'labial': False, 'lateral': False, 'nasal': False, 'place': True, 'sibilant': False, 'sonorant': False, 'strident': False, 'syllabic': False, 'tense': False}
+
 >>> df.class_features(["t", "d", "s"])
 {'anterior': True, 'approximant': False, 'click': False, 'consonantal': True, 'coronal': True, 'distributed': False, 'dorsal': False, 'labial': False, 'lateral': False, 'nasal': False, 'place': True, 'sonorant': False, 'syllabic': False, 'tense': False}
 ```
