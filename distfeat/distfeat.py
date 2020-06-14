@@ -44,7 +44,11 @@ def tabulate_matrix(matrix, tablefmt="simple"):
 
 
 class DistFeat:
-    def __init__(self, model="tresoldi", path=None, clts=None, values=["-", "0", "+"]):
+    """
+    Class for manipulation of distinctive features.
+    """
+
+    def __init__(self, model="tresoldi", path=None, clts=None, values=None):
         """
         Initialize a distinctive feature model.
 
@@ -75,6 +79,8 @@ class DistFeat:
                 self._bipa = pyclts.CLTS(clts.as_posix()).bipa
 
         # Set dictionary for mapping truth values and reference
+        if not values:
+            values = ["-", "0", "+"]
         self._tvalues_list = values
         self._tvalues = {values[0]: False, values[1]: None, values[2]: True}
 
@@ -110,7 +116,6 @@ class DistFeat:
                 if not self._features:
                     self._features = sorted(row.keys())
 
-    # TODO: have returning an actual vector/list
     def grapheme2features(self, grapheme, t_values=True, vector=False):
         """
         Return the feature dictionary for a grapheme.
