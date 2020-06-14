@@ -13,30 +13,27 @@ with open("requirements.txt") as fp:
 
 # This call to setup() does all the work
 setup(
-    name="distfeat",
-    version="0.1",  # remember to sync with __init__.py
-    description="Library for manipulation of phonological distinctive features",
-    long_description=README_FILE,
-    long_description_content_type="text/x-markdown",
-    url="https://github.com/tresoldi/distfeat",
-    #    project_urls = {
-    #        "Documentation": "https://dafsa.readthedocs.io",
-    #    },
-    author="Tiago Tresoldi",
     author_email="tresoldi@shh.mpg.de",
-    license="MIT",
+    author="Tiago Tresoldi",
     classifiers=[
         "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3",
         "Topic :: Software Development :: Libraries",
     ],
-    packages=["distfeat", "resources"],
-    keywords=["distinctive features", "segmental features", "phonology", "phonetics"],
+    description="Library for manipulation of phonological distinctive features",
+    entry_points={"console_scripts": ["distfeat=distfeat.__main__:main"]},
     include_package_data=True,
     install_requires=install_requires,
-    entry_points={"console_scripts": ["distfeat=distfeat.__main__:main"]},
+    keywords=["distinctive features", "segmental features", "phonology", "phonetics"],
+    license="MIT",
+    long_description_content_type="text/markdown",
+    long_description=README_FILE,
+    name="distfeat",
+    packages=["distfeat", "resources"],
     test_suite="tests",
     tests_require=[],
+    url="https://github.com/tresoldi/distfeat",
+    version="0.1",  # remember to sync with __init__.py
     zip_safe=False,
 )
