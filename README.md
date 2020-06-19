@@ -113,6 +113,11 @@ A simple command-line tool for querying the database is also provided.
 
 ## Changelog
 
+Version 0.1.1:
+  - Added unround open-mid front vowels which were missing from the
+    default model
+  - Added a model derived from Phoible
+
 Version 0.1:
   - First public release
 
