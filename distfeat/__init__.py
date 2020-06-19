@@ -5,7 +5,7 @@ __init__.py file for the DistFeat library.
 """
 
 # Metadata of the package
-__version__ = "0.1"
+__version__ = "0.1.1"
 __author__ = "Tiago Tresoldi"
 __email__ = "tresoldi@shh.mpg.de"
 
