@@ -110,6 +110,8 @@ j̃	nasalized voiced palatal approximant consonant		-	-	0	0	-	-	+	+	+	-	0	-	+	-	
 j̊	devoiced voiced palatal approximant consonant		-	-	0	0	-	-	+	+	+	-	0	-	+	-	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	-
 k	voiceless velar stop consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	-	0	-	-	0	+	0	0	0	0	0	-	0	0	-	-	0
 kx	voiceless velar affricate consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	-	0	-	+	0	+	0	0	0	0	0	+	0	0	-	-	0
+kʟ̝̊	voiceless velar lateral affricate consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	+	0	-	+	0	+	0	0	0	0	0	+	0	0	-	-	0
+kʟ̝̊ʼ	voiceless velar ejective lateral affricate consonant		0	-	+	-	+	+	-	-	0	+	+	-	+	+	0	-	+	0	+	0	0	0	0	0	+	-	0	-	-	-
 kʰ	aspirated voiceless velar stop consonant		0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	+	0	-	-	-
 kʲ	palatalized voiceless velar stop consonant		-	-	+	-	+	0	-	+	+	+	+	-	-	-	0	-	-	0	+	0	0	0	0	-	-	0	-	-	-	0
 kʷ	labialized voiceless velar stop consonant		0	-	+	-	+	0	-	-	0	+	+	+	-	-	0	-	-	0	+	0	0	0	+	0	-	0	0	-	-	0
@@ -119,8 +121,6 @@ kʼ	voiceless velar ejective stop consonant		0	-	+	-	+	+	-	-	0	+	+	-	+	-	0	-	-	0
 kʼʷ	labialized voiceless velar ejective stop consonant		0	-	+	-	+	+	-	-	0	+	+	+	+	-	0	-	-	0	+	0	0	0	+	0	-	-	0	-	-	-
 kː	long voiceless velar stop consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	-	+	-	-	0	+	0	0	0	0	0	-	0	0	-	-	0
 k̬	revoiced voiced velar stop consonant	g	0	-	+	-	+	-	-	-	0	+	+	-	+	-	0	-	-	0	+	0	0	0	0	0	-	-	0	-	-	+
-kʟ̝̊	voiceless velar lateral affricate consonant		0	-	+	-	+	0	-	-	0	+	+	-	-	+	0	-	+	0	+	0	0	0	0	0	+	0	0	-	-	0
-kʟ̝̊ʼ	voiceless velar ejective lateral affricate consonant		0	-	+	-	+	+	-	-	0	+	+	-	+	+	0	-	+	0	+	0	0	0	0	0	+	-	0	-	-	-
 l	voiced alveolar lateral approximant consonant		+	+	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
 lʱ	breathy voiced alveolar lateral approximant consonant		+	+	0	-	+	-	-	+	-	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	+	-	-	-	+
 lʲ	palatalized voiced alveolar lateral approximant consonant		-	+	0	-	+	-	-	+	+	-	0	-	+	+	0	0	-	0	+	0	0	0	0	-	+	-	-	-	-	+
@@ -369,6 +369,10 @@ z̪̥	devoiced voiced dental sibilant fricative consonant		+	-	0	-	+	-	+	+	+	-	0
 ɘ̃	nasalized unrounded close-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	+	+
 ɘ̃ː	long nasalized unrounded close-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	+	-	+	0	+	0	0	0	0	0	+	-	0	+	+	+
 ə	unrounded mid central vowel		-	+	0	-	-	0	+	-	+	+	0	0	+	-	0	0	-	0	+	0	0	0	0	0	+	0	0	+	-	+
+ɛ	unrounded open-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	0	-	-	0	+	0	0	0	+	-	+	-	-	+	-	-
+ɛː	long unrounded open-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	+	-	-	0	+	0	0	0	+	-	+	-	-	+	-	-
+ɛ̃	nasalized unrounded open-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	0	-	+	0	+	0	0	0	+	-	+	-	-	+	-	-
+ɛ̃ː	long nasalized unrounded open-mid front vowel		+	+	-	-	-	-	+	+	+	+	-	+	+	-	+	-	+	0	+	0	0	0	+	-	+	-	-	+	-	-
 ɜ	unrounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	0	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
 ɜː	long unrounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	+	-	-	0	+	0	0	0	0	0	+	-	0	+	-	+
 ɜ̃	nasalized unrounded open-mid central vowel		-	+	-	-	-	-	+	-	+	+	-	-	+	-	0	-	+	0	+	0	0	0	0	0	+	-	0	+	-	+
