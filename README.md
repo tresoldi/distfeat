@@ -3,10 +3,11 @@
 DistFeat is a Python library for manipulating segmental/distinctive phonological features.
 
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aee2598d1c6d4e92aa2984a4703a7918)](https://app.codacy.com/manual/tresoldi/distfeat?utm_source=github.com&utm_medium=referral&utm_content=tresoldi/distfeat&utm_campaign=Badge_Grade_Dashboard)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3902005.svg)](https://doi.org/10.5281/zenodo.3902005)
 [![PyPI](https://img.shields.io/pypi/v/distfeat.svg)](https://pypi.org/project/distfeat)
 [![Build Status](https://travis-ci.org/tresoldi/distfeat.svg?branch=master)](https://travis-ci.org/tresoldi/distfeat)
 [![codecov](https://codecov.io/gh/tresoldi/distfeat/branch/master/graph/badge.svg)](https://codecov.io/gh/tresoldi/distfeat)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aee2598d1c6d4e92aa2984a4703a7918)](https://app.codacy.com/manual/tresoldi/distfeat?utm_source=github.com&utm_medium=referral&utm_content=tresoldi/distfeat&utm_campaign=Badge_Grade_Dashboard)
 
 ## Installation and usage
 
@@ -153,7 +154,7 @@ No. [ERC Grant #715618](https://cordis.europa.eu/project/rcn/206320/factsheet/en
 If you use `distfeat` or the standard feature model distributed with it,
 please cite it as:
 
-> Tresoldi, Tiago (2020). DistFeat, a Python library for manipulating segmental and distinctive features. Version 0.1. Jena. Available at https://github.com/tresoldi/distfeat
+> Tresoldi, Tiago (2020). DistFeat, a Python library for manipulating segmental and distinctive features. Version 0.1.1. Jena. DOI: 10.5281/zenodo.3902005
 
 In BibTeX:
 
@@ -164,5 +165,6 @@ In BibTeX:
   howpublished = {\url{https://github.com/tresoldi/distfeat}},
   address = {Jena},
   year = {2020},
+  doi = {10.5281/zenodo.3902005}
 }
 ```
