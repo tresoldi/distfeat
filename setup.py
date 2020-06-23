@@ -34,6 +34,6 @@ setup(
     test_suite="tests",
     tests_require=[],
     url="https://github.com/tresoldi/distfeat",
-    version="0.1.1",  # remember to sync with __init__.py
+    version="0.2",  # remember to sync with __init__.py
     zip_safe=False,
 )
