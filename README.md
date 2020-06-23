@@ -112,7 +112,27 @@ pairs in common.
 
 A simple command-line tool for querying the database is also provided.
 
+Experimental support for segment distance is available as well, as
+demonstrated below. It requires the `sklearn` library, which is
+*not* listed as a requirement and, as such, is not installed by default.
+As models and regressors are not cached, the training
+phase might take longer than expected.
+
+```python
+>>> df.distance("a", "e")
+5.501464265353438
+>>> df.distance("a", "u")
+6.773080283814581
+>>> df.distance("w", "u")
+0.9799320477423237
+>>> df.distance("s", "ʒ")
+10.139607771554383
+```
+
 ## Changelog
+
+Version 0.2:
+  - Added initial support for segment distance
 
 Version 0.1.1:
   - Added unround open-mid front vowels which were missing from the
