@@ -3,4 +3,5 @@ include AUTHORS.md
 include CONTRIBUTING.md
 include LICENSE
 include requirements.txt
-include resources/*
+include resources/models/*
+include resources/distances/*
