@@ -1,0 +1,23 @@
+# Requirements for building distfeat documentation
+
+# Jupyter Book and extensions
+jupyter-book>=0.15.0
+myst-nb>=0.17.0
+sphinxcontrib-bibtex>=2.5.0
+
+# Notebook execution
+jupyter>=1.0.0
+nbconvert>=7.0.0
+ipykernel>=6.0.0
+
+# distfeat itself
+-e ../..
+
+# Visualization dependencies
+matplotlib>=3.5.0
+seaborn>=0.12.0
+pandas>=1.3.0
+
+# Optional but recommended
+plotly>=5.0.0
+ipywidgets>=8.0.0

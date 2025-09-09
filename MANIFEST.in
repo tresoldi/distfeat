@@ -1,7 +1,31 @@
-include README.md
-include AUTHORS.md
-include CONTRIBUTING.md
+# Include package metadata
 include LICENSE
-include requirements.txt
-include resources/models/*
-include resources/distances/*
+include README.md
+include pyproject.toml
+
+# Include data files
+recursive-include distfeat/data *.csv *.tsv
+recursive-include distfeat/data *.json *.yaml *.yml
+
+# Include documentation
+recursive-include docs *.md *.rst *.txt
+recursive-include docs *.ipynb *.yml *.yaml
+recursive-include docs *.html *.css *.js *.png *.jpg *.gif
+
+# Include tests (for development)
+recursive-include tests *.py
+include pytest.ini
+
+# Exclude compiled files and cache
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude *.egg-info
+global-exclude .DS_Store
+global-exclude .pytest_cache
+global-exclude .mypy_cache
+global-exclude .ruff_cache
+
+# Exclude development files
+exclude run_tests.sh
+exclude .gitignore
+prune .git

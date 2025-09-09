@@ -1,0 +1,34 @@
+# Table of contents for distfeat documentation (minimal buildable version)
+format: jb-book
+root: index
+parts:
+  - caption: Foundation
+    chapters:
+    - file: chapters/01_introduction
+      title: Introduction
+    - file: chapters/02_theoretical_foundation
+      title: Theoretical Foundation
+    - file: chapters/03_implementation
+      title: Implementation Details
+    
+  - caption: Tutorials
+    chapters:
+    - file: tutorials/00_quickstart
+      title: Quick Start
+    
+  - caption: Validation
+    chapters:
+    - file: chapters/04_validation
+      title: Experimental Validation
+    
+  - caption: Case Studies
+    chapters:
+    - file: case_studies/indo_european
+      title: "Indo-European: Grimm's Law & Palatalization"
+    
+  - caption: API Reference
+    chapters:
+    - file: api/features
+      title: Features Module
+    - file: api/distances
+      title: Distances Module
