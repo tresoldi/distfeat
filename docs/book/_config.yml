@@ -1,0 +1,102 @@
+# Book settings
+title: "distfeat: A Phonetic Distance and Feature Library for Computational Historical Linguistics"
+author: UNIPA Development Team
+copyright: "2024"
+logo: _static/logo.png
+only_build_toc_files: true
+
+# Force re-execution of notebooks on each build
+execute:
+  execute_notebooks: cache
+  cache: "_build/.jupyter_cache/"
+  exclude_patterns:
+    - 'api/*'  # API reference notebooks don't need execution
+  timeout: 600
+  allow_errors: false
+  stderr_output: show
+
+# Add a launch button for interactive execution
+launch_buttons:
+  notebook_interface: classic
+  binderhub_url: ""
+  colab_url: "https://colab.research.google.com"
+
+# HTML-specific settings
+html:
+  favicon: _static/favicon.ico
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  use_download_button: true
+  extra_navbar: |
+    <div>
+      <a href="https://github.com/your-org/distfeat">GitHub</a> |
+      <a href="https://pypi.org/project/distfeat">PyPI</a>
+    </div>
+  extra_footer: |
+    <p>
+    distfeat - Distance and Feature library for phonetic analysis<br>
+    Part of the UNIPA Project for Computational Historical Linguistics
+    </p>
+
+# Repository settings
+repository:
+  url: https://github.com/your-org/distfeat
+  path_to_book: docs/book
+  branch: main
+
+# Bibliography settings
+bibtex_bibfiles:
+  - references.bib
+
+# Sphinx settings
+sphinx:
+  extra_extensions:
+    - sphinx.ext.autodoc
+    - sphinx.ext.napoleon
+    - sphinx.ext.viewcode
+    - sphinxcontrib.bibtex
+    - sphinx.ext.intersphinx
+  config:
+    intersphinx_mapping:
+      python:
+        - "https://docs.python.org/3"
+        - null
+      numpy:
+        - "https://numpy.org/doc/stable/"
+        - null
+      sklearn:
+        - "https://scikit-learn.org/stable/"
+        - null
+    napoleon_google_docstring: true
+    napoleon_numpy_docstring: true
+    napoleon_use_param: true
+    napoleon_use_rtype: true
+    language: en
+    html_theme_options:
+      navigation_depth: 4
+      show_toc_level: 2
+      logo_only: true
+
+# LaTeX settings for PDF output
+latex:
+  latex_engine: pdflatex
+  latex_documents:
+    targetname: distfeat.tex
+    title: "distfeat: A Phonetic Distance and Feature Library"
+    author: "UNIPA Development Team"
+    theme: manual
+
+# Parse markdown files
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+    - tasklist

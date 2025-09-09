@@ -1,0 +1,30 @@
+# Book settings - Minimal Configuration
+title: "distfeat: Phonetic Distance and Feature Library"
+author: UNIPA Development Team
+copyright: "2024"
+only_build_toc_files: true
+
+# Execution settings
+execute:
+  execute_notebooks: cache
+  cache: "_build/.jupyter_cache/"
+  exclude_patterns:
+    - 'api/*'  # API reference notebooks don't need execution
+  timeout: 300
+  allow_errors: true
+
+# HTML-specific settings
+html:
+  use_edit_page_button: false
+  use_repository_button: false
+  use_issues_button: false
+  use_download_button: true
+
+# Bibliography settings
+bibtex_bibfiles:
+  - references.bib
+
+# Sphinx settings
+sphinx:
+  config:
+    language: en

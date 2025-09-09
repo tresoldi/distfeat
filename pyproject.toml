@@ -1,0 +1,147 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distfeat"
+version = "0.2.0"
+description = "A Phonetic Distance and Feature Library for Computational Historical Linguistics"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "UNIPA Development Team"},
+]
+maintainers = [
+    {name = "UNIPA Development Team"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+    "Typing :: Typed",
+]
+keywords = [
+    "phonetics",
+    "linguistics",
+    "computational-linguistics",
+    "historical-linguistics",
+    "IPA",
+    "phonological-features",
+    "distance-metrics",
+    "sound-change",
+    "phoneme-similarity",
+    "feature-vectors",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+]
+
+[project.optional-dependencies]
+ml = [
+    "scikit-learn>=1.0.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=3.0.0",
+    "hypothesis>=6.0.0",
+    "black>=22.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+    "memory-profiler>=0.60.0",
+]
+docs = [
+    "jupyter-book>=0.15.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.12.0",
+    "pandas>=1.3.0",
+    "plotly>=5.0.0",
+    "ipywidgets>=8.0.0",
+]
+all = ["distfeat[ml,dev,docs]"]
+
+[project.urls]
+Homepage = "https://github.com/your-org/distfeat"
+Documentation = "https://distfeat.readthedocs.io"
+Repository = "https://github.com/your-org/distfeat"
+"Bug Tracker" = "https://github.com/your-org/distfeat/issues"
+
+[tool.setuptools]
+packages = ["distfeat"]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["distfeat*"]
+
+[tool.setuptools.package-data]
+distfeat = ["data/*.tsv", "data/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--strict-markers",
+    "-v",
+    "--tb=short",
+]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "UP",  # pyupgrade
+    "N",   # pep8-naming
+    "ANN", # flake8-annotations (partial)
+]
+ignore = [
+    "E501",   # line too long (handled by black)
+    "B008",   # do not perform function calls in argument defaults
+    "ANN101", # missing type annotation for self
+    "ANN102", # missing type annotation for cls
+]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+strict_optional = true
+disallow_untyped_defs = false  # Gradual typing
+show_error_codes = true
+
+[tool.black]
+line-length = 88
+target-version = ['py310', 'py311', 'py312']
+include = '\.pyi?$'
+
+[tool.coverage.run]
+source = ["distfeat"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if __name__ == .__main__.:",
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:",
+]

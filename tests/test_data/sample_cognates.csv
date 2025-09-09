@@ -1,0 +1,31 @@
+ID,Language,Form,Segments,Cognacy,Gloss
+1,English,dog,d o g,1,DOG
+2,German,hund,h u n d,1,DOG
+3,Dutch,hond,h o n d,1,DOG
+4,Swedish,hund,h u n d,1,DOG
+5,Spanish,perro,p e r r o,2,DOG
+6,French,chien,ʃ j ɛ̃,2,DOG
+7,Italian,cane,k a n e,2,DOG
+8,English,cat,k æ t,3,CAT
+9,German,katze,k a t s ə,3,CAT
+10,Dutch,kat,k ɑ t,3,CAT
+11,Spanish,gato,g a t o,3,CAT
+12,French,chat,ʃ a,3,CAT
+13,English,water,w ɔ t ə r,4,WATER
+14,German,wasser,v a s ə r,4,WATER
+15,Dutch,water,w a t ə r,4,WATER
+16,Spanish,agua,a g w a,5,WATER
+17,French,eau,o,5,WATER
+18,Italian,acqua,a k k w a,5,WATER
+19,English,one,w ʌ n,6,ONE
+20,German,eins,a i n s,6,ONE
+21,Dutch,een,e n,6,ONE
+22,Spanish,uno,u n o,7,ONE
+23,French,un,œ̃,7,ONE
+24,Italian,uno,u n o,7,ONE
+25,English,two,t u,8,TWO
+26,German,zwei,t s v a i,8,TWO
+27,Dutch,twee,t w e,8,TWO
+28,Spanish,dos,d o s,9,TWO
+29,French,deux,d ø,9,TWO
+30,Italian,due,d u e,9,TWO

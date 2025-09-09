@@ -1,0 +1,1082 @@
+sound,description,anterior,approximant,atr,back,breathy,centralized,click,consonantal,constricted,continuant,coronal,creaky,distributed,dorsal,glottal,high,labial,laminal,lateral,length,low,nasal,pharyngeal,preaspirated,preglottalized,prenasal,retracted,rhotacized,round,sibilant,sonorant,spread,strident,syllabic,tense,tone_contour,tone_end,tone_level,tone_peak,tone_start,trilled,vibrant,voice
+a,back=-1 consonantal=-1 low=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+aː,back=-1 consonantal=-1 length=1 low=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+aːː,back=-1 consonantal=-1 length=2 low=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+aˑ,back=-1 consonantal=-1 length=0 low=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+a˞,back=-1 consonantal=-1 low=1 rhotacized=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ã,back=-1 consonantal=-1 low=1 nasal=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ãː,back=-1 consonantal=-1 length=1 low=1 nasal=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ă,back=-1 consonantal=-1 length=-2 low=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,-2,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ä,back=-1 centralized=1 consonantal=-1 low=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+äː,back=-1 centralized=1 consonantal=-1 length=1 low=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+a̟,atr=1 back=-1 consonantal=-1 low=1 round=-1 syllabic=1 tense=1,0,0,1,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+a̟ː,atr=1 back=-1 consonantal=-1 length=1 low=1 round=-1 syllabic=1 tense=1,0,0,1,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+a̤ːː,back=-1 breathy=1 consonantal=-1 length=2 low=1 round=-1 syllabic=1 tense=1,0,0,0,-1,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ḁ,back=-1 consonantal=-1 low=1 round=-1 syllabic=1 tense=1 voice=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,-1
+a̯,back=-1 consonantal=-1 low=1 round=-1 syllabic=-1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,-1,1,0,0,0,0,0,0,0,0
+a̰,back=-1 consonantal=-1 creaky=1 low=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+a̰ːː,back=-1 consonantal=-1 creaky=1 length=2 low=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,1,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+b,anterior=1 consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bd,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 labial=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bg,anterior=1 consonantal=1 continuant=-1 dorsal=1 labial=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bv,consonantal=1 continuant=-1 labial=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+bʰ,anterior=1 consonantal=1 continuant=-1 labial=1 spread=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,1
+bʰː,anterior=1 consonantal=1 continuant=-1 labial=1 length=1 spread=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,1
+bʱ,anterior=1 breathy=1 consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bʱː,anterior=1 breathy=1 consonantal=1 continuant=-1 labial=1 length=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bʲ,anterior=1 atr=1 consonantal=1 continuant=-1 dorsal=1 labial=1 syllabic=-1 voice=1,1,0,1,0,0,0,0,1,0,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bʷ,consonantal=1 continuant=-1 labial=1 round=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bʷː,consonantal=1 continuant=-1 labial=1 length=1 round=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bː,anterior=1 consonantal=1 continuant=-1 labial=1 length=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bːʰ,anterior=1 consonantal=1 continuant=-1 labial=1 length=1 spread=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,1
+bːʱ,anterior=1 breathy=1 consonantal=1 continuant=-1 labial=1 length=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bːʷ,consonantal=1 continuant=-1 labial=1 length=1 round=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bːˤ,anterior=1 atr=-1 consonantal=1 continuant=-1 labial=1 length=1 pharyngeal=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bˠ,anterior=1 atr=-1 consonantal=1 continuant=-1 dorsal=1 labial=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bˤː,anterior=1 atr=-1 consonantal=1 continuant=-1 labial=1 length=1 pharyngeal=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+b̚,anterior=1 consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+b̡,anterior=1 consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+b̤,anterior=1 breathy=1 consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+b̥,anterior=1 consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+b̥ʰ,anterior=1 consonantal=1 continuant=-1 labial=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+b̪,consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+bβ,anterior=1 consonantal=1 continuant=-1 labial=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+bᵛ,consonantal=1 continuant=-1 labial=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+bᵝ,anterior=1 consonantal=1 continuant=-1 labial=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+bⁿ,anterior=1 consonantal=1 continuant=-1 labial=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+c,consonantal=1 continuant=-1 coronal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+cç,consonantal=1 continuant=-1 coronal=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+cçʰ,consonantal=1 continuant=-1 coronal=1 spread=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+cʰ,consonantal=1 continuant=-1 coronal=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+cʼ,consonantal=1 constricted=1 continuant=-1 coronal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+cː,consonantal=1 continuant=-1 coronal=1 length=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ç,consonantal=1 continuant=1 coronal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+d,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+db,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 labial=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+dg,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 dorsal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+dz,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dzː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dz̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dz̪ː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dz̫,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dð,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dð̠,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dð͇,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dɮ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dɹ̠˔,consonantal=1 continuant=-1 coronal=1 distributed=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dʐ,consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dʐː,consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dʑ,consonantal=1 continuant=-1 coronal=1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dʑː,consonantal=1 continuant=-1 coronal=1 dorsal=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dʒ,consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dʒʱ,breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,1,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dʒʲ,atr=1 consonantal=1 continuant=-1 distributed=1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,-1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dʒʷ,consonantal=1 continuant=-1 coronal=1 distributed=1 round=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dʒː,consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dʒ̊,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+dʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 spread=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,1
+dʰː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 spread=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,1
+dʱ,anterior=1 breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+dʱː,anterior=1 breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+dʲ,atr=1 consonantal=1 continuant=-1 distributed=-1 dorsal=1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,-1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+dː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+dːz,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dːʐ,consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dːʑ,consonantal=1 continuant=-1 coronal=1 dorsal=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dːʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 spread=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,1
+dːʱ,anterior=1 breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+dˤ,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=-1 pharyngeal=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̂,consonantal=1 continuant=-1 coronal=1 dorsal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̙,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̠,consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̠ʒ,consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̠ʒʷ,consonantal=1 continuant=-1 coronal=1 distributed=1 round=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̠ʒː,consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̠ʒ̤,breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,1,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̠ʒ̫,atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,-1,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̤,anterior=1 breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̤ʒ,breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,1,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̤ː,anterior=1 breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̥,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+d̥̚,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+d̥ⁿ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+d̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪z̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̪z̪ː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̪ð,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̪ɮ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 lateral=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̪ʱ,anterior=1 breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪ʱː,anterior=1 breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪ʲ,anterior=1 atr=1 consonantal=1 continuant=-1 coronal=1 distributed=1 dorsal=1 syllabic=-1 voice=1,1,0,1,0,0,0,0,1,0,-1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪ː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪ːz̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+d̪ːʱ,anterior=1 breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪ˠ,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=1 dorsal=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,-1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪ˤ,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=1 pharyngeal=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪̈,anterior=1 breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪̙,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪̚,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪̤,anterior=1 breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪̥̚,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+d̪̥ⁿ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+d̪̰,anterior=1 consonantal=1 continuant=-1 coronal=1 creaky=1 distributed=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̪ⁿ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̰,anterior=1 consonantal=1 continuant=-1 coronal=1 creaky=1 distributed=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+d̼,consonantal=1 continuant=-1 coronal=1 labial=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+dᶞ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dᶻ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dᶼ,consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dᶽ,consonantal=1 continuant=-1 coronal=1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+dⁿ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+e,back=-1 consonantal=-1 high=1 low=-1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+eː,back=-1 consonantal=-1 high=1 length=1 low=-1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+eːː,back=-1 consonantal=-1 high=1 length=2 low=-1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+eˑ,back=-1 consonantal=-1 high=1 length=0 low=-1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ẽ,back=-1 consonantal=-1 high=1 low=-1 nasal=1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ẽː,back=-1 consonantal=-1 high=1 length=1 low=-1 nasal=1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ĕ,back=-1 consonantal=-1 high=1 length=-2 low=-1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,-2,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+e̞,back=-1 consonantal=-1 high=0 low=0 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+e̞ː,back=-1 consonantal=-1 high=0 length=1 low=0 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+e̞ˑ,back=-1 consonantal=-1 high=0 length=0 low=0 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ẽ̞,back=-1 consonantal=-1 high=0 low=0 nasal=1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ẽ̞ː,back=-1 consonantal=-1 high=0 length=1 low=0 nasal=1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+e̤,back=-1 breathy=1 consonantal=-1 high=1 low=-1 round=-1 syllabic=1,0,0,0,-1,1,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+e̤ːː,back=-1 breathy=1 consonantal=-1 high=1 length=2 low=-1 round=-1 syllabic=1,0,0,0,-1,1,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+e̥,back=-1 consonantal=-1 high=1 low=-1 round=-1 syllabic=1 voice=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,-1
+e̯,back=-1 consonantal=-1 high=1 low=-1 round=-1 syllabic=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
+ḛ,back=-1 consonantal=-1 creaky=1 high=1 low=-1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+e̹,back=-1 consonantal=-1 high=1 low=-1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+e̹ː,back=-1 consonantal=-1 high=1 length=1 low=-1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+f,consonantal=1 continuant=1 labial=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+fʰ,consonantal=1 continuant=1 labial=1 sonorant=-1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,1,0,-1,0,0,0,0,0,0,0,0,-1
+fʲ,atr=1 consonantal=1 continuant=1 distributed=1 dorsal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+fʷː,consonantal=1 continuant=1 labial=1 length=1 round=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+fʼ,consonantal=1 constricted=1 continuant=1 labial=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+fˈ,consonantal=1 constricted=1 continuant=1 labial=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+fː,consonantal=1 continuant=1 labial=1 length=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+fːʷ,consonantal=1 continuant=1 labial=1 length=1 round=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+fːː,consonantal=1 continuant=1 labial=1 length=2 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+fˠ,atr=-1 consonantal=1 continuant=1 dorsal=1 labial=1 sonorant=-1 syllabic=-1 voice=-1,0,0,-1,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+g,consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+gb,consonantal=1 constricted=1 continuant=-1 dorsal=1 labial=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,1,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+gd,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 dorsal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+gǀ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+gǁ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+gǂ,click=1 consonantal=1 continuant=-1 coronal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+gǃ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+gǃǃ,click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+gɣ,consonantal=1 continuant=-1 dorsal=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+gʘ,click=1 consonantal=1 continuant=-1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+gʰ,consonantal=1 continuant=-1 dorsal=1 spread=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,1
+gʱ,breathy=1 consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=1,0,0,0,0,1,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+gʲ,atr=1 consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+gʷ,consonantal=1 continuant=-1 distributed=-1 dorsal=1 labial=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+gː,consonantal=1 continuant=-1 dorsal=1 length=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+gˠ,consonantal=1 continuant=-1 dorsal=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ğ,consonantal=1 dorsal=1 syllabic=-1 vibrant=1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+g̈,breathy=1 consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=1,0,0,0,0,1,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+g̊,consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+g̊ʰ,consonantal=1 continuant=-1 dorsal=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+g̙,atr=-1 consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=1,0,0,-1,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+g̥,consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+h,consonantal=1 continuant=1 glottal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+hːː,consonantal=1 continuant=1 glottal=1 length=2 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+h̃,consonantal=1 continuant=1 glottal=1 nasal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+h̬,consonantal=1 continuant=1 glottal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+h͓,consonantal=1 continuant=1 glottal=1 sonorant=-1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,1,-1,0,0,0,0,0,0,0,0,-1
+i,back=-1 consonantal=-1 high=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+iː,back=-1 consonantal=-1 high=1 length=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+iːː,back=-1 consonantal=-1 high=1 length=2 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+iˑ,back=-1 consonantal=-1 high=1 length=0 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ĩ,back=-1 consonantal=-1 high=1 nasal=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ĩː,back=-1 consonantal=-1 high=1 length=1 nasal=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+i̤,back=-1 breathy=1 consonantal=-1 high=1 round=-1 syllabic=1 tense=1,0,0,0,-1,1,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+i̤ːː,back=-1 breathy=1 consonantal=-1 high=1 length=2 round=-1 syllabic=1 tense=1,0,0,0,-1,1,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+i̥,back=-1 consonantal=-1 high=1 round=-1 syllabic=1 tense=1 voice=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,-1
+ḭ,back=-1 consonantal=-1 creaky=1 high=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ḭː,back=-1 consonantal=-1 creaky=1 high=1 length=1 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ḭːː,back=-1 consonantal=-1 creaky=1 high=1 length=2 round=-1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,1,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+i̹,back=-1 consonantal=-1 high=1 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+i͓,back=-1 consonantal=-1 high=1 round=-1 strident=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+j,approximant=1 consonantal=1 coronal=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+jː,approximant=1 consonantal=1 coronal=1 length=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+j̃,approximant=1 consonantal=1 coronal=1 nasal=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+j̊,approximant=1 consonantal=1 coronal=1 sonorant=1 syllabic=-1 voice=-1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,-1
+j̥,approximant=1 consonantal=1 coronal=1 sonorant=1 syllabic=-1 voice=-1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,-1
+k,consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kh,consonantal=1 continuant=-1 dorsal=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+kp,consonantal=1 constricted=1 continuant=-1 dorsal=1 labial=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kt,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 dorsal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kw,consonantal=1 continuant=-1 distributed=-1 dorsal=1 labial=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kwh,consonantal=1 continuant=-1 distributed=-1 dorsal=1 labial=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+kx,consonantal=1 continuant=-1 dorsal=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+kǀ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,1,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+kǁ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+kǂ,click=1 consonantal=1 continuant=-1 coronal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+kǃ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+kǃǃ,click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+kʘ,click=1 consonantal=1 continuant=-1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+kʟ̥,consonantal=1 continuant=-1 dorsal=1 lateral=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+kʟ̥ʼ,consonantal=1 constricted=1 continuant=-1 dorsal=1 lateral=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+kʰ,consonantal=1 continuant=-1 dorsal=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+kʲ,atr=1 consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kʷ,consonantal=1 continuant=-1 distributed=-1 dorsal=1 labial=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kʷʰ,consonantal=1 continuant=-1 distributed=-1 dorsal=1 labial=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+kʷʼ,consonantal=1 constricted=1 continuant=-1 distributed=-1 dorsal=1 labial=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,0,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kʷː,consonantal=1 continuant=-1 distributed=-1 dorsal=1 labial=1 length=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,-1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kʼ,consonantal=1 constricted=1 continuant=-1 dorsal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kʼʷ,consonantal=1 constricted=1 continuant=-1 distributed=-1 dorsal=1 labial=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,0,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kː,consonantal=1 continuant=-1 dorsal=1 length=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kːː,consonantal=1 continuant=-1 dorsal=1 length=2 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+kˣ,consonantal=1 continuant=-1 dorsal=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+k̙,atr=-1 consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=-1,0,0,-1,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+k̚,consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+k̬,consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+l,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+lʱ,anterior=1 approximant=1 breathy=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,1,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+lʲ,approximant=1 atr=1 consonantal=1 distributed=-1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,1,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+lː,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 length=1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+lːː,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 length=2 sonorant=1 syllabic=-1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+lˠ,anterior=1 approximant=1 atr=-1 consonantal=1 coronal=1 distributed=-1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,1,1,-1,0,0,0,0,1,0,0,1,0,-1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+l̂,approximant=1 consonantal=1 coronal=1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+l̠,approximant=1 consonantal=1 coronal=1 distributed=1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+l̠ʲ,approximant=1 atr=1 consonantal=1 distributed=1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ḷ,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1
+l̤,anterior=1 approximant=1 breathy=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,1,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+l̥,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=-1 voice=-1,1,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,-1
+l̩,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1
+l̪,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=1 lateral=1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+l̪ʲ,anterior=1 approximant=1 atr=1 consonantal=1 coronal=1 distributed=1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,1,1,1,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+l̪ː,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=1 lateral=1 length=1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+l̪ˠ,anterior=1 approximant=1 atr=-1 consonantal=1 coronal=1 distributed=1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,1,1,-1,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+l̪̍,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=1 lateral=1 sonorant=1 syllabic=1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1
+l̪̥,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=1 lateral=1 sonorant=1 syllabic=-1 voice=-1,1,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,-1
+l̪̩,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=1 lateral=1 sonorant=1 syllabic=1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1
+l̻,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=-1 laminal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+l̼,approximant=1 consonantal=1 coronal=1 labial=1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+m,anterior=1 consonantal=1 labial=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+mʰ,anterior=1 consonantal=1 labial=1 nasal=1 spread=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,1
+mʱ,anterior=1 breathy=1 consonantal=1 labial=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+mʲ,anterior=1 atr=1 consonantal=1 dorsal=1 labial=1 nasal=1 syllabic=-1 voice=1,1,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+mʷ,consonantal=1 labial=1 nasal=1 round=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+mʷː,consonantal=1 labial=1 length=1 nasal=1 round=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+mː,anterior=1 consonantal=1 labial=1 length=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+mːʷ,consonantal=1 labial=1 length=1 nasal=1 round=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+mːː,anterior=1 consonantal=1 labial=1 length=2 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+mːˤ,anterior=1 atr=-1 consonantal=1 labial=1 length=1 nasal=1 pharyngeal=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+mˠ,anterior=1 atr=-1 consonantal=1 dorsal=1 labial=1 nasal=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+mˤː,anterior=1 atr=-1 consonantal=1 labial=1 length=1 nasal=1 pharyngeal=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ṃ,anterior=1 consonantal=1 labial=1 nasal=1 syllabic=1 voice=1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+m̤,anterior=1 breathy=1 consonantal=1 labial=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+m̥,anterior=1 consonantal=1 labial=1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+m̩,anterior=1 consonantal=1 labial=1 nasal=1 syllabic=1 voice=1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+n,anterior=1 consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+nm,anterior=1 consonantal=1 coronal=1 distributed=-1 labial=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+nʲ,atr=1 consonantal=1 distributed=-1 dorsal=1 nasal=1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+nː,anterior=1 consonantal=1 coronal=1 distributed=-1 length=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+nːː,anterior=1 consonantal=1 coronal=1 distributed=-1 length=2 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+nˤ,anterior=1 atr=-1 consonantal=1 coronal=1 distributed=-1 nasal=1 pharyngeal=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+n̂,consonantal=1 coronal=1 dorsal=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ñ,consonantal=1 coronal=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+n̊,anterior=1 consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ṇ,anterior=1 consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+n̥,anterior=1 consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+n̩,anterior=1 consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+n̪,anterior=1 consonantal=1 coronal=1 distributed=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+n̪ˠ,anterior=1 atr=-1 consonantal=1 coronal=1 distributed=1 dorsal=1 nasal=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+n̰,anterior=1 consonantal=1 coronal=1 creaky=1 distributed=-1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,1,1,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+n̻,anterior=1 consonantal=1 coronal=1 distributed=-1 laminal=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+n̼,consonantal=1 coronal=1 labial=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+o,back=1 consonantal=-1 high=1 low=-1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+oː,back=1 consonantal=-1 high=1 length=1 low=-1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+oːː,back=1 consonantal=-1 high=1 length=2 low=-1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+oˑ,back=1 consonantal=-1 high=1 length=0 low=-1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+oˤ,atr=-1 back=1 consonantal=-1 high=1 low=-1 pharyngeal=1 round=1 syllabic=1,0,0,-1,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+õ,back=1 consonantal=-1 high=1 low=-1 nasal=1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+õː,back=1 consonantal=-1 high=1 length=1 low=-1 nasal=1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ŏ,back=1 consonantal=-1 high=1 length=-2 low=-1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,-2,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+o̞,back=1 consonantal=-1 high=0 low=0 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+o̞ː,back=1 consonantal=-1 high=0 length=1 low=0 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+õ̞,back=1 consonantal=-1 high=0 low=0 nasal=1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+õ̞ː,back=1 consonantal=-1 high=0 length=1 low=0 nasal=1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+o̤,back=1 breathy=1 consonantal=-1 high=1 low=-1 round=1 syllabic=1,0,0,0,1,1,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+o̤ːː,back=1 breathy=1 consonantal=-1 high=1 length=2 low=-1 round=1 syllabic=1,0,0,0,1,1,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+o̥,back=1 consonantal=-1 high=1 low=-1 round=1 syllabic=1 voice=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,-1
+o̯,back=1 consonantal=-1 high=1 low=-1 round=1 syllabic=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
+o̰,back=1 consonantal=-1 creaky=1 high=1 low=-1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+p,anterior=1 consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+pf,consonantal=1 continuant=-1 labial=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+pfʰ,consonantal=1 continuant=-1 labial=1 spread=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+pfʼ,consonantal=1 constricted=1 continuant=-1 labial=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ph,anterior=1 consonantal=1 continuant=-1 labial=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+pk,anterior=1 consonantal=1 continuant=-1 dorsal=1 labial=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+pt,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 labial=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+pɸ,anterior=1 consonantal=1 continuant=-1 labial=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+pʰ,anterior=1 consonantal=1 continuant=-1 labial=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+pʰː,anterior=1 consonantal=1 continuant=-1 labial=1 length=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+pʲ,anterior=1 atr=1 consonantal=1 continuant=-1 dorsal=1 labial=1 syllabic=-1 voice=-1,1,0,1,0,0,0,0,1,0,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+pʲʰ,anterior=1 atr=1 consonantal=1 continuant=-1 dorsal=1 labial=1 spread=1 syllabic=-1 voice=-1,1,0,1,0,0,0,0,1,0,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+pʷ,consonantal=1 continuant=-1 labial=1 round=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+pʼ,anterior=1 consonantal=1 constricted=1 continuant=-1 labial=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+pː,anterior=1 consonantal=1 continuant=-1 labial=1 length=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+pːʰ,anterior=1 consonantal=1 continuant=-1 labial=1 length=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+pːː,anterior=1 consonantal=1 continuant=-1 labial=1 length=2 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+pˠ,anterior=1 atr=-1 consonantal=1 continuant=-1 dorsal=1 labial=1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+p̚,anterior=1 consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+p̪,consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+p̬,anterior=1 consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+pᶠ,consonantal=1 continuant=-1 labial=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+pᶲ,anterior=1 consonantal=1 continuant=-1 labial=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+q,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+qʰ,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+qʰʷ,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 round=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+qʷ,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 round=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+qʷʰ,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 round=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+qʷʼ,consonantal=1 constricted=1 continuant=-1 dorsal=1 pharyngeal=1 round=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+qʼ,consonantal=1 constricted=1 continuant=-1 dorsal=1 pharyngeal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+qʼʷ,consonantal=1 constricted=1 continuant=-1 dorsal=1 pharyngeal=1 round=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+qʼ↓,consonantal=1 constricted=1 dorsal=1 pharyngeal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+q̚,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+qχ,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+qᵡ,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+r,anterior=1 consonantal=1 coronal=1 distributed=-1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+rʲ,atr=1 consonantal=1 distributed=-1 dorsal=1 syllabic=-1 trilled=1 vibrant=1 voice=1,0,0,1,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+rː,anterior=1 consonantal=1 coronal=1 distributed=-1 length=1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+rːː,anterior=1 consonantal=1 coronal=1 distributed=-1 length=2 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+rːˤ,anterior=1 atr=-1 consonantal=1 coronal=1 distributed=-1 length=1 pharyngeal=1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,-1,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+rˤ,anterior=1 atr=-1 consonantal=1 coronal=1 distributed=-1 pharyngeal=1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,-1,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+rˤː,anterior=1 atr=-1 consonantal=1 coronal=1 distributed=-1 length=1 pharyngeal=1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,-1,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+r̃,anterior=1 consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+r̠̙,anterior=1 atr=-1 consonantal=1 coronal=1 distributed=-1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,-1,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+ṛ,consonantal=1 coronal=1 distributed=-1 syllabic=-1 trilled=1 vibrant=1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+r̥,anterior=1 consonantal=1 coronal=1 distributed=-1 syllabic=-1 trilled=1 vibrant=1 voice=-1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,-1
+r̩,anterior=1 consonantal=1 coronal=1 distributed=-1 syllabic=1 trilled=1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1
+r̪,anterior=1 consonantal=1 coronal=1 distributed=1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+r̪ː,anterior=1 consonantal=1 coronal=1 distributed=1 length=1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+r̪ˤ,anterior=1 atr=-1 consonantal=1 coronal=1 distributed=1 pharyngeal=1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,-1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+r̪̥,anterior=1 consonantal=1 coronal=1 distributed=1 syllabic=-1 trilled=1 vibrant=1 voice=-1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,-1
+r̼,consonantal=1 coronal=1 labial=1 syllabic=-1 trilled=1 vibrant=1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+s,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+sʲ,atr=1 consonantal=1 continuant=1 distributed=-1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+sʼ,anterior=1 consonantal=1 constricted=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+sː,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 length=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+sːː,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 length=2 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+sˠ,anterior=1 atr=-1 consonantal=1 continuant=1 coronal=1 distributed=-1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+s̙,anterior=1 atr=-1 consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+s̙ˀ,anterior=1 atr=-1 consonantal=1 constricted=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,1,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+s̩,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,1,0,0,0,0,0,0,0,0,-1
+s̪,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+s̪ʲ,anterior=1 atr=1 consonantal=1 continuant=1 coronal=1 distributed=1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,1,0,0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+s̪ʼ,anterior=1 consonantal=1 constricted=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+s̪ˠ,anterior=1 atr=-1 consonantal=1 continuant=1 coronal=1 distributed=1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+s̫,anterior=1 atr=-1 consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 strident=1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,1,-1,0,0,0,0,0,0,0,0,-1
+s̬,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+s̻,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 laminal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+t,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+th,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+tk,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 dorsal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+tp,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 labial=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ts,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tsʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 spread=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+tsʲ,atr=1 consonantal=1 continuant=-1 distributed=-1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,-1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tsʼ,anterior=1 consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tsː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ts̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ts̪ʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 spread=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+ts̪ʲ,anterior=1 atr=1 consonantal=1 continuant=-1 coronal=1 distributed=1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,1,0,0,0,0,1,0,-1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ts̪ʼ,anterior=1 consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ts̪ː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ts̫,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tɕ,consonantal=1 continuant=-1 coronal=1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tɕʰ,consonantal=1 continuant=-1 coronal=1 dorsal=1 sibilant=1 spread=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+tɕː,consonantal=1 continuant=-1 coronal=1 dorsal=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tɬ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tɬʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 spread=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+tɬʼ,anterior=1 consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=-1 lateral=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tɬ̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 lateral=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tɬ̪ʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 lateral=1 spread=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+tɬ̪ʼ,anterior=1 consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=1 lateral=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,-1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tɹ̠̊˔,consonantal=1 continuant=-1 coronal=1 distributed=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tʂ,consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tʂʰ,consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 spread=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+tʃ,consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tʃʰ,consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 spread=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+tʃʲ,atr=1 consonantal=1 continuant=-1 distributed=1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,-1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tʃʷ,consonantal=1 continuant=-1 coronal=1 distributed=1 round=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tʃʼ,consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tʃʼː,consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tʃː,consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+tʰʷ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 round=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+tʲ,atr=1 consonantal=1 continuant=-1 distributed=-1 dorsal=1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,-1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+tʲʰ,atr=1 consonantal=1 continuant=-1 distributed=-1 dorsal=1 spread=1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,-1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+tʷ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 round=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+tʷʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 round=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+tʼ,anterior=1 consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+tː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+tːs,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tːs̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tːɕ,consonantal=1 continuant=-1 coronal=1 dorsal=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tːʃ,consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tːʃʼ,consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tːː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=2 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+tˢ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tˤ,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=-1 pharyngeal=1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̂,consonantal=1 continuant=-1 coronal=1 dorsal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̚,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̠,consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̠ʃ,consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̠ʃʰ,consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 spread=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+t̠ʃʷ,consonantal=1 continuant=-1 coronal=1 distributed=1 round=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̠ʃʼ,consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̠ʃʼː,consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̠ʃː,consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̠ʃ̫,atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,-1,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̪s̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̪s̪ʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 spread=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+t̪s̪ʲ,anterior=1 atr=1 consonantal=1 continuant=-1 coronal=1 distributed=1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,1,0,0,0,0,1,0,-1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̪s̪ʼ,anterior=1 consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̪s̪ː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̪ɬ̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 lateral=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̪ɬ̪ʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 lateral=1 spread=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+t̪ɬ̪ʼ,anterior=1 consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=1 lateral=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,-1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̪ʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+t̪ʰː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+t̪ʲ,anterior=1 atr=1 consonantal=1 continuant=-1 coronal=1 distributed=1 dorsal=1 syllabic=-1 voice=-1,1,0,1,0,0,0,0,1,0,-1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̪ʲʰ,anterior=1 atr=1 consonantal=1 continuant=-1 coronal=1 distributed=1 dorsal=1 spread=1 syllabic=-1 voice=-1,1,0,1,0,0,0,0,1,0,-1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+t̪ʷ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 round=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̪ʷʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 round=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+t̪ʼ,anterior=1 consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̪ː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̪ːs̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̪ːʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 length=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+t̪ˠ,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=1 dorsal=1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,-1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̪ˤ,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=1 pharyngeal=1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̪̙,anterior=1 atr=-1 consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̪̚,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̪θ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+t̪ⁿ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+t̬,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+t̼,consonantal=1 continuant=-1 coronal=1 labial=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+tθ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tθ̠,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tθ͇,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tᶝ,consonantal=1 continuant=-1 coronal=1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tᶳ,consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tᶴ,consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tᶿ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+tⁿ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+u,back=1 consonantal=-1 high=1 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+uː,back=1 consonantal=-1 high=1 length=1 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+uːː,back=1 consonantal=-1 high=1 length=2 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+uˑ,back=1 consonantal=-1 high=1 length=0 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ũ,back=1 consonantal=-1 high=1 nasal=1 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ũː,back=1 consonantal=-1 high=1 length=1 nasal=1 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ṳ,back=1 breathy=1 consonantal=-1 high=1 round=1 syllabic=1 tense=1,0,0,0,1,1,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ṳːː,back=1 breathy=1 consonantal=-1 high=1 length=2 round=1 syllabic=1 tense=1,0,0,0,1,1,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+u̥,back=1 consonantal=-1 high=1 round=1 syllabic=1 tense=1 voice=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,-1
+ṵ,back=1 consonantal=-1 creaky=1 high=1 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+v,consonantal=1 continuant=1 labial=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+vʲ,atr=1 consonantal=1 continuant=1 distributed=1 dorsal=1 sonorant=-1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+vː,consonantal=1 continuant=1 labial=1 length=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+vːː,consonantal=1 continuant=1 labial=1 length=2 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+v̆,consonantal=1 labial=1 syllabic=-1 vibrant=1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+v̥,consonantal=1 continuant=1 labial=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+v̩,consonantal=1 continuant=1 labial=1 sonorant=-1 syllabic=1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,0,0,0,1
+w,approximant=1 consonantal=1 dorsal=1 labial=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+wː,approximant=1 consonantal=1 dorsal=1 labial=1 length=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+wˠ,approximant=1 consonantal=1 retracted=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+w̃,approximant=1 consonantal=1 dorsal=1 labial=1 nasal=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+x,consonantal=1 continuant=1 dorsal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+xʀ̥,consonantal=1 continuant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+xʲ,atr=1 consonantal=1 continuant=1 dorsal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+xʷ,consonantal=1 continuant=1 distributed=-1 dorsal=1 labial=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+xʼ,consonantal=1 constricted=1 continuant=1 dorsal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ẋ,consonantal=1 continuant=1 dorsal=1 pharyngeal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+y,back=-1 consonantal=-1 high=1 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+yː,back=-1 consonantal=-1 high=1 length=1 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+yːː,back=-1 consonantal=-1 high=1 length=2 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+yˑ,back=-1 consonantal=-1 high=1 length=0 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ỹ,back=-1 consonantal=-1 high=1 nasal=1 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ỹː,back=-1 consonantal=-1 high=1 length=1 nasal=1 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+z,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+zʲ,atr=1 consonantal=1 continuant=1 distributed=-1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+z̥,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+z̩,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,1,0,0,0,0,0,0,0,0,1
+z̪,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+z̪̥,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+z̫,anterior=1 atr=-1 consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 strident=1 syllabic=-1 voice=1,1,0,-1,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,1,-1,0,0,0,0,0,0,0,0,1
+z̰,anterior=1 consonantal=1 continuant=1 coronal=1 creaky=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+z̻,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 laminal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+²,length=-1 tone_level=0 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,0
+²²,tone_contour=0 tone_end=-0.5 tone_level=0 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,-0.5,0,0,0
+²²³,tone_contour=1 tone_end=0 tone_level=0 tone_peak=-0.5 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-0.5,-0.5,0,0,0
+²²¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_peak=-0.5 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,-0.5,-0.5,0,0,0
+²²⁴,tone_contour=1 tone_end=0.5 tone_level=0 tone_peak=-0.5 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.5,0,-0.5,-0.5,0,0,0
+²²⁵,tone_contour=1 tone_end=1 tone_level=0 tone_peak=-0.5 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,-0.5,-0.5,0,0,0
+²³,tone_contour=1 tone_end=0 tone_level=0 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-0.5,0,0,0
+²³²,tone_end=-0.5 tone_level=0 tone_peak=0 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,-0.5,0,0,0
+²³³,tone_contour=1 tone_end=0 tone_level=0 tone_peak=0 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-0.5,0,0,0
+²³¹,tone_end=-1 tone_level=0 tone_peak=0 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-0.5,0,0,0
+²¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,-0.5,0,0,0
+²¹²,tone_end=-0.5 tone_level=0 tone_peak=-1 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,-1,-0.5,0,0,0
+²¹³,tone_end=0 tone_level=0 tone_peak=-1 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-0.5,0,0,0
+²¹¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_peak=-1 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,-1,-0.5,0,0,0
+²¹⁴,tone_end=0.5 tone_level=0 tone_peak=-1 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,-1,-0.5,0,0,0
+²¹⁵,tone_end=1 tone_level=0 tone_peak=-1 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,-0.5,0,0,0
+²⁴,tone_contour=1 tone_end=0.5 tone_level=0 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.5,0,0,-0.5,0,0,0
+²⁴²,tone_end=-0.5 tone_level=0 tone_peak=0.5 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0.5,-0.5,0,0,0
+²⁴³,tone_end=0 tone_level=0 tone_peak=0.5 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,-0.5,0,0,0
+²⁴¹,tone_end=-1 tone_level=0 tone_peak=0.5 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0.5,-0.5,0,0,0
+²⁴⁴,tone_contour=1 tone_end=0.5 tone_level=0 tone_peak=0.5 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.5,0,0.5,-0.5,0,0,0
+²⁵,tone_contour=1 tone_end=1 tone_level=0 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,-0.5,0,0,0
+²⁵²,tone_end=-0.5 tone_level=0 tone_peak=1 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,1,-0.5,0,0,0
+²⁵³,tone_end=0 tone_level=0 tone_peak=1 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-0.5,0,0,0
+²⁵¹,tone_end=-1 tone_level=0 tone_peak=1 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,1,-0.5,0,0,0
+²⁵⁴,tone_end=0.5 tone_level=0 tone_peak=1 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,1,-0.5,0,0,0
+²⁵⁵,tone_contour=1 tone_end=1 tone_level=0 tone_peak=1 tone_start=-0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,-0.5,0,0,0
+³,length=-1 tone_level=0 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+³²,tone_contour=-1 tone_end=-0.5 tone_level=0 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-0.5,0,0,0,0,0,0
+³²²,tone_contour=-1 tone_end=-0.5 tone_level=0 tone_peak=-0.5 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-0.5,0,-0.5,0,0,0,0
+³²³,tone_end=0 tone_level=0 tone_peak=-0.5 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,0,0
+³²⁴,tone_end=0.5 tone_level=0 tone_peak=-0.5 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,-0.5,0,0,0,0
+³²⁵,tone_end=1 tone_level=0 tone_peak=-0.5 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-0.5,0,0,0,0
+³³,tone_contour=0 tone_end=0 tone_level=0 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+³³²,tone_contour=-1 tone_end=-0.5 tone_level=0 tone_peak=0 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-0.5,0,0,0,0,0,0
+³³¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_peak=0 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+³³⁴,tone_contour=1 tone_end=0.5 tone_level=0 tone_peak=0 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.5,0,0,0,0,0,0
+³³⁵,tone_contour=1 tone_end=1 tone_level=0 tone_peak=0 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+³¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0
+³¹²,tone_end=-0.5 tone_level=0 tone_peak=-1 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,-1,0,0,0,0
+³¹³,tone_end=0 tone_level=0 tone_peak=-1 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0
+³¹¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_peak=-1 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,-1,0,0,0,0
+³¹⁴,tone_end=0.5 tone_level=0 tone_peak=-1 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,-1,0,0,0,0
+³¹⁵,tone_end=1 tone_level=0 tone_peak=-1 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0
+³⁴,tone_contour=1 tone_end=0.5 tone_level=0 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.5,0,0,0,0,0,0
+³⁴²,tone_end=-0.5 tone_level=0 tone_peak=0.5 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0.5,0,0,0,0
+³⁴³,tone_end=0 tone_level=0 tone_peak=0.5 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0,0
+³⁴¹,tone_end=-1 tone_level=0 tone_peak=0.5 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0.5,0,0,0,0
+³⁴⁴,tone_contour=1 tone_end=0.5 tone_level=0 tone_peak=0.5 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.5,0,0.5,0,0,0,0
+³⁴⁵,tone_end=1 tone_level=0 tone_peak=0.5 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.5,0,0,0,0
+³⁵,tone_contour=1 tone_end=1 tone_level=0 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+³⁵²,tone_end=-0.5 tone_level=0 tone_peak=1 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,1,0,0,0,0
+³⁵³,tone_end=0 tone_level=0 tone_peak=1 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+³⁵¹,tone_end=-1 tone_level=0 tone_peak=1 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,1,0,0,0,0
+³⁵⁴,tone_end=0.5 tone_level=0 tone_peak=1 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,1,0,0,0,0
+³⁵⁵,tone_contour=1 tone_end=1 tone_level=0 tone_peak=1 tone_start=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0
+¹,length=-1 tone_level=0 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0
+¹²,tone_contour=1 tone_end=-0.5 tone_level=0 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-0.5,0,0,-1,0,0,0
+¹²²,tone_contour=1 tone_end=-0.5 tone_level=0 tone_peak=-0.5 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-0.5,0,-0.5,-1,0,0,0
+¹²¹,tone_end=-1 tone_level=0 tone_peak=-0.5 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-0.5,-1,0,0,0
+¹³,tone_contour=1 tone_end=0 tone_level=0 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-1,0,0,0
+¹³²,tone_end=-0.5 tone_level=0 tone_peak=0 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0,-1,0,0,0
+¹³³,tone_contour=1 tone_end=0 tone_level=0 tone_peak=0 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-1,0,0,0
+¹³¹,tone_end=-1 tone_level=0 tone_peak=0 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0
+¹¹,tone_contour=0 tone_end=-1 tone_level=0 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0
+¹¹²,tone_contour=1 tone_end=-0.5 tone_level=0 tone_peak=-1 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-0.5,0,-1,-1,0,0,0
+¹¹³,tone_contour=1 tone_end=0 tone_level=0 tone_peak=-1 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,-1,0,0,0
+¹¹⁴,tone_contour=1 tone_end=0.5 tone_level=0 tone_peak=-1 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.5,0,-1,-1,0,0,0
+¹¹⁵,tone_contour=1 tone_end=1 tone_level=0 tone_peak=-1 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,-1,-1,0,0,0
+¹⁴,tone_contour=1 tone_end=0.5 tone_level=0 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.5,0,0,-1,0,0,0
+¹⁴²,tone_end=-0.5 tone_level=0 tone_peak=0.5 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,0.5,-1,0,0,0
+¹⁴³,tone_end=0 tone_level=0 tone_peak=0.5 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,-1,0,0,0
+¹⁴¹,tone_end=-1 tone_level=0 tone_peak=0.5 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0.5,-1,0,0,0
+¹⁴⁴,tone_contour=1 tone_end=0.5 tone_level=0 tone_peak=0.5 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.5,0,0.5,-1,0,0,0
+¹⁵,tone_contour=1 tone_end=1 tone_level=0 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,-1,0,0,0
+¹⁵²,tone_end=-0.5 tone_level=0 tone_peak=1 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,1,-1,0,0,0
+¹⁵³,tone_end=0 tone_level=0 tone_peak=1 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0
+¹⁵¹,tone_end=-1 tone_level=0 tone_peak=1 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,1,-1,0,0,0
+¹⁵⁴,tone_end=0.5 tone_level=0 tone_peak=1 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,1,-1,0,0,0
+¹⁵⁵,tone_contour=1 tone_end=1 tone_level=0 tone_peak=1 tone_start=-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,-1,0,0,0
+æ,back=-1 consonantal=-1 low=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+æː,back=-1 consonantal=-1 length=1 low=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+æːː,back=-1 consonantal=-1 length=2 low=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+æˑ,back=-1 consonantal=-1 length=0 low=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+æ̃,back=-1 consonantal=-1 low=1 nasal=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+æ̃ː,back=-1 consonantal=-1 length=1 low=1 nasal=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+æ̤ːː,back=-1 breathy=1 consonantal=-1 length=2 low=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+æ̰,back=-1 consonantal=-1 creaky=1 low=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ð,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ðː,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 length=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ð̙,anterior=1 atr=-1 consonantal=1 continuant=1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ð̙ˀ,anterior=1 atr=-1 consonantal=1 constricted=1 continuant=1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=-1,1,0,-1,0,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ð̚,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ð̞,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ð̠,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ð̼,consonantal=1 continuant=1 coronal=1 labial=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ø,back=-1 consonantal=-1 high=1 low=-1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+øː,back=-1 consonantal=-1 high=1 length=1 low=-1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+øːː,back=-1 consonantal=-1 high=1 length=2 low=-1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+øˑ,back=-1 consonantal=-1 high=1 length=0 low=-1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ø̃,back=-1 consonantal=-1 high=1 low=-1 nasal=1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ø̃ː,back=-1 consonantal=-1 high=1 length=1 low=-1 nasal=1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ø̞,back=-1 consonantal=-1 high=0 low=0 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ø̞ː,back=-1 consonantal=-1 high=0 length=1 low=0 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ø̞̃,back=-1 consonantal=-1 high=0 low=0 nasal=1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ø̞̃ː,back=-1 consonantal=-1 high=0 length=1 low=0 nasal=1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ħ,consonantal=1 continuant=1 pharyngeal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ,consonantal=1 dorsal=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋgǀ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋgǀǀ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋgǁ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋgǂ,click=1 consonantal=1 continuant=-1 coronal=1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋgǃ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 nasal=1 prenasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋgǃǃ,click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋgʘ,click=1 consonantal=1 continuant=-1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋm,consonantal=1 constricted=1 dorsal=1 labial=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋǀ,anterior=1 click=1 consonantal=1 coronal=1 distributed=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋǀǀ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 lateral=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋǁ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 lateral=1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋǂ,click=1 consonantal=1 coronal=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋǃ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋǃǃ,click=1 consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋʘ,click=1 consonantal=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋʷ,consonantal=1 distributed=-1 dorsal=1 labial=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,-1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋː,consonantal=1 dorsal=1 length=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ŋ̊,consonantal=1 dorsal=1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ̊ǀ,anterior=1 click=1 consonantal=1 coronal=1 distributed=1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ̊ǀǀ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 lateral=1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ̊ǁ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 lateral=1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ̊ǂ,click=1 consonantal=1 coronal=1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ̊ǃ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ̊ǃǃ,click=1 consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ̊ʘ,click=1 consonantal=1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ̍,consonantal=1 dorsal=1 nasal=1 syllabic=1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+ŋ̥,consonantal=1 dorsal=1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ̥m̥,anterior=1 consonantal=1 dorsal=1 labial=1 nasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ŋ̩,consonantal=1 dorsal=1 nasal=1 syllabic=1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+œ,back=-1 consonantal=-1 high=-1 low=1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+œː,back=-1 consonantal=-1 high=-1 length=1 low=1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+œ̃,back=-1 consonantal=-1 high=-1 low=1 nasal=1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+œ̃ː,back=-1 consonantal=-1 high=-1 length=1 low=1 nasal=1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ƛ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ƫ,atr=1 consonantal=1 continuant=-1 distributed=-1 dorsal=1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,-1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ǀ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,1,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ǁ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ǂ,click=1 consonantal=1 continuant=-1 coronal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ǃ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ǃǃ,click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ȡ,consonantal=1 continuant=-1 coronal=1 dorsal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ȴ,approximant=1 consonantal=1 coronal=1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ȵ,consonantal=1 coronal=1 dorsal=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ȵ̊,consonantal=1 coronal=1 dorsal=1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ȵ̥,consonantal=1 coronal=1 dorsal=1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ȶ,consonantal=1 continuant=-1 coronal=1 dorsal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ȸ,consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ȹ,consonantal=1 continuant=-1 labial=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɐ,centralized=1 consonantal=-1 low=1 round=-1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɐː,centralized=1 consonantal=-1 length=1 low=1 round=-1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɐ̃,centralized=1 consonantal=-1 low=1 nasal=1 round=-1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɐ̃ː,centralized=1 consonantal=-1 length=1 low=1 nasal=1 round=-1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɐ̯,centralized=1 consonantal=-1 low=1 round=-1 syllabic=-1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,-1,-1,0,0,0,0,0,0,0,0
+ɐ̹,centralized=1 consonantal=-1 low=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɐ̹ː,centralized=1 consonantal=-1 length=1 low=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɑ,back=1 consonantal=-1 low=1 round=-1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɑː,back=1 consonantal=-1 length=1 low=1 round=-1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɑːː,back=1 consonantal=-1 length=2 low=1 round=-1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɑ̃,back=1 consonantal=-1 low=1 nasal=1 round=-1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɑ̃ː,back=1 consonantal=-1 length=1 low=1 nasal=1 round=-1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɑ̟,atr=1 back=1 consonantal=-1 low=1 round=-1 syllabic=1 tense=1,0,0,1,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɒ,back=1 consonantal=-1 low=1 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɒː,back=1 consonantal=-1 length=1 low=1 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɒ̃,back=1 consonantal=-1 low=1 nasal=1 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɒ̃ː,back=1 consonantal=-1 length=1 low=1 nasal=1 round=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɓ,anterior=1 consonantal=1 constricted=1 labial=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɓʲ,anterior=1 atr=1 consonantal=1 constricted=1 dorsal=1 labial=1 syllabic=-1 voice=1,1,0,1,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɔ,back=1 consonantal=-1 high=-1 low=1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɔː,back=1 consonantal=-1 high=-1 length=1 low=1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɔːː,back=1 consonantal=-1 high=-1 length=2 low=1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,2,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɔ̃,back=1 consonantal=-1 high=-1 low=1 nasal=1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɔ̃ː,back=1 consonantal=-1 high=-1 length=1 low=1 nasal=1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɔ̑,back=1 consonantal=-1 high=-1 low=1 round=1 syllabic=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
+ɔ̞̈,centralized=1 consonantal=-1 low=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɔ̞̈ː,centralized=1 consonantal=-1 length=1 low=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɔ̤ːː,back=1 breathy=1 consonantal=-1 high=-1 length=2 low=1 round=1 syllabic=1,0,0,0,1,1,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,2,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɔ̯,back=1 consonantal=-1 high=-1 low=1 round=1 syllabic=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
+ɔ̰,back=1 consonantal=-1 creaky=1 high=-1 low=1 round=1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɕ,consonantal=1 continuant=1 coronal=1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɖ,consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɖɻ̝,consonantal=1 continuant=-1 coronal=1 distributed=-1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ɖʐ,consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ɖʐː,consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ɖʱ,breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=1,0,0,0,0,1,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɖːʐ,consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ɖ̤,breathy=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=1,0,0,0,0,1,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɖᶼ,consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ɗ,anterior=1 consonantal=1 constricted=1 coronal=1 distributed=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɗ̥,anterior=1 consonantal=1 constricted=1 coronal=1 distributed=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɗ̼,consonantal=1 constricted=1 coronal=1 labial=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɘ,centralized=1 consonantal=-1 high=1 low=-1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɘː,centralized=1 consonantal=-1 high=1 length=1 low=-1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɘ̃,centralized=1 consonantal=-1 high=1 low=-1 nasal=1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɘ̃ː,centralized=1 consonantal=-1 high=1 length=1 low=-1 nasal=1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ə,centralized=1 consonantal=-1 high=0 low=0 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+əː,centralized=1 consonantal=-1 high=0 length=1 low=0 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+əːː,centralized=1 consonantal=-1 high=0 length=2 low=0 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ə˞,centralized=1 consonantal=-1 high=0 low=0 rhotacized=1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ə̃,centralized=1 consonantal=-1 high=0 low=0 nasal=1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ə̃ː,centralized=1 consonantal=-1 high=0 length=1 low=0 nasal=1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ə̆,centralized=1 consonantal=-1 high=0 length=-2 low=0 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,-2,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ə̤ːː,breathy=1 centralized=1 consonantal=-1 high=0 length=2 low=0 round=-1 syllabic=1,0,0,0,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ə̰,centralized=1 consonantal=-1 creaky=1 high=0 low=0 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɛ,back=-1 consonantal=-1 high=-1 low=1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɛː,back=-1 consonantal=-1 high=-1 length=1 low=1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɛːː,back=-1 consonantal=-1 high=-1 length=2 low=1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɛ̃,back=-1 consonantal=-1 high=-1 low=1 nasal=1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɛ̃ː,back=-1 consonantal=-1 high=-1 length=1 low=1 nasal=1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɛ̑,back=-1 consonantal=-1 high=-1 low=1 round=-1 syllabic=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
+ɛ̤ːː,back=-1 breathy=1 consonantal=-1 high=-1 length=2 low=1 round=-1 syllabic=1,0,0,0,-1,1,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɛ̯,back=-1 consonantal=-1 high=-1 low=1 round=-1 syllabic=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
+ɛ̰,back=-1 consonantal=-1 creaky=1 high=-1 low=1 round=-1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɛ̹̃,back=-1 consonantal=-1 high=-1 low=1 nasal=1 round=1 syllabic=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɜ,centralized=1 consonantal=-1 high=-1 low=1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɜː,centralized=1 consonantal=-1 high=-1 length=1 low=1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɜ̃,centralized=1 consonantal=-1 high=-1 low=1 nasal=1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɜ̃ː,centralized=1 consonantal=-1 high=-1 length=1 low=1 nasal=1 round=-1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɞ,centralized=1 consonantal=-1 high=-1 low=1 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɞː,centralized=1 consonantal=-1 high=-1 length=1 low=1 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɞ̃,centralized=1 consonantal=-1 high=-1 low=1 nasal=1 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɞ̃ː,centralized=1 consonantal=-1 high=-1 length=1 low=1 nasal=1 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɞ̞,centralized=1 consonantal=-1 low=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɞ̞ː,centralized=1 consonantal=-1 length=1 low=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɞ̞̃,centralized=1 consonantal=-1 low=1 nasal=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɞ̞̃ː,centralized=1 consonantal=-1 length=1 low=1 nasal=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɟ,consonantal=1 continuant=-1 coronal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɟʝ,consonantal=1 continuant=-1 coronal=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ɠ,consonantal=1 constricted=1 dorsal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɠɓ,consonantal=1 constricted=1 dorsal=1 labial=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɡ̤,breathy=1 consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=1,0,0,0,0,1,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɢ,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɢʁ,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ɢʰ,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 spread=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,1
+ɢʶ,consonantal=1 continuant=-1 dorsal=1 pharyngeal=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ɣ,consonantal=1 continuant=1 dorsal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɣʷ,consonantal=1 continuant=1 distributed=-1 dorsal=1 labial=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɣ̊,consonantal=1 continuant=1 dorsal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɣ̥,consonantal=1 continuant=1 dorsal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɤ,back=1 consonantal=-1 high=1 low=-1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɤː,back=1 consonantal=-1 high=1 length=1 low=-1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɤːː,back=1 consonantal=-1 high=1 length=2 low=-1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɤ̃,back=1 consonantal=-1 high=1 low=-1 nasal=1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɤ̃ː,back=1 consonantal=-1 high=1 length=1 low=-1 nasal=1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɤ̆,back=1 consonantal=-1 high=1 length=-2 low=-1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,-2,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɤ̑,back=1 consonantal=-1 high=1 low=-1 round=-1 syllabic=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
+ɤ̞,back=1 consonantal=-1 high=0 low=0 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɤ̞ː,back=1 consonantal=-1 high=0 length=1 low=0 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɤ̞̃,back=1 consonantal=-1 high=0 low=0 nasal=1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɤ̞̃ː,back=1 consonantal=-1 high=0 length=1 low=0 nasal=1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɤ̯,back=1 consonantal=-1 high=1 low=-1 round=-1 syllabic=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
+ɥ,approximant=1 consonantal=1 coronal=1 labial=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɦ,consonantal=1 continuant=1 glottal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɧ,consonantal=1 continuant=1 coronal=1 distributed=1 dorsal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɨ,centralized=1 consonantal=-1 high=1 round=-1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɨː,centralized=1 consonantal=-1 high=1 length=1 round=-1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɨ̃,centralized=1 consonantal=-1 high=1 nasal=1 round=-1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɨ̃ː,centralized=1 consonantal=-1 high=1 length=1 nasal=1 round=-1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɪ,back=-1 consonantal=-1 high=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɪː,back=-1 consonantal=-1 high=1 length=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɪːː,back=-1 consonantal=-1 high=1 length=2 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɪ̃,back=-1 consonantal=-1 high=1 nasal=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɪ̃ː,back=-1 consonantal=-1 high=1 length=1 nasal=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɪ̈,centralized=1 consonantal=-1 high=1 round=-1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɪ̈ː,centralized=1 consonantal=-1 high=1 length=1 round=-1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɪ̈̃,centralized=1 consonantal=-1 high=1 nasal=1 round=-1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɪ̈̃ː,centralized=1 consonantal=-1 high=1 length=1 nasal=1 round=-1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɪ̥,back=-1 consonantal=-1 high=1 round=-1 syllabic=1 tense=-1 voice=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,-1
+ɪ̯,back=-1 consonantal=-1 high=1 round=-1 syllabic=-1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,-1,-1,0,0,0,0,0,0,0,0
+ɪ̰,back=-1 consonantal=-1 creaky=1 high=1 round=-1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɪ̹,back=-1 consonantal=-1 high=1 round=1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɫ,anterior=1 approximant=1 atr=-1 consonantal=1 coronal=1 distributed=-1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,1,1,-1,0,0,0,0,1,0,0,1,0,-1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɫ̪,anterior=1 approximant=1 atr=-1 consonantal=1 coronal=1 distributed=1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,1,1,-1,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɬ,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 lateral=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɬʼ,anterior=1 consonantal=1 constricted=1 continuant=1 coronal=1 distributed=-1 lateral=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɬ̪,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 lateral=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɬ̪ʼ,anterior=1 consonantal=1 constricted=1 continuant=1 coronal=1 distributed=1 lateral=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɬ̼,consonantal=1 continuant=1 coronal=1 labial=1 lateral=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɭ,approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɭ̊,approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=-1 voice=-1,0,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɭ̍,approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1
+ɭ̥,approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=-1 voice=-1,0,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɭ̩,approximant=1 consonantal=1 coronal=1 distributed=-1 lateral=1 sonorant=1 syllabic=1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1
+ɮ,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 lateral=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɮ̪,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 lateral=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɮ̼,consonantal=1 continuant=1 coronal=1 labial=1 lateral=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɯ,back=1 consonantal=-1 high=1 round=-1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɯː,back=1 consonantal=-1 high=1 length=1 round=-1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɯ̃,back=1 consonantal=-1 high=1 nasal=1 round=-1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɯ̃ː,back=1 consonantal=-1 high=1 length=1 nasal=1 round=-1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɯ̤,back=1 breathy=1 consonantal=-1 high=1 round=-1 syllabic=1 tense=1,0,0,0,1,1,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɯ̥,back=1 consonantal=-1 high=1 round=-1 syllabic=1 tense=1 voice=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,-1
+ɯ̥̃,back=1 consonantal=-1 high=1 nasal=1 round=-1 syllabic=1 tense=1 voice=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,-1
+ɯ̯,back=1 consonantal=-1 high=1 round=-1 syllabic=-1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,-1,1,0,0,0,0,0,0,0,0
+ɯ̽,back=1 consonantal=-1 high=1 round=-1 syllabic=1 tense=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɯ̽ː,back=1 consonantal=-1 high=1 length=1 round=-1 syllabic=1 tense=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɯ̽̃,back=1 consonantal=-1 high=1 nasal=1 round=-1 syllabic=1 tense=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɯ̽̃ː,back=1 consonantal=-1 high=1 length=1 nasal=1 round=-1 syllabic=1 tense=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,-1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ɰ,approximant=1 consonantal=1 dorsal=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɱ,consonantal=1 labial=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɱ̊,consonantal=1 labial=1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɱ̥,consonantal=1 labial=1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɲ,consonantal=1 coronal=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɲː,consonantal=1 coronal=1 length=1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɲ̊,consonantal=1 coronal=1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɲ̍,consonantal=1 coronal=1 nasal=1 syllabic=1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+ɲ̥,consonantal=1 coronal=1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɲ̩,consonantal=1 coronal=1 nasal=1 syllabic=1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+ɳ,consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɳ̊,consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɳ̍,consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+ɳ̥,consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɳ̩,consonantal=1 coronal=1 distributed=-1 nasal=1 syllabic=1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+ɴ,consonantal=1 dorsal=1 nasal=1 pharyngeal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ɴ̥,consonantal=1 dorsal=1 nasal=1 pharyngeal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɴ̩,consonantal=1 dorsal=1 nasal=1 pharyngeal=1 syllabic=1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+ɵ,centralized=1 consonantal=-1 high=1 low=-1 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɵː,centralized=1 consonantal=-1 high=1 length=1 low=-1 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɵ̃,centralized=1 consonantal=-1 high=1 low=-1 nasal=1 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɵ̃ː,centralized=1 consonantal=-1 high=1 length=1 low=-1 nasal=1 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,-1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɵ̞,centralized=1 consonantal=-1 high=0 low=0 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɵ̞ː,centralized=1 consonantal=-1 high=0 length=1 low=0 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɵ̞̃,centralized=1 consonantal=-1 high=0 low=0 nasal=1 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɵ̞̃ː,centralized=1 consonantal=-1 high=0 length=1 low=0 nasal=1 round=1 syllabic=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ɶ,back=-1 consonantal=-1 low=1 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɶː,back=-1 consonantal=-1 length=1 low=1 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɶ̃,back=-1 consonantal=-1 low=1 nasal=1 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɶ̃ː,back=-1 consonantal=-1 length=1 low=1 nasal=1 round=1 syllabic=1 tense=1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ɸ,anterior=1 consonantal=1 continuant=1 labial=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɹ,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=-1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɹ̠,approximant=1 consonantal=1 coronal=1 distributed=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɹ̠˔,consonantal=1 continuant=1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɹ̠̊˔,consonantal=1 continuant=1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɹ̩,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=-1 sonorant=1 syllabic=1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1
+ɹ̪,anterior=1 approximant=1 consonantal=1 coronal=1 distributed=1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɺ,anterior=1 consonantal=1 coronal=1 distributed=-1 lateral=1 syllabic=-1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+ɺ̣,consonantal=1 coronal=1 distributed=-1 lateral=1 syllabic=-1 vibrant=1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+ɺ̪̪,anterior=1 consonantal=1 coronal=1 distributed=1 lateral=1 syllabic=-1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+ɻ,approximant=1 consonantal=1 coronal=1 distributed=-1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɻ̝,consonantal=1 continuant=1 coronal=1 distributed=-1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ɻ̝̊,consonantal=1 continuant=1 coronal=1 distributed=-1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɻ̥,approximant=1 consonantal=1 coronal=1 distributed=-1 sonorant=1 syllabic=-1 voice=-1,0,1,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ɽ,consonantal=1 coronal=1 distributed=-1 syllabic=-1 vibrant=1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+ɽʱ,breathy=1 consonantal=1 coronal=1 distributed=-1 syllabic=-1 vibrant=1 voice=1,0,0,0,0,1,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+ɽ̈,breathy=1 consonantal=1 coronal=1 distributed=-1 syllabic=-1 vibrant=1 voice=1,0,0,0,0,1,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+ɾ,anterior=1 consonantal=1 coronal=1 distributed=-1 syllabic=-1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+ɾ̥,anterior=1 consonantal=1 coronal=1 distributed=-1 syllabic=-1 vibrant=1 voice=-1,1,0,0,0,0,0,0,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,-1
+ɾ̪,anterior=1 consonantal=1 coronal=1 distributed=1 syllabic=-1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+ɾ̼,consonantal=1 coronal=1 labial=1 syllabic=-1 vibrant=1 voice=1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
+ɿ,back=1 consonantal=-1 high=1 round=-1 strident=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+ʀ,consonantal=1 dorsal=1 pharyngeal=1 syllabic=-1 trilled=1 vibrant=1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+ʀ̥,consonantal=1 dorsal=1 pharyngeal=1 syllabic=-1 trilled=1 vibrant=1 voice=-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,-1
+ʁ,consonantal=1 continuant=1 dorsal=1 pharyngeal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʁ̞,approximant=1 consonantal=1 dorsal=1 pharyngeal=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʁ̥,consonantal=1 continuant=1 dorsal=1 pharyngeal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʂ,consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʃ,consonantal=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʃʲ,atr=1 consonantal=1 continuant=1 distributed=1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʃʼ,consonantal=1 constricted=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʃːː,consonantal=1 continuant=1 coronal=1 distributed=1 length=2 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʃ̫,atr=-1 consonantal=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 strident=1 syllabic=-1 voice=-1,0,0,-1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʄ,consonantal=1 constricted=1 coronal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ʅ,centralized=1 consonantal=-1 high=1 round=-1 strident=1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+ʆ,atr=1 consonantal=1 continuant=1 distributed=1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʇ̼,click=1 consonantal=1 continuant=-1 coronal=1 labial=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,-1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʈ,consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʈɻ̝̊,consonantal=1 continuant=-1 coronal=1 distributed=-1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʈʂ,consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʈʂʰ,consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 spread=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,-1,0,0,0,0,0,0,0,0,-1
+ʈʂʼ,consonantal=1 constricted=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʈʰ,consonantal=1 continuant=-1 coronal=1 distributed=-1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+ʈʰː,consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+ʈːʰ,consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 spread=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+ʈ̬,consonantal=1 continuant=-1 coronal=1 distributed=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ʈθ̣,consonantal=1 continuant=-1 coronal=1 distributed=-1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʈᶳ,consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʉ,centralized=1 consonantal=-1 high=1 round=1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ʉː,centralized=1 consonantal=-1 high=1 length=1 round=1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ʉ̃,centralized=1 consonantal=-1 high=1 nasal=1 round=1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ʉ̃ː,centralized=1 consonantal=-1 high=1 length=1 nasal=1 round=1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ʉ̰,centralized=1 consonantal=-1 creaky=1 high=1 round=1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ʊ,back=1 consonantal=-1 high=1 round=1 syllabic=1 tense=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʊː,back=1 consonantal=-1 high=1 length=1 round=1 syllabic=1 tense=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʊ̃,back=1 consonantal=-1 high=1 nasal=1 round=1 syllabic=1 tense=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʊ̃ː,back=1 consonantal=-1 high=1 length=1 nasal=1 round=1 syllabic=1 tense=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʊ̈,centralized=1 consonantal=-1 high=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʊ̈ː,centralized=1 consonantal=-1 high=1 length=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʊ̈̃,centralized=1 consonantal=-1 high=1 nasal=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʊ̈̃ː,centralized=1 consonantal=-1 high=1 length=1 nasal=1 round=1 syllabic=1 tense=-1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʊ̥,back=1 consonantal=-1 high=1 round=1 syllabic=1 tense=-1 voice=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,-1
+ʊ̯,back=1 consonantal=-1 high=1 round=1 syllabic=-1 tense=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,-1,0,0,0,0,0,0,0,0
+ʊ̰,back=1 consonantal=-1 creaky=1 high=1 round=1 syllabic=1 tense=-1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʋ,approximant=1 consonantal=1 labial=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʌ,back=1 consonantal=-1 high=-1 low=1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ʌː,back=1 consonantal=-1 high=-1 length=1 low=1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ʌ̃,back=1 consonantal=-1 high=-1 low=1 nasal=1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ʌ̃ː,back=1 consonantal=-1 high=-1 length=1 low=1 nasal=1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ʌ̆,back=1 consonantal=-1 high=-1 length=-2 low=1 round=-1 syllabic=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,-2,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ʌ̤,back=1 breathy=1 consonantal=-1 high=-1 low=1 round=-1 syllabic=1,0,0,0,1,1,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ʌ̤̃,back=1 breathy=1 consonantal=-1 high=-1 low=1 nasal=1 round=-1 syllabic=1,0,0,0,1,1,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ʌ̯ː,back=1 consonantal=-1 high=-1 length=1 low=1 round=-1 syllabic=-1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,-1,0,0,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
+ʍ,approximant=1 consonantal=1 dorsal=1 labial=1 sonorant=1 syllabic=-1 voice=-1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʎ,approximant=1 consonantal=1 coronal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʎ̟,approximant=1 consonantal=1 coronal=1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʎ̥,approximant=1 consonantal=1 coronal=1 lateral=1 sonorant=1 syllabic=-1 voice=-1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʏ,back=-1 consonantal=-1 high=1 round=1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʏː,back=-1 consonantal=-1 high=1 length=1 round=1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʏ̃,back=-1 consonantal=-1 high=1 nasal=1 round=1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʏ̃ː,back=-1 consonantal=-1 high=1 length=1 nasal=1 round=1 syllabic=1 tense=-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,1,-1,0,0,0,0,0,0,0,0
+ʐ,consonantal=1 continuant=1 coronal=1 distributed=-1 sibilant=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʑ,consonantal=1 continuant=1 coronal=1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʒ,consonantal=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʒ̊,consonantal=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʒ̍,consonantal=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 syllabic=1 voice=1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,1,0,0,0,0,0,0,0,0,1
+ʒ̩,consonantal=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 syllabic=1 voice=1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,1,0,0,0,0,0,0,0,0,1
+ʒ̫,atr=-1 consonantal=1 continuant=1 coronal=1 distributed=1 sibilant=1 sonorant=-1 strident=1 syllabic=-1 voice=1,0,0,-1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,1,-1,0,0,0,0,0,0,0,0,1
+ʔ,consonantal=1 continuant=-1 glottal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʔh,consonantal=1 continuant=-1 glottal=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʔʲ,atr=1 consonantal=1 continuant=-1 dorsal=1 glottal=1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,-1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʔʷ,consonantal=1 continuant=-1 glottal=1 round=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʕ,consonantal=1 continuant=1 pharyngeal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʕ̙,atr=-1 consonantal=1 continuant=1 pharyngeal=1 sonorant=-1 syllabic=-1 voice=1,0,0,-1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʘ,click=1 consonantal=1 continuant=-1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʙ,anterior=1 consonantal=1 labial=1 syllabic=-1 trilled=1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+ʙ̥,anterior=1 consonantal=1 labial=1 syllabic=-1 trilled=1 vibrant=1 voice=-1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,-1
+ʙ̩,anterior=1 consonantal=1 labial=1 syllabic=1 trilled=1 vibrant=1 voice=1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1
+ʛ,consonantal=1 constricted=1 dorsal=1 pharyngeal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ʛ̥,consonantal=1 constricted=1 dorsal=1 pharyngeal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʜ,consonantal=1 constricted=1 continuant=1 pharyngeal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʝ,consonantal=1 continuant=1 coronal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʟ,approximant=1 consonantal=1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʟ̥,approximant=1 consonantal=1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=-1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʠ,consonantal=1 constricted=1 dorsal=1 pharyngeal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʡ,consonantal=1 constricted=1 continuant=-1 pharyngeal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʢ,consonantal=1 constricted=1 continuant=1 pharyngeal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ʣ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ʤ,consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ʥ,consonantal=1 continuant=-1 coronal=1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ʦ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʦː,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 length=1 sibilant=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʧ,consonantal=1 continuant=-1 coronal=1 distributed=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʨ,consonantal=1 continuant=-1 coronal=1 dorsal=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ʮ,back=1 consonantal=-1 high=1 round=1 strident=1 syllabic=1 tense=1,0,0,0,1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+ʯ,centralized=1 consonantal=-1 high=1 round=1 strident=1 syllabic=1 tense=1,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+ʰk,consonantal=1 continuant=-1 dorsal=1 preaspirated=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʰp,anterior=1 consonantal=1 continuant=-1 labial=1 preaspirated=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʰt,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 preaspirated=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʰtʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 preaspirated=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+ʰt̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 preaspirated=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ʰt̪ʰ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 preaspirated=1 spread=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,-1
+ˀtɬ̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 lateral=1 preglottalized=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ˀt̪ɬ,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 lateral=1 preglottalized=1 strident=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ˀŋǀ,anterior=1 click=1 consonantal=1 coronal=1 distributed=1 nasal=1 preglottalized=1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ˀŋǀǀ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 lateral=1 nasal=1 preglottalized=1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ˀŋǁ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 lateral=1 nasal=1 preglottalized=1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ˀŋǂ,click=1 consonantal=1 coronal=1 nasal=1 preglottalized=1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ˀŋǃ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 nasal=1 preglottalized=1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ˀŋǃǃ,click=1 consonantal=1 coronal=1 distributed=-1 nasal=1 preglottalized=1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ˀŋʘ,click=1 consonantal=1 nasal=1 preglottalized=1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ˀⁿd,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 nasal=1 preglottalized=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ˀⁿg,consonantal=1 continuant=-1 dorsal=1 nasal=1 preglottalized=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+β,anterior=1 consonantal=1 continuant=1 labial=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+βɾ,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 labial=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+βʷ,consonantal=1 continuant=1 labial=1 round=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+β̞,anterior=1 approximant=1 consonantal=1 labial=1 sonorant=1 syllabic=-1 voice=1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+θ,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+θː,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 length=1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+θ̠,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=-1 sonorant=-1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+θ̬,anterior=1 consonantal=1 continuant=1 coronal=1 distributed=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+θ̼,consonantal=1 continuant=1 coronal=1 labial=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+χ,consonantal=1 continuant=1 dorsal=1 pharyngeal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+χʷ,consonantal=1 continuant=1 dorsal=1 pharyngeal=1 round=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+χʼ,consonantal=1 constricted=1 continuant=1 dorsal=1 pharyngeal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ᴀ,atr=1 back=1 consonantal=-1 low=1 round=-1 syllabic=1 tense=1,0,0,1,1,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+ᶀ,anterior=1 atr=1 consonantal=1 continuant=-1 dorsal=1 labial=1 syllabic=-1 voice=1,1,0,1,0,0,0,0,1,0,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ᶁ,atr=1 consonantal=1 continuant=-1 distributed=-1 dorsal=1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,-1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ᶂ,atr=1 consonantal=1 continuant=1 distributed=1 dorsal=1 sonorant=-1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ᶃ,atr=1 consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ᶄ,atr=1 consonantal=1 continuant=-1 dorsal=1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ᶅ,approximant=1 atr=1 consonantal=1 distributed=-1 dorsal=1 lateral=1 sonorant=1 syllabic=-1 voice=1,0,1,1,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1
+ᶆ,anterior=1 atr=1 consonantal=1 dorsal=1 labial=1 nasal=1 syllabic=-1 voice=1,1,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ᶇ,atr=1 consonantal=1 distributed=-1 dorsal=1 nasal=1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ᶈ,anterior=1 atr=1 consonantal=1 continuant=-1 dorsal=1 labial=1 syllabic=-1 voice=-1,1,0,1,0,0,0,0,1,0,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ᶉ,atr=1 consonantal=1 distributed=-1 dorsal=1 syllabic=-1 trilled=1 vibrant=1 voice=1,0,0,1,0,0,0,0,1,0,0,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,1,1,1
+ᶊ,atr=1 consonantal=1 continuant=1 distributed=-1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ᶋ,atr=1 consonantal=1 continuant=1 distributed=1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ᶌ,atr=1 consonantal=1 continuant=1 distributed=1 dorsal=1 sonorant=-1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ᶍ,atr=1 consonantal=1 continuant=1 dorsal=1 sonorant=-1 syllabic=-1 voice=-1,0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1
+ᶎ,atr=1 consonantal=1 continuant=1 distributed=-1 dorsal=1 sibilant=1 sonorant=-1 syllabic=-1 voice=1,0,0,1,0,0,0,0,1,0,1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ᶑ,consonantal=1 constricted=1 coronal=1 distributed=-1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,1,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+⁰,length=-1 tone_level=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+⁴,length=-1 tone_level=0 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0
+⁴²,tone_contour=-1 tone_end=-0.5 tone_level=0 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-0.5,0,0,0.5,0,0,0
+⁴²²,tone_contour=-1 tone_end=-0.5 tone_level=0 tone_peak=-0.5 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-0.5,0,-0.5,0.5,0,0,0
+⁴²³,tone_end=0 tone_level=0 tone_peak=-0.5 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0.5,0,0,0
+⁴²⁴,tone_end=0.5 tone_level=0 tone_peak=-0.5 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,-0.5,0.5,0,0,0
+⁴²⁵,tone_end=1 tone_level=0 tone_peak=-0.5 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-0.5,0.5,0,0,0
+⁴³,tone_contour=-1 tone_end=0 tone_level=0 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0.5,0,0,0
+⁴³³,tone_contour=-1 tone_end=0 tone_level=0 tone_peak=0 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0.5,0,0,0
+⁴³⁴,tone_end=0.5 tone_level=0 tone_peak=0 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0.5,0,0,0
+⁴³⁵,tone_end=1 tone_level=0 tone_peak=0 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0.5,0,0,0
+⁴¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0.5,0,0,0
+⁴¹²,tone_end=-0.5 tone_level=0 tone_peak=-1 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,-1,0.5,0,0,0
+⁴¹³,tone_end=0 tone_level=0 tone_peak=-1 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0.5,0,0,0
+⁴¹¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_peak=-1 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,-1,0.5,0,0,0
+⁴¹⁴,tone_end=0.5 tone_level=0 tone_peak=-1 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,-1,0.5,0,0,0
+⁴¹⁵,tone_end=1 tone_level=0 tone_peak=-1 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0.5,0,0,0
+⁴⁴,tone_contour=0 tone_end=0.5 tone_level=0 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,0.5,0,0,0
+⁴⁴²,tone_contour=-1 tone_end=-0.5 tone_level=0 tone_peak=0.5 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-0.5,0,0.5,0.5,0,0,0
+⁴⁴³,tone_contour=-1 tone_end=0 tone_level=0 tone_peak=0.5 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0.5,0.5,0,0,0
+⁴⁴¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_peak=0.5 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0.5,0.5,0,0,0
+⁴⁴⁵,tone_contour=1 tone_end=1 tone_level=0 tone_peak=0.5 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0.5,0.5,0,0,0
+⁴⁵,tone_contour=1 tone_end=1 tone_level=0 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0.5,0,0,0
+⁴⁵²,tone_end=-0.5 tone_level=0 tone_peak=1 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,1,0.5,0,0,0
+⁴⁵³,tone_end=0 tone_level=0 tone_peak=1 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.5,0,0,0
+⁴⁵¹,tone_end=-1 tone_level=0 tone_peak=1 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,1,0.5,0,0,0
+⁴⁵⁴,tone_end=0.5 tone_level=0 tone_peak=1 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,1,0.5,0,0,0
+⁴⁵⁵,tone_contour=1 tone_end=1 tone_level=0 tone_peak=1 tone_start=0.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0.5,0,0,0
+⁵,length=-1 tone_level=0 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+⁵²,tone_contour=-1 tone_end=-0.5 tone_level=0 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-0.5,0,0,1,0,0,0
+⁵²²,tone_contour=-1 tone_end=-0.5 tone_level=0 tone_peak=-0.5 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-0.5,0,-0.5,1,0,0,0
+⁵²³,tone_end=0 tone_level=0 tone_peak=-0.5 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,1,0,0,0
+⁵²⁴,tone_end=0.5 tone_level=0 tone_peak=-0.5 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,-0.5,1,0,0,0
+⁵²⁵,tone_end=1 tone_level=0 tone_peak=-0.5 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-0.5,1,0,0,0
+⁵³,tone_contour=-1 tone_end=0 tone_level=0 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,1,0,0,0
+⁵³³,tone_contour=-1 tone_end=0 tone_level=0 tone_peak=0 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,1,0,0,0
+⁵³⁴,tone_end=0.5 tone_level=0 tone_peak=0 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,0,1,0,0,0
+⁵³⁵,tone_end=1 tone_level=0 tone_peak=0 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+⁵¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,1,0,0,0
+⁵¹²,tone_end=-0.5 tone_level=0 tone_peak=-1 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5,0,-1,1,0,0,0
+⁵¹³,tone_end=0 tone_level=0 tone_peak=-1 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,0
+⁵¹¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_peak=-1 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,-1,1,0,0,0
+⁵¹⁴,tone_end=0.5 tone_level=0 tone_peak=-1 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5,0,-1,1,0,0,0
+⁵¹⁵,tone_end=1 tone_level=0 tone_peak=-1 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,1,0,0,0
+⁵⁴,tone_contour=-1 tone_end=0.5 tone_level=0 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0.5,0,0,1,0,0,0
+⁵⁴⁴,tone_contour=-1 tone_end=0.5 tone_level=0 tone_peak=0.5 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0.5,0,0.5,1,0,0,0
+⁵⁴⁵,tone_end=1 tone_level=0 tone_peak=0.5 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0.5,1,0,0,0
+⁵⁵,tone_contour=0 tone_end=1 tone_level=0 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+⁵⁵²,tone_contour=-1 tone_end=-0.5 tone_level=0 tone_peak=1 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-0.5,0,1,1,0,0,0
+⁵⁵³,tone_contour=-1 tone_end=0 tone_level=0 tone_peak=1 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,1,1,0,0,0
+⁵⁵¹,tone_contour=-1 tone_end=-1 tone_level=0 tone_peak=1 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,1,1,0,0,0
+⁵⁵⁴,tone_contour=-1 tone_end=0.5 tone_level=0 tone_peak=1 tone_start=1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0.5,0,1,1,0,0,0
+ⁿb,anterior=1 consonantal=1 continuant=-1 labial=1 prenasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿd,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 prenasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿdʒ,consonantal=1 continuant=-1 coronal=1 distributed=1 prenasal=1 strident=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1
+ⁿd̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 prenasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿd̼,consonantal=1 continuant=-1 coronal=1 labial=1 prenasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿg,consonantal=1 continuant=-1 dorsal=1 prenasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿgb,consonantal=1 constricted=1 continuant=-1 dorsal=1 labial=1 prenasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,1,-1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿgǀ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿgǀǀ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿgǁ,anterior=1 click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 lateral=1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿgǂ,click=1 consonantal=1 continuant=-1 coronal=1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿgǃ,anterior=1 click=1 consonantal=1 coronal=1 distributed=-1 nasal=1 prenasal=1 syllabic=-1 voice=1,1,0,0,0,0,0,1,1,0,0,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿgǃǃ,click=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿgʘ,click=1 consonantal=1 continuant=-1 prenasal=1 sonorant=-1 syllabic=-1 voice=1,0,0,0,0,0,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1
+ⁿk,consonantal=1 continuant=-1 dorsal=1 prenasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ⁿkʷ,consonantal=1 continuant=-1 distributed=-1 dorsal=1 labial=1 prenasal=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,0,0,-1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ⁿp,anterior=1 consonantal=1 continuant=-1 labial=1 prenasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ⁿt,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=-1 prenasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ⁿtʃ,consonantal=1 continuant=-1 coronal=1 distributed=1 prenasal=1 sibilant=1 strident=1 syllabic=-1 voice=-1,0,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,-1,0,0,0,0,0,0,0,0,-1
+ⁿt̪,anterior=1 consonantal=1 continuant=-1 coronal=1 distributed=1 prenasal=1 syllabic=-1 voice=-1,1,0,0,0,0,0,0,1,0,-1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-1
+ⁿɟ,consonantal=1 continuant=-1 coronal=1 prenasal=1 syllabic=-1 voice=1,0,0,0,0,0,0,0,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,1
+ⱱ,consonantal=1 labial=1 syllabic=-1 vibrant=1 voice=1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,1,1
