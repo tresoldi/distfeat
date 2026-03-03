@@ -1,0 +1,55 @@
+=== Lenition Chains: Feature Bundles ===
+
+LABIAL chain:
+  /p/: ['bilabial', 'consonant', 'stop', 'voiceless']
+  /b/: ['bilabial', 'consonant', 'stop', 'voiced']
+  /β/: ['bilabial', 'consonant', 'fricative', 'voiced']
+
+CORONAL chain:
+  /t/: ['alveolar', 'consonant', 'stop', 'voiceless']
+  /d/: ['alveolar', 'consonant', 'stop', 'voiced']
+  /ð/: ['consonant', 'dental', 'fricative', 'voiced']
+
+DORSAL chain:
+  /k/: ['consonant', 'stop', 'velar', 'voiceless']
+  /g/: ['consonant', 'stop', 'velar', 'voiced']
+  /ɣ/: ['consonant', 'fricative', 'velar', 'voiced']
+
+=== Stage Distances (IPA) ===
+
+labial:
+  Stage 0→1 (p→b): 0.5455
+  Stage 1→2 (b→β): 0.2727
+  Total (p→β): 0.8182
+
+coronal:
+  Stage 0→1 (t→d): 0.5455
+  Stage 1→2 (d→ð): 0.4545
+  Total (t→ð): 1.0000
+
+dorsal:
+  Stage 0→1 (k→g): 0.5455
+  Stage 1→2 (g→ɣ): 0.2727
+  Total (k→ɣ): 0.8182
+
+=== Feature Distance (Geometry) ===
+voiced ↔ voiceless (Stage 0→1): 2.0
+stop ↔ fricative (Stage 1→2):   999.0
+
+=== Lenition Matrix: p b β ===
+Columns: ('fricative', 'voiced')
+grapheme | fricative | voiced
+---------+-----------+-------
+p        | False     | False 
+b        | False     | True  
+β        | True      | True  
+
+=== Scalar Trajectory (Distinctive) ===
+  /p/: {'voice': -1.0, 'continuant': -1.0}
+  /b/: {'voice': 1.0, 'continuant': -1.0}
+  /β/: {'voice': 1.0, 'continuant': 1.0}
+
+=== Distance Symmetry ===
+d(p,b) = 0.5455
+d(b,p) = 0.5455
+Symmetric: True

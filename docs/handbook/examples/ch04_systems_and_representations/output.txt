@@ -1,0 +1,30 @@
+=== Registry ===
+Systems: ['ipa', 'tresoldi', 'distinctive', 'pbase-hc', 'pbase-jfh', 'pbase-spe', 'pbase-uftc']
+Default: ipa
+
+=== IPA Features (Latin Obstruents) ===
+/p/: ['bilabial', 'consonant', 'stop', 'voiceless']
+/t/: ['alveolar', 'consonant', 'stop', 'voiceless']
+/k/: ['consonant', 'stop', 'velar', 'voiceless']
+/b/: ['bilabial', 'consonant', 'stop', 'voiced']
+/d/: ['alveolar', 'consonant', 'stop', 'voiced']
+/g/: ['consonant', 'stop', 'velar', 'voiced']
+/f/: ['consonant', 'fricative', 'labio-dental', 'voiceless']
+/s/: ['alveolar', 'consonant', 'fricative', 'sibilant', 'voiceless']
+
+=== Tresoldi Features ===
+/p/: ['bilabial', 'consonant', 'stop', 'voiceless']
+/b/: ['bilabial', 'consonant', 'stop', 'voiced']
+
+=== Distinctive Scalars ===
+/p/: {'voice': -1.0, 'sonorant': -1.0, 'continuant': -1.0, 'syllabic': -1.0, 'labial': 1.0}
+/b/: {'voice': 1.0, 'sonorant': -1.0, 'continuant': -1.0, 'syllabic': -1.0, 'labial': 1.0}
+/t/: {'voice': -1.0, 'sonorant': -1.0, 'continuant': -1.0, 'syllabic': -1.0, 'coronal': 1.0, 'anterior': 1.0, 'distributed': -1.0}
+/d/: {'voice': 1.0, 'sonorant': -1.0, 'continuant': -1.0, 'syllabic': -1.0, 'coronal': 1.0, 'anterior': 1.0, 'distributed': -1.0}
+/k/: {'voice': -1.0, 'sonorant': -1.0, 'continuant': -1.0, 'syllabic': -1.0, 'dorsal': 1.0}
+/g/: {'voice': 1.0, 'sonorant': -1.0, 'continuant': -1.0, 'syllabic': -1.0, 'dorsal': 1.0}
+
+=== P-base SPE Representation ===
+/p/: {'syllabic': <FeatureState.NEGATIVE: '-'>, 'vocalic': <FeatureState.NEGATIVE: '-'>, 'consonantal': <FeatureState.POSITIVE: '+'>, 'sonorant': <FeatureState.NEGATIVE: '-'>, 'continuant': <FeatureState.NEGATIVE: '-'>} ...
+/b/: {'syllabic': <FeatureState.NEGATIVE: '-'>, 'vocalic': <FeatureState.NEGATIVE: '-'>, 'consonantal': <FeatureState.POSITIVE: '+'>, 'sonorant': <FeatureState.NEGATIVE: '-'>, 'continuant': <FeatureState.NEGATIVE: '-'>} ...
+/t/: {'syllabic': <FeatureState.NEGATIVE: '-'>, 'vocalic': <FeatureState.NEGATIVE: '-'>, 'consonantal': <FeatureState.POSITIVE: '+'>, 'sonorant': <FeatureState.NEGATIVE: '-'>, 'continuant': <FeatureState.NEGATIVE: '-'>} ...
