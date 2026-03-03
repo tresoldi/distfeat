@@ -24,6 +24,29 @@ The older set-based methods remain first-class for categorical systems, but
 they are compatibility-oriented and intentionally do not capture the full
 surface of valued systems such as `pbase-*`.
 
+## `CategoricalFeatureSystem` Base Class
+
+`IPAFeatureSystem`, `TresoldiFeatureSystem`, and `DistinctiveFeatureSystem` all
+inherit from `CategoricalFeatureSystem`, a regular (non-dataclass) base class
+defined in `distfeat.systems.categorical`.
+
+The base class provides:
+
+- shared constants: `FEATURE_ALIASES`, `FEATURE_CATEGORIES`
+- input/output normalization: `normalize_input_grapheme(...)`,
+  `normalize_output_grapheme(...)`, `resolve_alias(...)`
+- class table construction: `build_class_table(...)`
+- all 15 shared methods from the `FeatureSystem` protocol: `list_graphemes`,
+  `grapheme_to_features`, `grapheme_to_representation`, `features_to_grapheme`,
+  `is_class`, `class_features`, `class_representation`, `add_features`,
+  `partial_match`, `matches`, `feature_distance`, `segment_distance`,
+  `sound_distance`, plus cached properties `_reverse_table` and `_class_table`
+
+Each subclass only needs to define a `dataset` field, a `name` property, and a
+`_grapheme_table` cached property with its system-specific parsing logic.
+Frozen dataclasses can inherit from `CategoricalFeatureSystem` because the base
+defines no dataclass fields.
+
 ## `ipa`
 
 `IPAFeatureSystem` provides a compact categorical representation derived from
