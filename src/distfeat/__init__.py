@@ -1,6 +1,6 @@
 """Public API for the distfeat package."""
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"
 
 from distfeat.analysis import (
     FeatureMatrix,
@@ -13,6 +13,12 @@ from distfeat.analysis import (
 from distfeat.dataset import FeatureDataset, dataset_from_rows, load_builtin_dataset, load_dataset
 from distfeat.geometry import DEFAULT_GEOMETRY, FeatureNode, GeometryNode
 from distfeat.protocol import FeatureSystem
+from distfeat.representations import (
+    CategoricalFeatures,
+    FeatureRepresentation,
+    FeatureState,
+    ValuedFeatures,
+)
 from distfeat.registry import (
     Registry,
     add_features,
@@ -20,34 +26,44 @@ from distfeat.registry import (
     feature_distance,
     features_to_grapheme,
     get_class_features,
+    get_class_representation,
     get_features,
     get_registry,
+    get_representation,
     get_system,
     is_class,
     list_systems,
+    matches,
     partial_match,
     register,
     reset_registry,
+    segment_distance,
     set_default,
     set_registry,
     sound_distance,
 )
 from distfeat.systems.distinctive import DistinctiveFeatureSystem
 from distfeat.systems.ipa import IPAFeatureSystem
+from distfeat.systems.pbase import PBaseFeatureSystem
 from distfeat.systems.tresoldi import TresoldiFeatureSystem
 
 __all__ = [
     "__version__",
     "DEFAULT_GEOMETRY",
     "DistinctiveFeatureSystem",
+    "CategoricalFeatures",
     "FeatureDataset",
     "FeatureMatrix",
     "FeatureNode",
+    "FeatureRepresentation",
+    "FeatureState",
     "FeatureSystem",
     "GeometryNode",
     "IPAFeatureSystem",
+    "PBaseFeatureSystem",
     "Registry",
     "TresoldiFeatureSystem",
+    "ValuedFeatures",
     "add_features",
     "create_registry",
     "dataset_from_rows",
@@ -57,17 +73,21 @@ __all__ = [
     "features_to_grapheme",
     "features_to_graphemes",
     "get_class_features",
+    "get_class_representation",
     "get_features",
     "get_registry",
+    "get_representation",
     "get_system",
     "is_class",
     "list_systems",
+    "matches",
     "load_builtin_dataset",
     "load_dataset",
     "minimal_matrix",
     "partial_match",
     "register",
     "reset_registry",
+    "segment_distance",
     "set_default",
     "set_registry",
     "sound_distance",

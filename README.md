@@ -41,9 +41,14 @@ The package is organized around:
   - `ipa`
   - `tresoldi`
   - `distinctive`
+  - `pbase-hc`
+  - `pbase-jfh`
+  - `pbase-spe`
+  - `pbase-uftc`
 
 The package does not define a `Sound` object. It works directly with graphemes,
-feature bundles, scalar dimensions, and matrices.
+feature bundles, native multi-state feature tables, scalar dimensions, and
+matrices.
 
 ## Quick Start
 
@@ -52,7 +57,7 @@ import distfeat
 
 # Built-in systems
 print(distfeat.list_systems())
-# ['ipa', 'tresoldi', 'distinctive']
+# ['ipa', 'tresoldi', 'distinctive', 'pbase-hc', 'pbase-jfh', 'pbase-spe', 'pbase-uftc']
 
 # Basic grapheme lookup
 print(distfeat.get_features("p"))
@@ -77,10 +82,12 @@ import distfeat
 ipa = distfeat.get_system("ipa")
 tresoldi = distfeat.get_system("tresoldi")
 distinctive = distfeat.get_system("distinctive")
+pbase = distfeat.get_system("pbase-hc")
 
 print(ipa.grapheme_to_features("a"))
 print(tresoldi.grapheme_to_features("a"))
 print(distinctive.grapheme_to_features("a"))
+print(pbase.grapheme_to_representation("a"))
 ```
 
 Exact reverse lookup is available when a feature bundle maps directly to a
@@ -129,6 +136,24 @@ features = ipa.grapheme_to_features("a")
 print(distfeat.features_to_graphemes(features, exact=True))
 ```
 
+## Native Multi-State Systems
+
+`distfeat` also supports systems whose native representation is a named
+feature-value table instead of a categorical set. The bundled P-base-derived
+systems expose multi-state values such as `+`, `-`, `n`, `.`, `o`, and `x`
+through `FeatureState`.
+
+```python
+import distfeat
+
+rep = distfeat.get_representation("a", system="pbase-hc")
+print(rep.values["syllabic"])
+# FeatureState.POSITIVE
+
+matches = distfeat.features_to_graphemes({"syllabic": "+"}, system="pbase-hc")
+print(matches[:10])
+```
+
 ### Derive Shared Class Features
 
 Use `derive_class_features(...)` to compute the strict shared feature
@@ -142,6 +167,15 @@ print(distfeat.derive_class_features(["t", "d"]))
 
 print(distfeat.derive_class_features(["t", "d", "s"]))
 # fewer shared features than the pair above
+```
+
+For multi-state systems, the result is a dictionary of shared feature states:
+
+```python
+import distfeat
+
+print(distfeat.derive_class_features(["t", "d"], system="pbase-hc"))
+# {'consonantal': <FeatureState.POSITIVE: '+'>, ...}
 ```
 
 ## Minimal Distinguishing Matrices
@@ -158,7 +192,8 @@ print(matrix.rows)
 ```
 
 For `ipa` and `tresoldi`, the matrix is categorical and boolean. For
-`distinctive`, it uses scalar dimensions.
+`distinctive`, it uses scalar dimensions. For P-base-derived systems, it uses
+native multi-state values.
 
 ```python
 import distfeat
@@ -181,6 +216,15 @@ Markdown output is also supported:
 
 ```python
 print(distfeat.tabulate_matrix(matrix, format="markdown"))
+```
+
+P-base-derived systems render symbolic state values directly:
+
+```python
+import distfeat
+
+matrix = distfeat.minimal_matrix(["t", "d"], system="pbase-hc")
+print(distfeat.tabulate_matrix(matrix))
 ```
 
 ## Distinctive Scalars
@@ -210,6 +254,7 @@ import distfeat
 print(distfeat.distance("a", "e"))
 print(distfeat.distance("a", "u"))
 print(distfeat.distance("p", "b"))
+print(distfeat.distance("t", "d", system="pbase-hc"))
 ```
 
 ### Precomputed Distance Matrices
@@ -250,6 +295,22 @@ Expected files in `my_feature_data/`:
 - `sounds.tsv`
 - `classes.tsv`
 - `features.tsv`
+
+## Bundled P-base-Derived Data
+
+`distfeat` bundles a derived segment table based on the P-base distribution.
+The bundled systems are:
+
+- `pbase-hc`
+- `pbase-jfh`
+- `pbase-spe`
+- `pbase-uftc`
+
+These systems use the same registry and analysis APIs as the categorical and
+scalar systems, but operate on native multi-state feature values.
+
+The P-base-derived data is bundled separately from the MIT-licensed code and
+retains its own attribution and license notice in `src/distfeat/data/pbase/`.
 
 ### Build From In-Memory Rows
 
@@ -295,9 +356,9 @@ The current package intentionally does not provide:
 - a command-line interface
 - ML-based distance training
 
-The current public API is built around categorical feature bundles, scalar
-dimensions for the `distinctive` system, and analysis helpers over those
-representations.
+The current public API is built around categorical feature bundles, native
+multi-state feature tables, scalar dimensions for the `distinctive` system,
+and analysis helpers over those representations.
 
 ## Documentation
 

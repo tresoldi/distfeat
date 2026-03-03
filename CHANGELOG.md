@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.4.0
+
+- Added native multi-state feature support through `FeatureState`,
+  `CategoricalFeatures`, and `ValuedFeatures`.
+- Generalized the feature-system protocol so non-set representations are
+  first-class and can participate in the main registry.
+- Added bundled P-base-derived systems: `pbase-hc`, `pbase-jfh`, `pbase-spe`,
+  and `pbase-uftc`.
+- Added valued-system query, class-derivation, matrix, and distance support to
+  the analysis layer.
+- Bundled the derived P-base data files and packaged their attribution and
+  license materials alongside the code.
+- Expanded the test suite and documentation to cover native multi-state
+  systems.
+
 ## 0.3.0
 
 - Replaced the legacy codebase with the extracted standalone `distfeat` package.
