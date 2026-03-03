@@ -1,0 +1,52 @@
+/* distfeat handbook — supplementary styles */
+
+/* Feature tables: compact, readable */
+.md-typeset table:not([class]) {
+  font-size: 0.85rem;
+}
+
+.md-typeset table:not([class]) th {
+  white-space: nowrap;
+}
+
+/* IPA examples inline */
+.ipa {
+  font-family: "Charis SIL", "Doulos SIL", "DejaVu Sans", serif;
+  font-size: 1.05em;
+}
+
+/* Feature bundles rendered as code-like blocks */
+.feature-bundle {
+  font-family: var(--md-code-font-family);
+  font-size: 0.85em;
+  background: var(--md-code-bg-color);
+  padding: 0.1em 0.4em;
+  border-radius: 0.2em;
+}
+
+/* Part title pages */
+.part-title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--md-primary-fg-color);
+  border-bottom: 2px solid var(--md-primary-fg-color);
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+}
+
+/* Admonition tweaks for scholarly notes */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-left-color: var(--md-accent-fg-color);
+}
+
+/* Example verification badge */
+.verified-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.15em 0.5em;
+  border-radius: 0.8em;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  vertical-align: middle;
+}

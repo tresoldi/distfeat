@@ -1,0 +1,22 @@
+=== Distance Across Systems ===
+d(p, b) [ipa]: 0.5455
+d(p, b) [distinctive]: 0.2143
+
+=== 6x6 Distance Matrix (IPA) ===
+            p       b       t       d       k       g
+/p/    0.0000  0.5455  0.1538  0.6154  0.1538  0.6154  
+/b/    0.5455  0.0000  0.6154  0.1538  0.6154  0.1538  
+/t/    0.1538  0.6154  0.0000  0.5455  0.1538  0.6154  
+/d/    0.6154  0.1538  0.5455  0.0000  0.6154  0.1538  
+/k/    0.1538  0.6154  0.1538  0.6154  0.0000  0.5455  
+/g/    0.6154  0.1538  0.6154  0.1538  0.5455  0.0000  
+
+=== Cross-System Comparison ===
+d(p,b):  ipa=0.5455  distinctive=0.2143
+d(p,t):  ipa=0.1538  distinctive=0.2000
+d(t,d):  ipa=0.5455  distinctive=0.1667
+d(k,g):  ipa=0.5455  distinctive=0.2143
+
+=== Feature Distance ===
+voiced vs voiceless: 2.0
+stop vs fricative:   999.0
