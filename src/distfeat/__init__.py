@@ -1,5 +1,7 @@
 """Public API for the distfeat package."""
 
+__version__ = "0.3.0"
+
 from distfeat.dataset import FeatureDataset, dataset_from_rows, load_builtin_dataset, load_dataset
 from distfeat.geometry import DEFAULT_GEOMETRY, FeatureNode, GeometryNode
 from distfeat.protocol import FeatureSystem
@@ -27,6 +29,7 @@ from distfeat.systems.ipa import IPAFeatureSystem
 from distfeat.systems.tresoldi import TresoldiFeatureSystem
 
 __all__ = [
+    "__version__",
     "DEFAULT_GEOMETRY",
     "DistinctiveFeatureSystem",
     "FeatureDataset",
