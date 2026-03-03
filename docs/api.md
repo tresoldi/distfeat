@@ -76,6 +76,17 @@ is_class = distfeat.is_class("C")
 
 These call through the current default system unless you pass `system="..."`.
 
+For new code, prefer the native-representation helpers:
+
+- `get_representation(...)` over `get_features(...)`
+- `get_class_representation(...)` over `get_class_features(...)`
+- `matches(...)` over `partial_match(...)`
+- `segment_distance(...)` over `sound_distance(...)`
+
+The older set-based helpers remain useful for categorical systems, but they
+are compatibility-oriented and are not the full surface for valued systems such
+as `pbase-*`.
+
 ## Registry API
 
 The explicit registry API is the clean boundary for custom datasets and
@@ -139,6 +150,15 @@ class FeatureSystem(Protocol):
 The `distinctive` system exposes scalar-specific methods beyond the base
 protocol, and the P-base-derived systems use `ValuedFeatures` plus
 `FeatureState` for native multi-state feature values.
+
+In practice:
+
+- categorical systems (`ipa`, `tresoldi`, `distinctive`) expose
+  `CategoricalFeatures`
+- P-base-derived systems expose `ValuedFeatures`
+
+When a system has a richer native representation, that representation should be
+treated as the canonical API for new code.
 
 ## Geometry API
 

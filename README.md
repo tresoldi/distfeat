@@ -13,6 +13,14 @@ It provides:
 `distfeat` is dependency-free at runtime and is the standalone home for the
 feature subsystem extracted from `alteruphono`.
 
+The canonical modern API is built around native representations:
+
+- use `get_representation(...)` and `grapheme_to_representation(...)` when you
+  want the system's real feature model
+- use `matches(...)` and `segment_distance(...)` for system-native comparison
+- treat `get_features(...)`, `grapheme_to_features(...)`, `partial_match(...)`,
+  and `sound_distance(...)` as compatibility helpers for categorical systems
+
 ## Installation
 
 Install from PyPI:
@@ -90,8 +98,10 @@ print(distinctive.grapheme_to_features("a"))
 print(pbase.grapheme_to_representation("a"))
 ```
 
-Exact reverse lookup is available when a feature bundle maps directly to a
-known grapheme:
+Exact reverse lookup is available when a native representation maps directly to
+a known grapheme. For categorical systems this is usually a `frozenset[str]`;
+for valued systems it can be a `dict[str, FeatureState | str]` or
+`ValuedFeatures`.
 
 ```python
 ipa = distfeat.get_system("ipa")
@@ -153,6 +163,18 @@ print(rep.values["syllabic"])
 matches = distfeat.features_to_graphemes({"syllabic": "+"}, system="pbase-hc")
 print(matches[:10])
 ```
+
+The bundled P-base table is intentionally described as derived rather than
+verbatim. The source data contains duplicate IPA rows, including rows with
+conflicting values in a small number of columns. `distfeat` merges duplicate
+rows conservatively:
+
+- identical duplicate rows collapse into one row
+- if duplicate rows disagree, only the conflicting cells are downgraded to `.`
+  (`FeatureState.DOT`)
+
+This preserves a single usable row per grapheme without inventing new positive
+or negative values where the source disagrees.
 
 ### Derive Shared Class Features
 
