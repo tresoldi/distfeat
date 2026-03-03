@@ -54,6 +54,16 @@ tradition. It is used for:
 - sound distance
 - category-aware grouping across systems
 
+### Analysis
+
+`distfeat.analysis` provides higher-level helpers that operate across systems:
+
+- `features_to_graphemes(...)`
+- `derive_class_features(...)`
+- `minimal_matrix(...)`
+- `tabulate_matrix(...)`
+- `distance(...)`
+
 ## Recommended Usage
 
 For most users:
@@ -73,6 +83,15 @@ from distfeat import create_registry, load_dataset
 dataset = load_dataset(directory="my_data")
 registry = create_registry(dataset=dataset)
 system = registry.get_system("ipa")
+```
+
+For analysis tasks:
+
+```python
+import distfeat
+
+matrix = distfeat.minimal_matrix(["t", "d", "s"])
+print(distfeat.tabulate_matrix(matrix))
 ```
 
 ## Guide Map
