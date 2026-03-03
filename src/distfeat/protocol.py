@@ -2,9 +2,10 @@
 
 from __future__ import annotations
 
-from typing import Protocol
+from typing import TYPE_CHECKING, Protocol
 
-from distfeat.representations import FeatureRepresentation
+if TYPE_CHECKING:
+    from distfeat.representations import FeatureRepresentation
 
 
 class FeatureSystem(Protocol):

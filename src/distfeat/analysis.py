@@ -12,9 +12,12 @@ from distfeat.representations import (
     FeatureRepresentation,
     FeatureState,
     ValuedFeatures,
+    _normalize_valued_query,
 )
 
 if TYPE_CHECKING:
+    from collections.abc import Mapping
+
     from distfeat.protocol import FeatureSystem
 
 
@@ -23,7 +26,7 @@ class FeatureMatrix:
     """A compact tabular view of distinguishing feature information."""
 
     columns: tuple[str, ...]
-    rows: dict[str, tuple[object, ...]]
+    rows: Mapping[str, tuple[object, ...]]
     system: str
     mode: str
 
@@ -65,7 +68,7 @@ def _lookup_valued(grapheme: str, system_obj: FeatureSystem) -> ValuedFeatures:
 
 
 def _signature_is_unique(
-    rows: dict[str, dict[str, object]],
+    rows: Mapping[str, Mapping[str, object]],
     columns: tuple[str, ...],
 ) -> bool:
     """Check whether the selected columns uniquely identify all rows."""
@@ -78,7 +81,7 @@ def _signature_is_unique(
     return True
 
 
-def _select_minimal_columns(rows: dict[str, dict[str, object]]) -> tuple[str, ...]:
+def _select_minimal_columns(rows: Mapping[str, Mapping[str, object]]) -> tuple[str, ...]:
     """Return the smallest column subset that distinguishes all rows."""
     if not rows:
         return ()
@@ -93,14 +96,6 @@ def _select_minimal_columns(rows: dict[str, dict[str, object]]) -> tuple[str, ..
                 return subset
 
     return candidates
-
-
-def _normalize_valued_query(query: dict[str, FeatureState | str]) -> dict[str, FeatureState]:
-    """Normalize a valued query to FeatureState values."""
-    return {
-        name: value if isinstance(value, FeatureState) else FeatureState(value)
-        for name, value in query.items()
-    }
 
 
 def features_to_graphemes(
@@ -197,8 +192,11 @@ def minimal_matrix(
             for grapheme in graphemes
         }
         columns = _select_minimal_columns(valued_rows)
-        rows = {
-            grapheme: tuple(valued_rows[grapheme].get(column, FeatureState.DOT) for column in columns)
+        rows: dict[str, tuple[object, ...]] = {
+            grapheme: tuple(
+                valued_rows[grapheme].get(column, FeatureState.DOT)
+                for column in columns
+            )
             for grapheme in graphemes
         }
         return FeatureMatrix(columns=columns, rows=rows, system=system_name, mode="valued")
@@ -206,11 +204,13 @@ def minimal_matrix(
     if system_name == "distinctive" and hasattr(system_obj, "grapheme_to_scalars"):
         scalar_rows: dict[str, dict[str, object]] = {}
         for grapheme in graphemes:
-            scalars = system_obj.grapheme_to_scalars(grapheme)  # type: ignore[attr-defined]
+            scalars = system_obj.grapheme_to_scalars(grapheme)
             if scalars is None:
                 msg = f"Unsupported grapheme for scalar matrix: {grapheme!r}"
                 raise KeyError(msg)
-            scalar_rows[grapheme] = {name: value for name, value in scalars.items() if value != 0.0}
+            scalar_rows[grapheme] = {
+                name: value for name, value in scalars.items() if value != 0.0
+            }
 
         columns = _select_minimal_columns(scalar_rows)
         rows = {
@@ -248,7 +248,7 @@ def _format_cell(value: object) -> str:
 def tabulate_matrix(
     matrix: FeatureMatrix,
     *,
-    format: str = "plain",
+    format: str = "plain",  # noqa: A002
 ) -> str:
     """Render a feature matrix as plain text or markdown."""
     if format not in {"plain", "markdown"}:

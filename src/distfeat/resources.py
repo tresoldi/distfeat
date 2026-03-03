@@ -42,9 +42,15 @@ def _resolve_paths(
         resolved_classes = base / "classes.tsv"
         resolved_features = base / "features.tsv"
     else:
-        resolved_sounds = Path(sounds_path) if sounds_path is not None else _DATA_DIR / "sounds.tsv"
-        resolved_classes = Path(classes_path) if classes_path is not None else _DATA_DIR / "classes.tsv"
-        resolved_features = Path(features_path) if features_path is not None else _DATA_DIR / "features.tsv"
+        resolved_sounds = (
+            Path(sounds_path) if sounds_path is not None else _DATA_DIR / "sounds.tsv"
+        )
+        resolved_classes = (
+            Path(classes_path) if classes_path is not None else _DATA_DIR / "classes.tsv"
+        )
+        resolved_features = (
+            Path(features_path) if features_path is not None else _DATA_DIR / "features.tsv"
+        )
 
     _ensure_exists(resolved_sounds)
     _ensure_exists(resolved_classes)

@@ -13,7 +13,7 @@ class FeatureState(StrEnum):
     NEGATIVE = "-"
     N = "n"
     DOT = "."
-    O = "o"
+    O = "o"  # noqa: E741
     X = "x"
 
 
@@ -32,3 +32,13 @@ class ValuedFeatures:
 
 
 type FeatureRepresentation = CategoricalFeatures | ValuedFeatures
+
+
+def _normalize_valued_query(
+    query: dict[str, FeatureState | str],
+) -> dict[str, FeatureState]:
+    """Normalize a valued query to FeatureState values."""
+    return {
+        name: value if isinstance(value, FeatureState) else FeatureState(value)
+        for name, value in query.items()
+    }

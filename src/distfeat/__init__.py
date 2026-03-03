@@ -13,12 +13,6 @@ from distfeat.analysis import (
 from distfeat.dataset import FeatureDataset, dataset_from_rows, load_builtin_dataset, load_dataset
 from distfeat.geometry import DEFAULT_GEOMETRY, FeatureNode, GeometryNode
 from distfeat.protocol import FeatureSystem
-from distfeat.representations import (
-    CategoricalFeatures,
-    FeatureRepresentation,
-    FeatureState,
-    ValuedFeatures,
-)
 from distfeat.registry import (
     Registry,
     add_features,
@@ -41,6 +35,12 @@ from distfeat.registry import (
     set_default,
     set_registry,
     sound_distance,
+)
+from distfeat.representations import (
+    CategoricalFeatures,
+    FeatureRepresentation,
+    FeatureState,
+    ValuedFeatures,
 )
 from distfeat.systems.distinctive import DistinctiveFeatureSystem
 from distfeat.systems.ipa import IPAFeatureSystem
