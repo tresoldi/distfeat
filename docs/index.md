@@ -8,11 +8,11 @@ libraries.
 - phonological feature datasets
 - feature system protocols and registries
 - feature geometry and distance logic
-- built-in systems: `ipa`, `tresoldi`, `distinctive`
+- built-in systems: `ipa`, `tresoldi`, `distinctive`, and the P-base-derived
+  `pbase-hc`, `pbase-jfh`, `pbase-spe`, `pbase-uftc`
 
-The package is currently developed inside the `alteruphono` repository, but it
-is structured as a standalone subproject so it can be split into its own
-repository cleanly.
+The package is developed as a standalone Python library and can be used by
+`alteruphono` or other downstream tools.
 
 ## Main Concepts
 
@@ -38,6 +38,8 @@ Built-in systems:
 - `ipa`: compact categorical feature bundles
 - `tresoldi`: broader categorical bundles preserving more modifiers
 - `distinctive`: categorical features plus scalar conversions
+- `pbase-*`: native multi-state feature tables derived from the bundled
+  P-base segment table
 
 ### Registry
 
@@ -73,6 +75,7 @@ import distfeat
 
 features = distfeat.get_features("a")
 vowel_class = distfeat.get_class_features("V")
+valued = distfeat.get_representation("a", system="pbase-hc")
 ```
 
 For isolated experiments or custom datasets:

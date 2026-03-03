@@ -6,8 +6,10 @@ from dataclasses import dataclass, field
 
 from distfeat.dataset import FeatureDataset, load_builtin_dataset
 from distfeat.protocol import FeatureSystem
+from distfeat.representations import FeatureRepresentation
 from distfeat.systems.distinctive import DistinctiveFeatureSystem
 from distfeat.systems.ipa import IPAFeatureSystem
+from distfeat.systems.pbase import PBaseFeatureSystem
 from distfeat.systems.tresoldi import TresoldiFeatureSystem
 
 
@@ -56,6 +58,10 @@ def create_registry(
         registry.register("ipa", IPAFeatureSystem(dataset_obj))
         registry.register("tresoldi", TresoldiFeatureSystem(dataset_obj))
         registry.register("distinctive", DistinctiveFeatureSystem(dataset_obj))
+        registry.register("pbase-hc", PBaseFeatureSystem("hc"))
+        registry.register("pbase-jfh", PBaseFeatureSystem("jfh"))
+        registry.register("pbase-spe", PBaseFeatureSystem("spe"))
+        registry.register("pbase-uftc", PBaseFeatureSystem("uftc"))
     return registry
 
 
@@ -107,9 +113,23 @@ def get_features(grapheme: str, *, system: str | None = None) -> frozenset[str] 
     return get_system(system).grapheme_to_features(grapheme)
 
 
+def get_representation(grapheme: str, *, system: str | None = None) -> FeatureRepresentation | None:
+    """Return the native feature representation for a grapheme."""
+    return get_system(system).grapheme_to_representation(grapheme)
+
+
 def get_class_features(grapheme: str, *, system: str | None = None) -> frozenset[str] | None:
     """Return class features for a class symbol."""
     return get_system(system).class_features(grapheme)
+
+
+def get_class_representation(
+    grapheme: str,
+    *,
+    system: str | None = None,
+) -> FeatureRepresentation | None:
+    """Return the native representation for a class symbol."""
+    return get_system(system).class_representation(grapheme)
 
 
 def is_class(grapheme: str, *, system: str | None = None) -> bool:
@@ -118,7 +138,7 @@ def is_class(grapheme: str, *, system: str | None = None) -> bool:
 
 
 def features_to_grapheme(
-    features: frozenset[str],
+    features: object,
     *,
     system: str | None = None,
 ) -> str | None:
@@ -146,6 +166,16 @@ def partial_match(
     return get_system(system).partial_match(pattern, target)
 
 
+def matches(
+    pattern: object,
+    target: object,
+    *,
+    system: str | None = None,
+) -> bool:
+    """Check whether the pattern matches the target using native semantics."""
+    return get_system(system).matches(pattern, target)
+
+
 def feature_distance(
     feat_a: str,
     feat_b: str,
@@ -164,3 +194,13 @@ def sound_distance(
 ) -> float:
     """Return the distance between two feature sets."""
     return get_system(system).sound_distance(feats_a, feats_b)
+
+
+def segment_distance(
+    a: object,
+    b: object,
+    *,
+    system: str | None = None,
+) -> float:
+    """Return the distance between two native segment representations."""
+    return get_system(system).segment_distance(a, b)

@@ -6,7 +6,13 @@ from dataclasses import dataclass
 from itertools import combinations
 from typing import TYPE_CHECKING
 
-from distfeat.registry import get_registry, get_system
+from distfeat.registry import get_system
+from distfeat.representations import (
+    CategoricalFeatures,
+    FeatureRepresentation,
+    FeatureState,
+    ValuedFeatures,
+)
 
 if TYPE_CHECKING:
     from distfeat.protocol import FeatureSystem
@@ -22,17 +28,40 @@ class FeatureMatrix:
     mode: str
 
 
-def _lookup_features(grapheme: str, system_obj: FeatureSystem) -> frozenset[str]:
-    """Resolve a grapheme or class symbol to a feature set."""
-    class_features = system_obj.class_features(grapheme)
-    if class_features is not None:
-        return class_features
+def _lookup_representation(grapheme: str, system_obj: FeatureSystem) -> FeatureRepresentation:
+    """Resolve a grapheme or class symbol to its native representation."""
+    class_representation = system_obj.class_representation(grapheme)
+    if class_representation is not None:
+        return class_representation
 
-    features = system_obj.grapheme_to_features(grapheme)
-    if features is None:
+    representation = system_obj.grapheme_to_representation(grapheme)
+    if representation is None:
         msg = f"Unknown grapheme or sound class: {grapheme!r}"
         raise KeyError(msg)
-    return features
+    return representation
+
+
+def _lookup_categorical(grapheme: str, system_obj: FeatureSystem) -> CategoricalFeatures:
+    """Resolve a grapheme or class symbol to a categorical representation."""
+    representation = _lookup_representation(grapheme, system_obj)
+    if not isinstance(representation, CategoricalFeatures):
+        msg = f"System {system_obj.name!r} does not expose categorical features."
+        raise NotImplementedError(msg)
+    return representation
+
+
+def _lookup_features(grapheme: str, system_obj: FeatureSystem) -> frozenset[str]:
+    """Resolve a grapheme or class symbol to a feature set."""
+    return _lookup_categorical(grapheme, system_obj).values
+
+
+def _lookup_valued(grapheme: str, system_obj: FeatureSystem) -> ValuedFeatures:
+    """Resolve a grapheme or class symbol to a valued representation."""
+    representation = _lookup_representation(grapheme, system_obj)
+    if not isinstance(representation, ValuedFeatures):
+        msg = f"System {system_obj.name!r} does not expose valued features."
+        raise NotImplementedError(msg)
+    return representation
 
 
 def _signature_is_unique(
@@ -66,42 +95,82 @@ def _select_minimal_columns(rows: dict[str, dict[str, object]]) -> tuple[str, ..
     return candidates
 
 
+def _normalize_valued_query(query: dict[str, FeatureState | str]) -> dict[str, FeatureState]:
+    """Normalize a valued query to FeatureState values."""
+    return {
+        name: value if isinstance(value, FeatureState) else FeatureState(value)
+        for name, value in query.items()
+    }
+
+
 def features_to_graphemes(
-    query: frozenset[str],
+    query: frozenset[str] | dict[str, FeatureState | str],
     *,
     system: str | None = None,
     exact: bool = False,
 ) -> list[str]:
     """Return all graphemes that satisfy the requested feature query."""
-    registry = get_registry()
-    system_obj = registry.get_system(system)
-    matches: list[str] = []
+    system_obj = get_system(system)
+    found: list[str] = []
 
-    for grapheme in sorted(registry.dataset.sounds):
+    if system_obj.representation_kind == "valued":
+        if not isinstance(query, dict):
+            msg = f"System {system_obj.name!r} requires dict-valued feature queries."
+            raise NotImplementedError(msg)
+        normalized_query = _normalize_valued_query(query)
+        for grapheme in system_obj.list_graphemes():
+            representation = system_obj.grapheme_to_representation(grapheme)
+            if not isinstance(representation, ValuedFeatures):
+                continue
+            matched = representation.values == normalized_query if exact else system_obj.matches(
+                normalized_query,
+                representation,
+            )
+            if matched:
+                found.append(grapheme)
+        return found
+
+    if not isinstance(query, frozenset):
+        msg = f"System {system_obj.name!r} requires frozenset categorical queries."
+        raise NotImplementedError(msg)
+
+    for grapheme in system_obj.list_graphemes():
         features = system_obj.grapheme_to_features(grapheme)
         if features is None:
             continue
 
         matched = features == query if exact else system_obj.partial_match(query, features)
         if matched:
-            matches.append(grapheme)
+            found.append(grapheme)
 
-    return matches
+    return found
 
 
 def derive_class_features(
     graphemes: list[str] | tuple[str, ...],
     *,
     system: str | None = None,
-) -> frozenset[str]:
+) -> frozenset[str] | dict[str, FeatureState]:
     """Derive the strict shared feature intersection of a grapheme set."""
     if not graphemes:
         msg = "Cannot derive class features from an empty grapheme set."
         raise ValueError(msg)
 
     system_obj = get_system(system)
-    feature_sets = [_lookup_features(grapheme, system_obj) for grapheme in graphemes]
 
+    if system_obj.representation_kind == "valued":
+        valued_rows = [_lookup_valued(grapheme, system_obj).values for grapheme in graphemes]
+        common_keys = set(valued_rows[0])
+        for row in valued_rows[1:]:
+            common_keys &= row.keys()
+        shared = {
+            key: valued_rows[0][key]
+            for key in sorted(common_keys)
+            if all(row[key] == valued_rows[0][key] for row in valued_rows[1:])
+        }
+        return shared
+
+    feature_sets = [_lookup_features(grapheme, system_obj) for grapheme in graphemes]
     common = set(feature_sets[0])
     for feature_set in feature_sets[1:]:
         common &= feature_set
@@ -121,6 +190,18 @@ def minimal_matrix(
 
     system_obj = get_system(system)
     system_name = system_obj.name
+
+    if system_obj.representation_kind == "valued":
+        valued_rows = {
+            grapheme: dict(_lookup_valued(grapheme, system_obj).values)
+            for grapheme in graphemes
+        }
+        columns = _select_minimal_columns(valued_rows)
+        rows = {
+            grapheme: tuple(valued_rows[grapheme].get(column, FeatureState.DOT) for column in columns)
+            for grapheme in graphemes
+        }
+        return FeatureMatrix(columns=columns, rows=rows, system=system_name, mode="valued")
 
     if system_name == "distinctive" and hasattr(system_obj, "grapheme_to_scalars"):
         scalar_rows: dict[str, dict[str, object]] = {}
@@ -153,6 +234,8 @@ def minimal_matrix(
 
 def _format_cell(value: object) -> str:
     """Format a matrix cell for display."""
+    if isinstance(value, FeatureState):
+        return value.value
     if isinstance(value, bool):
         return "True" if value else "False"
     if isinstance(value, float):
@@ -215,6 +298,6 @@ def distance(
         raise KeyError(msg)
 
     system_obj = get_system(system)
-    features_a = _lookup_features(grapheme_a, system_obj)
-    features_b = _lookup_features(grapheme_b, system_obj)
-    return system_obj.sound_distance(features_a, features_b)
+    representation_a = _lookup_representation(grapheme_a, system_obj)
+    representation_b = _lookup_representation(grapheme_b, system_obj)
+    return system_obj.segment_distance(representation_a, representation_b)

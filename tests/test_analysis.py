@@ -4,6 +4,7 @@ import pytest
 
 from distfeat import (
     FeatureMatrix,
+    FeatureState,
     derive_class_features,
     distance,
     features_to_graphemes,
@@ -105,3 +106,51 @@ def test_distance_precomputed_missing_pair() -> None:
     """Missing precomputed entries should fail explicitly."""
     with pytest.raises(KeyError):
         distance("a", "u", precomputed={"a": {"e": 1.5}})
+
+
+def test_features_to_graphemes_pbase_partial() -> None:
+    """Valued systems should support dict-based partial queries."""
+    matches = features_to_graphemes({"syllabic": "+"}, system="pbase-hc")
+    assert "a" in matches
+    assert "p" not in matches
+
+
+def test_features_to_graphemes_pbase_exact() -> None:
+    """Valued systems should support exact native-state matching."""
+    system = get_system("pbase-hc")
+    representation = system.grapheme_to_representation("a")
+    assert representation is not None
+    matches = features_to_graphemes(representation.values, system="pbase-hc", exact=True)
+    assert "a" in matches
+
+
+def test_derive_class_features_pbase() -> None:
+    """Valued systems should derive shared multi-state features."""
+    features = derive_class_features(["t", "d"], system="pbase-hc")
+    assert isinstance(features, dict)
+    assert features["consonantal"] == FeatureState.POSITIVE
+    assert "voice" not in features
+
+
+def test_minimal_matrix_pbase() -> None:
+    """P-base systems should yield valued feature matrices."""
+    matrix = minimal_matrix(["t", "d"], system="pbase-hc")
+    assert isinstance(matrix, FeatureMatrix)
+    assert matrix.mode == "valued"
+    assert matrix.columns == ("voice",)
+    assert matrix.rows["t"] == (FeatureState.NEGATIVE,)
+    assert matrix.rows["d"] == (FeatureState.POSITIVE,)
+
+
+def test_tabulate_matrix_pbase() -> None:
+    """Valued matrix rendering should preserve symbolic feature states."""
+    matrix = minimal_matrix(["t", "d"], system="pbase-hc")
+    rendered = tabulate_matrix(matrix)
+    assert "+" in rendered
+    assert "-" in rendered
+
+
+def test_distance_helper_pbase() -> None:
+    """The distance helper should use native multi-state distances."""
+    assert distance("a", "a", system="pbase-hc") == 0.0
+    assert distance("t", "d", system="pbase-hc") > 0.0

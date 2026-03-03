@@ -36,15 +36,22 @@ Main exports:
   - `set_default(...)`
 - convenience helpers:
   - `get_features(...)`
+  - `get_representation(...)`
   - `get_class_features(...)`
+  - `get_class_representation(...)`
   - `is_class(...)`
   - `features_to_grapheme(...)`
   - `add_features(...)`
+  - `matches(...)`
   - `partial_match(...)`
   - `feature_distance(...)`
+  - `segment_distance(...)`
   - `sound_distance(...)`
 - protocol and geometry:
   - `FeatureSystem`
+  - `FeatureState`
+  - `CategoricalFeatures`
+  - `ValuedFeatures`
   - `FeatureNode`
   - `GeometryNode`
   - `DEFAULT_GEOMETRY`
@@ -52,6 +59,7 @@ Main exports:
   - `IPAFeatureSystem`
   - `TresoldiFeatureSystem`
   - `DistinctiveFeatureSystem`
+  - `PBaseFeatureSystem`
 
 ## Functional Helpers
 
@@ -62,6 +70,7 @@ import distfeat
 
 features = distfeat.get_features("p")
 class_features = distfeat.get_class_features("V")
+valued = distfeat.get_representation("a", system="pbase-hc")
 is_class = distfeat.is_class("C")
 ```
 
@@ -110,18 +119,26 @@ All systems implement:
 class FeatureSystem(Protocol):
     @property
     def name(self) -> str: ...
+    @property
+    def representation_kind(self) -> str: ...
+    def list_graphemes(self) -> tuple[str, ...]: ...
+    def grapheme_to_representation(self, grapheme: str) -> object | None: ...
     def grapheme_to_features(self, grapheme: str) -> frozenset[str] | None: ...
-    def features_to_grapheme(self, features: frozenset[str]) -> str | None: ...
+    def features_to_grapheme(self, features: object) -> str | None: ...
     def is_class(self, grapheme: str) -> bool: ...
+    def class_representation(self, grapheme: str) -> object | None: ...
     def class_features(self, grapheme: str) -> frozenset[str] | None: ...
     def add_features(self, base: frozenset[str], added: frozenset[str]) -> frozenset[str]: ...
+    def matches(self, pattern: object, target: object) -> bool: ...
     def partial_match(self, pattern: frozenset[str], target: frozenset[str]) -> bool: ...
     def feature_distance(self, feat_a: str, feat_b: str) -> float: ...
+    def segment_distance(self, a: object, b: object) -> float: ...
     def sound_distance(self, feats_a: frozenset[str], feats_b: frozenset[str]) -> float: ...
 ```
 
-The `distinctive` system also exposes scalar-specific methods beyond the base
-protocol.
+The `distinctive` system exposes scalar-specific methods beyond the base
+protocol, and the P-base-derived systems use `ValuedFeatures` plus
+`FeatureState` for native multi-state feature values.
 
 ## Geometry API
 
@@ -156,12 +173,20 @@ import distfeat
 matches = distfeat.features_to_graphemes(frozenset({"consonant", "-voiced"}))
 ```
 
+For valued systems such as `pbase-hc`, the query is a dictionary of feature
+names to symbolic states:
+
+```python
+matches = distfeat.features_to_graphemes({"syllabic": "+"}, system="pbase-hc")
+```
+
 ### `derive_class_features(...)`
 
 Returns the strict shared feature intersection for a set of graphemes.
 
 ```python
 common = distfeat.derive_class_features(["t", "d"])
+valued_common = distfeat.derive_class_features(["t", "d"], system="pbase-hc")
 ```
 
 ### `minimal_matrix(...)`
@@ -171,6 +196,7 @@ requested graphemes.
 
 - `ipa` / `tresoldi`: categorical boolean matrix
 - `distinctive`: scalar dimension matrix
+- `pbase-*`: valued matrix using `FeatureState` cells
 
 ### `tabulate_matrix(...)`
 

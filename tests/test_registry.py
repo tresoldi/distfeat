@@ -17,12 +17,14 @@ def test_registry_creation() -> None:
     registry = create_registry()
     assert isinstance(registry, Registry)
     assert "ipa" in registry.list_systems()
+    assert "pbase-hc" in registry.list_systems()
 
 
 def test_lazy_default_registry() -> None:
     """The default registry is created lazily and exposes built-ins."""
     reset_registry()
     assert "ipa" in list_systems()
+    assert "pbase-hc" in list_systems()
     assert get_registry().get_system().name == "ipa"
 
 
