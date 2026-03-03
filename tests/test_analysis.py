@@ -1,0 +1,107 @@
+"""Tests for the analysis helper APIs."""
+
+import pytest
+
+from distfeat import (
+    FeatureMatrix,
+    derive_class_features,
+    distance,
+    features_to_graphemes,
+    get_system,
+    minimal_matrix,
+    tabulate_matrix,
+)
+
+
+def test_features_to_graphemes_partial() -> None:
+    """Partial queries should return matching graphemes."""
+    matches = features_to_graphemes(frozenset({"vowel"}))
+    assert "a" in matches
+    assert "p" not in matches
+
+
+def test_features_to_graphemes_negative_query() -> None:
+    """Negative feature queries should honor partial-match semantics."""
+    matches = features_to_graphemes(frozenset({"consonant", "-voiced"}))
+    assert "p" in matches
+    assert "b" not in matches
+
+
+def test_features_to_graphemes_exact() -> None:
+    """Exact queries should only return exact feature matches."""
+    system = get_system("ipa")
+    features = system.grapheme_to_features("a")
+    assert features is not None
+    matches = features_to_graphemes(features, exact=True)
+    assert "a" in matches
+
+
+def test_derive_class_features() -> None:
+    """Derived class features should be the strict feature intersection."""
+    features = derive_class_features(["t", "d"])
+    assert "consonant" in features
+    assert "alveolar" in features
+    assert "stop" in features
+    assert "voiced" not in features
+
+
+def test_minimal_matrix_categorical() -> None:
+    """Categorical systems should yield a boolean feature matrix."""
+    matrix = minimal_matrix(["t", "d"], system="ipa")
+    assert isinstance(matrix, FeatureMatrix)
+    assert matrix.mode == "categorical"
+    assert matrix.columns == ("voiced",)
+    assert matrix.rows["t"] == (False,)
+    assert matrix.rows["d"] == (True,)
+
+
+def test_minimal_matrix_distinctive() -> None:
+    """The distinctive system should produce a scalar matrix."""
+    matrix = minimal_matrix(["t", "d"], system="distinctive")
+    assert isinstance(matrix, FeatureMatrix)
+    assert matrix.mode == "scalar"
+    assert matrix.columns
+    assert all(isinstance(value, float) for value in matrix.rows["t"])
+
+
+def test_tabulate_matrix_plain() -> None:
+    """Plain-text matrix rendering should include a header and rows."""
+    matrix = minimal_matrix(["t", "d"], system="ipa")
+    rendered = tabulate_matrix(matrix)
+    assert "grapheme" in rendered
+    assert "t" in rendered
+    assert "d" in rendered
+
+
+def test_tabulate_matrix_markdown() -> None:
+    """Markdown rendering should include a markdown separator row."""
+    matrix = minimal_matrix(["t", "d"], system="ipa")
+    rendered = tabulate_matrix(matrix, format="markdown")
+    assert " | " in rendered
+    assert "---" in rendered
+
+
+def test_tabulate_matrix_invalid_format() -> None:
+    """Unsupported formats should fail explicitly."""
+    matrix = minimal_matrix(["t", "d"], system="ipa")
+    with pytest.raises(NotImplementedError):
+        tabulate_matrix(matrix, format="csv")
+
+
+def test_distance_helper() -> None:
+    """The helper should resolve graphemes and compute system distance."""
+    assert distance("a", "a") == 0.0
+    assert distance("a", "e") >= 0.0
+
+
+def test_distance_precomputed() -> None:
+    """Precomputed distance data should override system lookup."""
+    matrix = {"a": {"e": 1.5}}
+    assert distance("a", "e", precomputed=matrix) == 1.5
+    assert distance("e", "a", precomputed=matrix) == 1.5
+
+
+def test_distance_precomputed_missing_pair() -> None:
+    """Missing precomputed entries should fail explicitly."""
+    with pytest.raises(KeyError):
+        distance("a", "u", precomputed={"a": {"e": 1.5}})

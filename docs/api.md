@@ -12,6 +12,13 @@ import distfeat
 
 Main exports:
 
+- analysis APIs:
+  - `FeatureMatrix`
+  - `features_to_graphemes(...)`
+  - `derive_class_features(...)`
+  - `minimal_matrix(...)`
+  - `tabulate_matrix(...)`
+  - `distance(...)`
 - dataset APIs:
   - `FeatureDataset`
   - `load_builtin_dataset()`
@@ -132,3 +139,48 @@ from distfeat.geometry import DEFAULT_GEOMETRY
 
 distance = DEFAULT_GEOMETRY.feature_distance("voiced", "voiceless")
 ```
+
+## Analysis API
+
+The analysis layer is exposed at package root and implemented in
+`distfeat.analysis`.
+
+### `features_to_graphemes(...)`
+
+Returns all graphemes matching a feature query. By default this uses partial
+matching with the selected system's semantics.
+
+```python
+import distfeat
+
+matches = distfeat.features_to_graphemes(frozenset({"consonant", "-voiced"}))
+```
+
+### `derive_class_features(...)`
+
+Returns the strict shared feature intersection for a set of graphemes.
+
+```python
+common = distfeat.derive_class_features(["t", "d"])
+```
+
+### `minimal_matrix(...)`
+
+Returns a `FeatureMatrix` with the smallest distinguishing column set for the
+requested graphemes.
+
+- `ipa` / `tresoldi`: categorical boolean matrix
+- `distinctive`: scalar dimension matrix
+
+### `tabulate_matrix(...)`
+
+Renders a `FeatureMatrix` as `plain` or `markdown`.
+
+### `distance(...)`
+
+Computes grapheme-to-grapheme distance directly.
+
+It can either:
+
+- resolve graphemes through a system and use that system's native distance
+- use an explicitly provided precomputed nested-dict distance matrix

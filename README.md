@@ -57,6 +57,7 @@ print(distfeat.list_systems())
 # Top-level helpers
 print(distfeat.get_features("p"))
 print(distfeat.get_class_features("V"))
+print(distfeat.distance("a", "e"))
 
 # Use a specific system
 ipa = distfeat.get_system("ipa")
@@ -83,6 +84,17 @@ from distfeat import DistinctiveFeatureSystem, load_builtin_dataset
 system = DistinctiveFeatureSystem(dataset=load_builtin_dataset())
 scalars = system.grapheme_to_scalars("a")
 print(scalars)
+```
+
+## Analysis Helpers
+
+```python
+import distfeat
+
+matches = distfeat.features_to_graphemes(frozenset({"consonant", "-voiced"}))
+common = distfeat.derive_class_features(["t", "d"])
+matrix = distfeat.minimal_matrix(["t", "d", "s"])
+print(distfeat.tabulate_matrix(matrix))
 ```
 
 ## Documentation

@@ -19,6 +19,7 @@ Additional constraints:
 
 Core modules:
 
+- `distfeat.analysis`: higher-level query, matrix, and distance helpers
 - `distfeat.dataset`: `FeatureDataset` and dataset loaders
 - `distfeat.resources`: low-level TSV reading
 - `distfeat.protocol`: `FeatureSystem`

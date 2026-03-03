@@ -86,6 +86,13 @@ Across systems:
 - `add_features(...)` replaces conflicting values in the same category
 - `feature_distance(...)` is geometry-backed
 
+The analysis helpers work across all built-in systems:
+
+- `features_to_graphemes(...)` uses each system's matching semantics
+- `derive_class_features(...)` derives shared feature intersections
+- `minimal_matrix(...)` uses categorical columns for `ipa`/`tresoldi`
+- `minimal_matrix(...)` uses scalar dimensions for `distinctive`
+
 ## Choosing a System
 
 - use `ipa` for compact, stable categorical feature matching
