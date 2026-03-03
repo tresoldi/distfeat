@@ -7,8 +7,7 @@ from dataclasses import dataclass
 from functools import cache, cached_property
 from pathlib import Path
 
-from distfeat.representations import FeatureState, ValuedFeatures
-
+from distfeat.representations import FeatureState, ValuedFeatures, _normalize_valued_query
 
 _PBASE_DIR = Path(__file__).resolve().parent.parent / "data" / "pbase"
 _FEATURE_FILE = _PBASE_DIR / "ipa2allfeatures.csv"
@@ -56,7 +55,10 @@ def _pbase_table(family: str) -> dict[str, dict[str, FeatureState]]:
     result: dict[str, dict[str, FeatureState]] = {}
     for row in body:
         grapheme = row[0]
-        values = {column_name: _state_from_symbol(row[index]) for index, column_name in family_columns}
+        values = {
+            column_name: _state_from_symbol(row[index])
+            for index, column_name in family_columns
+        }
         existing = result.get(grapheme)
         if existing is None:
             result[grapheme] = values
@@ -81,14 +83,6 @@ def _pbase_metadata() -> dict[str, dict[str, str]]:
         entry = {header[index]: row[index] for index in range(len(header))}
         result[entry["ipa"]] = entry
     return result
-
-
-def _normalize_valued_query(query: dict[str, FeatureState | str]) -> dict[str, FeatureState]:
-    """Normalize a valued query to FeatureState values."""
-    normalized: dict[str, FeatureState] = {}
-    for key, value in query.items():
-        normalized[key] = value if isinstance(value, FeatureState) else FeatureState(value)
-    return normalized
 
 
 @dataclass(frozen=True)
@@ -167,10 +161,10 @@ class PBaseFeatureSystem:
             msg = "P-base matching requires ValuedFeatures targets."
             raise NotImplementedError(msg)
 
-        for key, value in query.items():
-            if target.values.get(key) != value:
-                return False
-        return True
+        return all(
+            target.values.get(key) == value
+            for key, value in query.items()
+        )
 
     def partial_match(self, pattern: frozenset[str], target: frozenset[str]) -> bool:
         msg = "Set-based partial_match is not meaningful for P-base systems."

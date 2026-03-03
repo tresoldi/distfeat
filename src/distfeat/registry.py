@@ -3,11 +3,14 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from typing import TYPE_CHECKING
 
 from distfeat.dataset import FeatureDataset, load_builtin_dataset
-from distfeat.protocol import FeatureSystem
-from distfeat.representations import FeatureRepresentation
 from distfeat.systems.distinctive import DistinctiveFeatureSystem
+
+if TYPE_CHECKING:
+    from distfeat.protocol import FeatureSystem
+    from distfeat.representations import FeatureRepresentation
 from distfeat.systems.ipa import IPAFeatureSystem
 from distfeat.systems.pbase import PBaseFeatureSystem
 from distfeat.systems.tresoldi import TresoldiFeatureSystem
@@ -113,7 +116,11 @@ def get_features(grapheme: str, *, system: str | None = None) -> frozenset[str] 
     return get_system(system).grapheme_to_features(grapheme)
 
 
-def get_representation(grapheme: str, *, system: str | None = None) -> FeatureRepresentation | None:
+def get_representation(
+    grapheme: str,
+    *,
+    system: str | None = None,
+) -> FeatureRepresentation | None:
     """Return the native feature representation for a grapheme."""
     return get_system(system).grapheme_to_representation(grapheme)
 

@@ -223,7 +223,9 @@ DEFAULT_GEOMETRY = GeometryNode(
             children=(
                 GeometryNode(
                     name="Labial",
-                    children=(FeatureNode(name="round", positive="rounded", negative="unrounded"),),
+                    children=(
+                        FeatureNode(name="round", positive="rounded", negative="unrounded"),
+                    ),
                 ),
                 GeometryNode(
                     name="Coronal",
