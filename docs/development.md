@@ -26,7 +26,14 @@ Core modules:
 - `distfeat.geometry`: feature hierarchy and distance logic
 - `distfeat.common`: shared implementation helpers
 - `distfeat.registry`: explicit registries plus lazy global registry
-- `distfeat.systems.*`: built-in system implementations
+- `distfeat.systems.categorical`: `CategoricalFeatureSystem` base class and
+  shared helpers (aliases, categories, normalization)
+- `distfeat.systems.ipa`: `IPAFeatureSystem`
+- `distfeat.systems.tresoldi`: `TresoldiFeatureSystem`
+- `distfeat.systems.distinctive`: `DistinctiveFeatureSystem` with scalar
+  dimensions
+- `distfeat.systems.pbase`: `PBaseFeatureSystem` for multi-state P-base
+  families
 
 ## State Model
 
