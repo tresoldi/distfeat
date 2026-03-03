@@ -247,9 +247,6 @@ class DistinctiveFeatureSystem:
             raise NotImplementedError(msg)
         return self.sound_distance(a.values, b.values)
 
-    def sound_distance(self, feats_a: frozenset[str], feats_b: frozenset[str]) -> float:
-        return common.sound_distance(feats_a, feats_b)
-
     def grapheme_to_scalars(self, grapheme: str) -> dict[str, float] | None:
         features = self.grapheme_to_features(grapheme)
         if features is None:
