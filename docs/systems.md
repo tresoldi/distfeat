@@ -10,8 +10,19 @@
 - `pbase-spe`
 - `pbase-uftc`
 
-All three implement the `FeatureSystem` protocol and operate against a
+All seven implement the `FeatureSystem` protocol and operate against a
 `FeatureDataset`.
+
+For new code, the native representation methods are the preferred entry point:
+
+- `grapheme_to_representation(...)`
+- `class_representation(...)`
+- `matches(...)`
+- `segment_distance(...)`
+
+The older set-based methods remain first-class for categorical systems, but
+they are compatibility-oriented and intentionally do not capture the full
+surface of valued systems such as `pbase-*`.
 
 ## `ipa`
 
@@ -99,6 +110,8 @@ Characteristics:
 - preserve symbolic feature states (`+`, `-`, `n`, `.`, `o`, `x`)
 - expose native `ValuedFeatures` objects
 - support dict-based matching, matrix construction, and direct distance
+- merge duplicate source rows conservatively:
+  identical duplicates collapse, and conflicting cells are downgraded to `.`
 
 Typical use:
 

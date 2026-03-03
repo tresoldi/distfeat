@@ -30,8 +30,8 @@ their own datasets.
 ### System
 
 A feature system implements the `FeatureSystem` protocol. Systems convert
-between graphemes and feature bundles, handle class matching, and expose
-distance calculations.
+between graphemes and native representations, handle class matching, and
+expose distance calculations.
 
 Built-in systems:
 
@@ -40,6 +40,10 @@ Built-in systems:
 - `distinctive`: categorical features plus scalar conversions
 - `pbase-*`: native multi-state feature tables derived from the bundled
   P-base segment table
+
+For new code, prefer the native representation methods
+(`grapheme_to_representation(...)`, `matches(...)`, `segment_distance(...)`)
+over the older set-based compatibility helpers.
 
 ### Registry
 
