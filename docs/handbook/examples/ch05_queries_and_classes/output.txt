@@ -1,0 +1,23 @@
+=== Feature Queries ===
+Voiceless bilabial stops: ['p', "p'", "p'ʲ", "p'ʲʷ", "p'ʷ"]
+
+=== Negative Queries ===
+Stops (not voiced), first 5: ['c', "c'", "c'ʲ", "c'ʷ", "c'ʷˤ"]
+
+=== Derive Class Features ===
+p, t, k share: ['consonant', 'stop', 'voiceless']
+p, b share: ['bilabial', 'consonant', 'stop']
+b, d, g share: ['consonant', 'stop', 'voiced']
+
+=== Feature Composition ===
+/p/ features: ['bilabial', 'consonant', 'stop', 'voiceless']
+/p/ + voiced: ['bilabial', 'consonant', 'stop', 'voiced']
+/b/ features: ['bilabial', 'consonant', 'stop', 'voiced']
+Match: True
+
+=== Sound Classes ===
+Class C: ['consonant']
+Class V: ['vowel']
+Class S: ['stop']
+Class F: ['fricative']
+Class N: ['consonant', 'nasal']

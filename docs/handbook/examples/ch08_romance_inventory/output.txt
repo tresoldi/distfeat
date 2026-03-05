@@ -1,0 +1,33 @@
+=== Latin Consonant Inventory ===
+/p/: ['bilabial', 'consonant', 'stop', 'voiceless']
+/b/: ['bilabial', 'consonant', 'stop', 'voiced']
+/t/: ['alveolar', 'consonant', 'stop', 'voiceless']
+/d/: ['alveolar', 'consonant', 'stop', 'voiced']
+/k/: ['consonant', 'stop', 'velar', 'voiceless']
+/g/: ['consonant', 'stop', 'velar', 'voiced']
+/f/: ['consonant', 'fricative', 'labio-dental', 'voiceless']
+/s/: ['alveolar', 'consonant', 'fricative', 'sibilant', 'voiceless']
+/m/: ['bilabial', 'consonant', 'nasal', 'voiced']
+/n/: ['alveolar', 'consonant', 'nasal', 'voiced']
+/l/: ['alveolar', 'approximant', 'consonant', 'lateral', 'voiced']
+/r/: ['alveolar', 'consonant', 'trill', 'voiced']
+
+=== Romance Innovations as Feature Operations ===
+/p/ + voiced = ['bilabial', 'consonant', 'stop', 'voiced']
+  matches /b/: True
+/b/ + fricative = ['bilabial', 'consonant', 'fricative', 'voiced']
+  matches /β/: True
+
+=== Reflexes of Latin /p/ ===
+  Latin /p/: ['bilabial', 'consonant', 'stop', 'voiceless']
+  Italian /p/: ['bilabial', 'consonant', 'stop', 'voiceless']
+  Spanish /b/: ['bilabial', 'consonant', 'stop', 'voiced']
+  French /v/: ['consonant', 'fricative', 'labio-dental', 'voiced']
+  Portuguese /b/: ['bilabial', 'consonant', 'stop', 'voiced']
+
+=== Minimal Matrix: p b v ===
+grapheme | bilabial | voiced
+---------+----------+-------
+p        | True     | False 
+b        | True     | True  
+v        | False    | True  

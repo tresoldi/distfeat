@@ -1,243 +1,406 @@
 # distfeat
 
-**Distance and Feature library for phonetic analysis**
+`distfeat` is a standalone Python package for manipulating phonological
+features.
 
-A focused Python library for phonetic feature extraction and distance calculation, with comprehensive IPA support and glyph normalization.
+It provides:
 
-## Features
+- bundled phonological feature datasets
+- pluggable feature systems
+- feature geometry and distance functions
+- query and analysis helpers for graphemes and feature sets
 
-- 🎯 **Phonetic Features**: Binary feature vectors for 1000+ IPA phonemes from CLTS BIPA
-- 📏 **Distance Metrics**: Multiple methods including Hamming, Jaccard, Euclidean, Cosine, Manhattan, and K-means clustering
-- 🔤 **IPA Normalization**: Comprehensive glyph normalization with NFD, diacritic ordering, and IPA canonicalization
-- 🧪 **Cognate Testing**: Built-in alignment and optimization tools for historical linguistics
-- ⚡ **Fast & Lightweight**: Minimal dependencies, optimized caching, pure Python with NumPy acceleration
-- 🔧 **Extensible**: Register custom distance methods and feature systems
+`distfeat` is dependency-free at runtime and is the standalone home for the
+feature subsystem extracted from `alteruphono`.
+
+The canonical modern API is built around native representations:
+
+- use `get_representation(...)` when you want the system's native feature model
+- use `matches(...)` and `segment_distance(...)` for system-native comparison
+- treat `get_features(...)`, `partial_match(...)`, and `sound_distance(...)` as
+  convenience helpers for categorical systems
 
 ## Installation
+
+Install from PyPI:
 
 ```bash
 pip install distfeat
 ```
 
-For development:
+Requires Python 3.12+.
+
+Development install:
+
 ```bash
-pip install distfeat[dev]
+git clone https://github.com/tresoldi/distfeat.git
+cd distfeat
+uv venv
+uv pip install -e ".[dev]"
 ```
+
+Run checks in the project environment:
+
+```bash
+uv run ruff check .
+uv run mypy src
+uv run pytest -q
+uv run python scripts/verify_examples.py
+```
+
+## Core Concepts
+
+The package is organized around:
+
+- a bundled `FeatureDataset`
+- a lazy default registry plus explicit `Registry` instances
+- built-in systems:
+  - `ipa`
+  - `tresoldi`
+  - `distinctive`
+  - `pbase-hc`
+  - `pbase-jfh`
+  - `pbase-spe`
+  - `pbase-uftc`
+
+The package does not define a `Sound` object. It works directly with graphemes,
+feature bundles, native multi-state feature tables, scalar dimensions, and
+matrices.
 
 ## Quick Start
 
-### Basic Usage
-
 ```python
-from distfeat import phoneme_to_features, calculate_distance
+import distfeat
 
-# Get phonetic features
-features_p = phoneme_to_features('p')
-features_b = phoneme_to_features('b')
+# Built-in systems
+print(distfeat.list_systems())
+# ['ipa', 'tresoldi', 'distinctive', 'pbase-hc', 'pbase-jfh', 'pbase-spe', 'pbase-uftc']
 
-# Calculate distance between phonemes
-distance = calculate_distance('p', 'b', method='hamming')
-print(f"Distance between 'p' and 'b': {distance:.3f}")
-# Output: Distance between 'p' and 'b': 0.053
+# Basic grapheme lookup
+print(distfeat.get_features("p"))
+# frozenset({'consonant', 'voiceless', 'bilabial', 'stop'})
+
+# Predefined sound classes
+print(distfeat.get_class_features("V"))
+# frozenset({'vowel'})
+
+# Direct grapheme distance
+print(distfeat.distance("a", "e"))
 ```
 
-### Build Distance Matrix
+## Working With Systems
+
+You can use the lazy default registry through top-level helpers, or you can
+work with a specific system object.
 
 ```python
-from distfeat import build_distance_matrix
+import distfeat
 
-# Build matrix for specific phonemes
-phonemes = ['p', 'b', 't', 'd', 'k', 'g']
-matrix, labels = build_distance_matrix(phonemes, method='hamming')
+ipa = distfeat.get_system("ipa")
+tresoldi = distfeat.get_system("tresoldi")
+distinctive = distfeat.get_system("distinctive")
+pbase = distfeat.get_system("pbase-hc")
 
-# Or build for all phonemes in the system
-matrix, labels = build_distance_matrix(method='jaccard')
+print(ipa.grapheme_to_features("a"))
+print(tresoldi.grapheme_to_features("a"))
+print(distinctive.grapheme_to_features("a"))
+print(pbase.grapheme_to_representation("a"))
 ```
 
-### IPA Normalization
+Exact reverse lookup is available when a native representation maps directly to
+a known grapheme. For categorical systems this is usually a `frozenset[str]`;
+for valued systems it can be a `dict[str, FeatureState | str]` or
+`ValuedFeatures`.
 
 ```python
-from distfeat import normalize_ipa, normalize_glyph
+ipa = distfeat.get_system("ipa")
 
-# Normalize IPA text
-text = "pʰæ̃n"
-normalized = normalize_ipa(text)
-print(normalized)  # "pʰæ̃n" with consistent encoding
-
-# Fine-grained control
-normalized = normalize_glyph(
-    text,
-    nfd=True,
-    order_diacritics=True,
-    normalize_length=True,
-    preserve_tones=False
+grapheme = ipa.features_to_grapheme(
+    frozenset({"consonant", "voiced", "bilabial", "stop"})
 )
+print(grapheme)
+# 'b'
 ```
 
-### Export Distance Matrices
+## Feature Queries
+
+### Find Graphemes Matching a Feature Set
+
+Use `features_to_graphemes(...)` to retrieve all graphemes satisfying a
+feature query.
+
+By default, matching is partial and uses the semantics of the selected system.
 
 ```python
-from distfeat import save_distance_matrix, load_distance_matrix
+import distfeat
 
-# Save in different formats
-save_distance_matrix(matrix, phonemes, 'distances.tsv', format='tsv')
-save_distance_matrix(matrix, phonemes, 'distances.json', format='json')
+# All vowels in the default system
+vowels = distfeat.features_to_graphemes(frozenset({"vowel"}))
+print(vowels[:10])
 
-# Load matrices
-loaded_matrix, loaded_phonemes = load_distance_matrix('distances.tsv')
-```
-
-## Distance Methods
-
-### Built-in Methods
-
-- **Hamming**: Number of differing features (normalized)
-- **Jaccard**: 1 - (intersection/union) of active features
-- **Euclidean**: L2 distance in feature space
-- **Cosine**: 1 - cosine similarity
-- **Manhattan**: L1 distance (sum of absolute differences)
-- **K-means**: Clustering-based distance using centroids
-
-### Custom Distance Methods
-
-```python
-from distfeat import register_distance_method, calculate_distance
-import numpy as np
-
-# Define custom distance
-def weighted_hamming(vec1, vec2):
-    weights = np.linspace(1, 2, len(vec1))  # Weight later features more
-    return np.sum(weights * (vec1 != vec2)) / np.sum(weights)
-
-# Register and use
-register_distance_method('weighted_hamming', weighted_hamming)
-distance = calculate_distance('p', 'b', method='weighted_hamming')
-```
-
-## Configuration
-
-### Programmatic Configuration
-
-```python
-from distfeat import get_config, set_config
-
-# Get current configuration
-config = get_config()
-
-# Modify settings
-set_config('default_distance_method', 'jaccard')
-set_config('on_error', 'raise')  # 'raise', 'warn', or 'ignore'
-set_config('kmeans_clusters', 15)
-```
-
-### YAML Configuration
-
-```yaml
-# config.yaml
-default_distance_method: hamming
-default_normalize: true
-default_precision: 4
-cache_size: 2048
-kmeans_clusters: 12
-on_error: warn
-```
-
-```python
-from distfeat import load_config
-
-load_config('config.yaml')
-```
-
-## Custom Feature Systems
-
-```python
-from distfeat import load_custom_features, phoneme_to_features
-
-# Load custom feature system
-load_custom_features(
-    'my_features.csv',
-    name='custom',
-    delimiter=',',
-    phoneme_col='IPA'
+# Voiceless consonants
+voiceless_consonants = distfeat.features_to_graphemes(
+    frozenset({"consonant", "-voiced"})
 )
-
-# Use custom system
-features = phoneme_to_features('p', system='custom')
+print(voiceless_consonants[:10])
 ```
 
-## Testing & Validation
+You can also force exact matching:
 
-The library includes comprehensive tests for:
+```python
+import distfeat
 
-- **Unit Tests**: Core functionality for features and distances
-- **Property Tests**: Mathematical properties (symmetry, triangle inequality)
-- **Linguistic Tests**: Voice distinctions, place of articulation, manner classes
-- **Integration Tests**: Validation against cognate data and IPA charts
-
-Run tests:
-```bash
-pytest tests/
+ipa = distfeat.get_system("ipa")
+features = ipa.grapheme_to_features("a")
+print(distfeat.features_to_graphemes(features, exact=True))
 ```
 
-## Data Sources
+## Native Multi-State Systems
 
-- **CLTS BIPA**: Phonetic features from the Cross-Linguistic Transcription Systems project
-- **Bundled Data**: Complete feature system for 1000+ IPA phonemes included
-- **Test Data**: Sample cognate sets for validation (not included in distribution)
+`distfeat` also supports systems whose native representation is a named
+feature-value table instead of a categorical set. The bundled P-base-derived
+systems expose multi-state values such as `+`, `-`, `n`, `.`, `o`, and `x`
+through `FeatureState`.
 
-## API Reference
+```python
+import distfeat
 
-### Core Functions
+rep = distfeat.get_representation("a", system="pbase-hc")
+print(rep.values["syllabic"])
+# FeatureState.POSITIVE
 
-- `phoneme_to_features(phoneme, system=None, on_error='warn')`: Convert phoneme to features
-- `features_to_phoneme(features, system=None, threshold=1.0)`: Find best matching phoneme
-- `calculate_distance(phoneme1, phoneme2, method='hamming', normalize=True)`: Calculate distance
-- `build_distance_matrix(phonemes=None, method='hamming')`: Build distance matrix
+matches = distfeat.features_to_graphemes({"syllabic": "+"}, system="pbase-hc")
+print(matches[:10])
+```
 
-### Normalization
+The bundled P-base table is intentionally described as derived rather than
+verbatim. The source data contains duplicate IPA rows, including rows with
+conflicting values in a small number of columns. `distfeat` merges duplicate
+rows conservatively:
 
-- `normalize_ipa(text, canonicalize=True, decompose_affricates=False)`: Normalize IPA text
-- `normalize_glyph(text, nfd=True, order_diacritics=True, ...)`: Fine-grained normalization
+- identical duplicate rows collapse into one row
+- if duplicate rows disagree, only the conflicting cells are downgraded to `.`
+  (`FeatureState.DOT`)
 
-### I/O Functions
+This preserves a single usable row per grapheme without inventing new positive
+or negative values where the source disagrees.
 
-- `save_distance_matrix(matrix, phonemes, path, format='tsv')`: Save matrix
-- `load_distance_matrix(path, format=None)`: Load matrix
-- `export_matrix_tsv/csv/json(...)`: Format-specific exports
+### Derive Shared Class Features
 
-## Performance
+Use `derive_class_features(...)` to compute the strict shared feature
+intersection of a set of graphemes.
 
-- **Caching**: LRU cache for distance calculations (configurable size)
-- **Vectorization**: NumPy arrays for efficient computation
-- **Lazy Loading**: Features loaded on first use
+```python
+import distfeat
 
-## Contributing
+print(distfeat.derive_class_features(["t", "d"]))
+# frozenset({'consonant', 'alveolar', 'stop', ...})
 
-Contributions welcome! The library is designed to be extended with:
-- New distance methods
-- Additional feature systems
-- Enhanced normalization rules
-- Performance optimizations
+print(distfeat.derive_class_features(["t", "d", "s"]))
+# fewer shared features than the pair above
+```
 
-## License
+For multi-state systems, the result is a dictionary of shared feature states:
 
-MIT License - see LICENSE file for details.
+```python
+import distfeat
 
-## Citation
+print(distfeat.derive_class_features(["t", "d"], system="pbase-hc"))
+# {'consonantal': <FeatureState.POSITIVE: '+'>, ...}
+```
 
-If you use distfeat in your research, please cite:
+## Minimal Distinguishing Matrices
 
-```bibtex
-@software{distfeat,
-  title = {distfeat: Distance and Feature library for phonetic analysis},
-  author = {UNIPA Development Team},
-  year = {2024},
-  url = {https://github.com/your-org/distfeat}
+Use `minimal_matrix(...)` to compute the smallest feature set needed to
+distinguish a given list of graphemes.
+
+```python
+import distfeat
+
+matrix = distfeat.minimal_matrix(["t", "d"], system="ipa")
+print(matrix.columns)
+print(matrix.rows)
+```
+
+For `ipa` and `tresoldi`, the matrix is categorical and boolean. For
+`distinctive`, it uses scalar dimensions. For P-base-derived systems, it uses
+native multi-state values.
+
+```python
+import distfeat
+
+matrix = distfeat.minimal_matrix(["t", "d", "s"], system="ipa")
+print(distfeat.tabulate_matrix(matrix))
+```
+
+Example plain-text output:
+
+```text
+grapheme | continuant | voiced
+---------+------------+-------
+t        | False      | False
+d        | False      | True
+s        | True       | False
+```
+
+Markdown output is also supported:
+
+```python
+print(distfeat.tabulate_matrix(matrix, format="markdown"))
+```
+
+P-base-derived systems render symbolic state values directly:
+
+```python
+import distfeat
+
+matrix = distfeat.minimal_matrix(["t", "d"], system="pbase-hc")
+print(distfeat.tabulate_matrix(matrix))
+```
+
+## Distinctive Scalars
+
+The `distinctive` system also exposes scalar representations.
+
+```python
+from distfeat import DistinctiveFeatureSystem, load_builtin_dataset
+
+system = DistinctiveFeatureSystem(dataset=load_builtin_dataset())
+
+print(system.grapheme_to_scalars("a"))
+print(system.features_to_scalars(system.grapheme_to_features("a")))
+print(system.scalars_to_features({"voice": 1.0, "labial": 1.0}))
+```
+
+## Distance
+
+### System-Based Distance
+
+The default `distance(...)` helper resolves graphemes through the selected
+system and uses that system's native distance.
+
+```python
+import distfeat
+
+print(distfeat.distance("a", "e"))
+print(distfeat.distance("a", "u"))
+print(distfeat.distance("p", "b"))
+print(distfeat.distance("t", "d", system="pbase-hc"))
+```
+
+### Precomputed Distance Matrices
+
+You can also supply a precomputed nested dictionary.
+
+```python
+import distfeat
+
+precomputed = {
+    "a": {"e": 1.5, "u": 2.0},
+    "p": {"b": 0.5},
 }
+
+print(distfeat.distance("a", "e", precomputed=precomputed))
+print(distfeat.distance("b", "p", precomputed=precomputed))
 ```
 
-## Related Projects
+If a requested pair is missing from the precomputed matrix, the function raises
+`KeyError`.
 
-- [UNIPA](https://github.com/your-org/unipa): Parent project for computational historical linguistics
-- [CLTS](https://clts.clld.org/): Cross-Linguistic Transcription Systems
-- [LingPy](https://lingpy.org/): Python library for historical linguistics
+## Custom Datasets
+
+### Load From a Directory
+
+```python
+from distfeat import create_registry, load_dataset
+
+dataset = load_dataset(directory="my_feature_data")
+registry = create_registry(dataset=dataset)
+system = registry.get_system("ipa")
+
+print(system.grapheme_to_features("k"))
+```
+
+Expected files in `my_feature_data/`:
+
+- `sounds.tsv`
+- `classes.tsv`
+- `features.tsv`
+
+## Bundled P-base-Derived Data
+
+`distfeat` bundles a derived segment table based on the P-base distribution.
+The bundled systems are:
+
+- `pbase-hc`
+- `pbase-jfh`
+- `pbase-spe`
+- `pbase-uftc`
+
+These systems use the same registry and analysis APIs as the categorical and
+scalar systems, but operate on native multi-state feature values.
+
+The P-base-derived data is bundled separately from the MIT-licensed code and
+retains its own attribution and license notice in `src/distfeat/data/pbase/`.
+
+### Build From In-Memory Rows
+
+```python
+from distfeat import create_registry, dataset_from_rows
+from distfeat.systems.ipa import IPAFeatureSystem
+
+dataset = dataset_from_rows(
+    sounds={"a": "open front vowel", "p": "voiceless bilabial consonant stop"},
+    classes={"V": ("vowel", "vowel", ["a"])},
+    features=[("open", "height"), ("front", "centrality"), ("stop", "manner")],
+)
+
+registry = create_registry(dataset=dataset, register_builtin=False)
+registry.register("ipa", IPAFeatureSystem(dataset))
+
+print(registry.get_system("ipa").grapheme_to_features("a"))
+```
+
+## Explicit Registries
+
+Use explicit registries when you want isolated state instead of the default
+global registry.
+
+```python
+from distfeat import create_registry, load_builtin_dataset
+
+registry = create_registry(dataset=load_builtin_dataset())
+registry.set_default("tresoldi")
+
+print(registry.get_system().name)
+print(registry.list_systems())
+```
+
+## What The Package Does Not Do
+
+The current package intentionally does not provide:
+
+- a legacy `DistFeat` facade class
+- the old binary/tristate feature-table interface
+- `grapheme2features(..., t_values=False)` style `+/-/0` rendering
+- vector output modes for feature tables or matrices
+- a command-line interface
+- ML-based distance training
+
+The current public API is built around categorical feature bundles, native
+multi-state feature tables, scalar dimensions for the `distinctive` system,
+and analysis helpers over those representations.
+
+## Documentation
+
+- [docs/index.md](docs/index.md) for the package overview
+- [docs/api.md](docs/api.md) for the public API
+- [docs/datasets.md](docs/datasets.md) for dataset loading
+- [docs/systems.md](docs/systems.md) for built-in systems
+- [docs/recipes.md](docs/recipes.md) for task-oriented workflows
+- [docs/development.md](docs/development.md) for implementation constraints
+
+## Relationship to alteruphono
+
+`alteruphono` should be treated as a consumer of `distfeat`, not the owner of
+the feature subsystem.
