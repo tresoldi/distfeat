@@ -11,6 +11,7 @@ from distfeat.analysis import (
     tabulate_matrix,
 )
 from distfeat.dataset import FeatureDataset, dataset_from_rows, load_builtin_dataset, load_dataset
+from distfeat.exporters import export_class_features, export_distances, export_matrix
 from distfeat.geometry import DEFAULT_GEOMETRY, FeatureNode, GeometryNode
 from distfeat.protocol import FeatureSystem
 from distfeat.registry import (
@@ -70,6 +71,9 @@ __all__ = [
     "derive_class_features",
     "distance",
     "feature_distance",
+    "export_class_features",
+    "export_distances",
+    "export_matrix",
     "features_to_grapheme",
     "features_to_graphemes",
     "get_class_features",
