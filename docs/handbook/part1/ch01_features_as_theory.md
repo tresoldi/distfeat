@@ -86,7 +86,7 @@ morpheme in the lexicon was stored as a matrix of segments, and every
 segment was a column of plus and minus feature values. Phonological
 rules operated on this matrix by changing values---flipping a minus to
 a plus, or spreading a value from one column to the next. The Latin
-voiceless bilabial stop /t/, for example, would receive roughly the
+voiceless alveolar stop /t/, for example, would receive roughly the
 following SPE specification:
 
 | Feature        | Value |

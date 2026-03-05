@@ -15,11 +15,10 @@ feature subsystem extracted from `alteruphono`.
 
 The canonical modern API is built around native representations:
 
-- use `get_representation(...)` and `grapheme_to_representation(...)` when you
-  want the system's real feature model
+- use `get_representation(...)` when you want the system's native feature model
 - use `matches(...)` and `segment_distance(...)` for system-native comparison
-- treat `get_features(...)`, `grapheme_to_features(...)`, `partial_match(...)`,
-  and `sound_distance(...)` as compatibility helpers for categorical systems
+- treat `get_features(...)`, `partial_match(...)`, and `sound_distance(...)` as
+  convenience helpers for categorical systems
 
 ## Installation
 

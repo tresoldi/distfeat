@@ -298,7 +298,7 @@ algorithm.
 |--------|------|------|----------|-----------------|
 | IPA | `"ipa"` | Categorical | Parsed from sound names | Geometry-weighted |
 | Tresoldi | `"tresoldi"` | Categorical | Broader descriptive labels | Geometry-weighted |
-| Distinctive | `"distinctive"` | Categorical + Scalar | 24+ scalar dimensions | Scalar-weighted |
+| Distinctive | `"distinctive"` | Categorical + Scalar | 32 scalar dimensions | Scalar-weighted |
 | P-base HC | `"pbase-hc"` | Valued | Halle & Clements features | Mismatch ratio |
 | P-base JFH | `"pbase-jfh"` | Valued | Jakobson/Fant/Halle features | Mismatch ratio |
 | P-base SPE | `"pbase-spe"` | Valued | SPE features | Mismatch ratio |

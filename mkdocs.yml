@@ -6,6 +6,7 @@ repo_url: "https://github.com/tresoldi/distfeat"
 repo_name: "tresoldi/distfeat"
 
 docs_dir: docs/handbook
+use_directory_urls: false
 
 theme:
   name: material
@@ -23,9 +24,6 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.sections
-    - navigation.expand
-    - navigation.indexes
     - navigation.top
     - content.code.copy
     - content.tabs.link
@@ -62,28 +60,28 @@ extra_css:
 nav:
   - Home: index.md
   - "Part I: Foundations":
-    - part1/index.md
+    - Overview: part1/index.md
     - "Ch. 1 — Features as Theory": part1/ch01_features_as_theory.md
     - "Ch. 2 — From Phonemes to Bundles": part1/ch02_from_phonemes_to_bundles.md
     - "Ch. 3 — Getting Started": part1/ch03_getting_started.md
   - "Part II: The Romance Consonant Workshop":
-    - part2/index.md
+    - Overview: part2/index.md
     - "Ch. 4 — Systems and Representations": part2/ch04_systems_and_representations.md
     - "Ch. 5 — Queries and Classes": part2/ch05_queries_and_classes.md
     - "Ch. 6 — Matrices and Geometry": part2/ch06_matrices_and_geometry.md
     - "Ch. 7 — Distance": part2/ch07_distance.md
   - "Part III: Synthesis":
-    - part3/index.md
+    - Overview: part3/index.md
     - "Ch. 8 — The Romance Consonant Inventory": part3/ch08_romance_inventory.md
     - "Ch. 9 — Modeling Western Romance Lenition": part3/ch09_modeling_lenition.md
   - Reference:
-    - reference/index.md
+    - Overview: reference/index.md
     - "API Reference": reference/api_reference.md
     - "Feature Catalog": reference/feature_catalog.md
     - Glossary: reference/glossary.md
     - Troubleshooting: reference/troubleshooting.md
   - About:
-    - about/index.md
+    - Overview: about/index.md
     - Contributing: about/contributing.md
     - Changelog: about/changelog.md
     - License: about/license.md
