@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "distfeat"
-version = "0.4.0"
+version = "0.5.0"
 description = "Standalone phonological feature systems for historical linguistics"
 authors = [
     {name = "Tiago Tresoldi", email = "tiago.tresoldi@lingfil.uu.se"}

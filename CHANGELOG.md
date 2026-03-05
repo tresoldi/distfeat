@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.5.0
+
+- Added task-oriented workflow recipes for computational phonology and
+  computational historical linguistics.
+- Added explicit methodological assumptions documentation for built-in systems.
+- Added stable export helpers:
+  `export_matrix(...)`, `export_distances(...)`, and `export_class_features(...)`.
+- Added dataset quality audit APIs:
+  `DatasetAuditReport` and `audit_dataset(...)`.
+- Added explicit valued-feature uncertainty controls:
+  `valued_matches(...)`, `valued_distance(...)`, and DOT-policy controls in
+  `features_to_graphemes(...)` and `distance(...)` for valued systems.
+- Changed `scripts/verify_examples.py` so metadata writes are opt-in
+  (`--write-meta`) and verification is read-only by default.
+
 ## 0.4.0
 
 - Added native multi-state feature support through `FeatureState`,
