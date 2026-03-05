@@ -19,6 +19,10 @@ Main exports:
   - `minimal_matrix(...)`
   - `tabulate_matrix(...)`
   - `distance(...)`
+- export APIs:
+  - `export_matrix(...)`
+  - `export_distances(...)`
+  - `export_class_features(...)`
 - dataset APIs:
   - `FeatureDataset`
   - `load_builtin_dataset()`
@@ -237,3 +241,17 @@ It can either:
 
 - resolve graphemes through a system and use that system's native distance
 - use an explicitly provided precomputed nested-dict distance matrix
+
+## Export APIs
+
+The export helpers provide stable TSV/CSV/JSON serialization for common
+analysis outputs.
+
+- `export_matrix(matrix, path, format=None)`
+- `export_distances(distances, path, format=None)`
+- `export_class_features(features, path, format=None)`
+
+Format behavior:
+
+- if `format` is omitted, the function infers it from the file extension
+- supported formats are `json`, `csv`, and `tsv`
