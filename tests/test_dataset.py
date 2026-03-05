@@ -1,7 +1,5 @@
 """Tests for dataset APIs."""
 
-import pickle
-
 import pytest
 
 from distfeat import dataset_from_rows, load_builtin_dataset
@@ -56,16 +54,3 @@ def test_dataset_is_deeply_immutable() -> None:
         dataset.classes["V"] = ("vowel", "vowel", ("a",))  # type: ignore[index]
     with pytest.raises(TypeError):
         dataset.features[0] = ("open", "height")  # type: ignore[index]
-
-
-def test_dataset_pickle_roundtrip_preserves_immutability() -> None:
-    """FeatureDataset should remain pickleable while deeply immutable."""
-    dataset = load_builtin_dataset()
-    restored = pickle.loads(pickle.dumps(dataset))
-
-    assert restored.sounds == dataset.sounds
-    assert restored.classes == dataset.classes
-    assert restored.features == dataset.features
-
-    with pytest.raises(TypeError):
-        restored.sounds["a"] = "x"  # type: ignore[index]

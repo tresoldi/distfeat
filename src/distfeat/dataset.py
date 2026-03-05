@@ -35,39 +35,6 @@ class FeatureDataset:
         object.__setattr__(self, "classes", immutable_classes)
         object.__setattr__(self, "features", immutable_features)
 
-    def __getstate__(
-        self,
-    ) -> tuple[
-        dict[str, str],
-        dict[str, tuple[str, str, tuple[str, ...]]],
-        tuple[tuple[str, str], ...],
-    ]:
-        """Serialize with pickle-friendly containers."""
-        return dict(self.sounds), dict(self.classes), tuple(self.features)
-
-    def __setstate__(
-        self,
-        state: tuple[
-            dict[str, str],
-            dict[str, tuple[str, str, tuple[str, ...]]],
-            tuple[tuple[str, str], ...],
-        ],
-    ) -> None:
-        """Restore immutable containers after unpickling."""
-        sounds, classes, features = state
-        object.__setattr__(self, "sounds", MappingProxyType(dict(sounds)))
-        object.__setattr__(
-            self,
-            "classes",
-            MappingProxyType(
-                {
-                    name: (desc, feat_str, tuple(graphemes))
-                    for name, (desc, feat_str, graphemes) in classes.items()
-                },
-            ),
-        )
-        object.__setattr__(self, "features", tuple(features))
-
     @property
     def feature_values(self) -> dict[str, set[str]]:
         """Return FEATURE -> set[VALUE]."""
