@@ -68,6 +68,14 @@ system = IPAFeatureSystem(dataset=load_builtin_dataset())
 print(system.grapheme_to_features("p"))
 ```
 
+Methodological assumptions:
+
+- representation unit: categorical feature sets from parsed `sounds.tsv` labels
+- matching semantics: subset/partial matching with optional negative features
+- distance semantics: geometry-based categorical distance
+- uncertainty handling: no explicit uncertainty model; absence means feature not present
+- best for: compact inventory queries and interpretable rule-oriented analysis
+
 ## `tresoldi`
 
 `TresoldiFeatureSystem` parses a broader categorical bundle from the same
@@ -87,6 +95,14 @@ from distfeat import TresoldiFeatureSystem, load_builtin_dataset
 system = TresoldiFeatureSystem(dataset=load_builtin_dataset())
 print(system.grapheme_to_features("a"))
 ```
+
+Methodological assumptions:
+
+- representation unit: broader categorical feature sets preserving more descriptors
+- matching semantics: same categorical partial matching model as `ipa`
+- distance semantics: same geometry-backed categorical distance model
+- uncertainty handling: no explicit uncertainty states
+- best for: exploratory work where richer categorical detail is preferred over compactness
 
 ## `distinctive`
 
@@ -114,6 +130,14 @@ from distfeat import DistinctiveFeatureSystem, load_builtin_dataset
 system = DistinctiveFeatureSystem(dataset=load_builtin_dataset())
 print(system.grapheme_to_scalars("a"))
 ```
+
+Methodological assumptions:
+
+- representation unit: categorical features plus derived scalar dimensions
+- matching semantics: categorical matching for queries; scalar space used for distance
+- distance semantics: weighted scalar-dimension distance grounded in geometry node depth
+- uncertainty handling: missing dimensions are treated as neutral (`0.0`)
+- best for: numeric comparison/modeling workflows needing stable scalar embeddings
 
 ## `pbase-*`
 
@@ -146,6 +170,14 @@ print(system.grapheme_to_representation("a"))
 print(distfeat.features_to_graphemes({"syllabic": "+"}, system="pbase-hc"))
 ```
 
+Methodological assumptions:
+
+- representation unit: native multi-state valued features (`+`, `-`, `n`, `.`, `o`, `x`)
+- matching semantics: key/value matching over native valued representations
+- distance semantics: mismatch ratio over comparable non-`.` features
+- uncertainty handling: `.` is treated as underspecified and excluded from comparables
+- best for: work that needs explicit underspecification and multi-state segment tables
+
 ## Shared Behavior
 
 Across systems:
@@ -173,3 +205,10 @@ The analysis helpers work across all built-in systems:
   comparison, or downstream modeling
 - use `pbase-*` when you need native multi-state feature tables derived from
   the bundled P-base data
+
+## Cross-System Caveats
+
+- results are not methodologically interchangeable across systems
+- feature labels with similar names may play different operational roles by system
+- `pbase-*` outputs should not be interpreted as categorical feature sets
+- if comparing runs across studies, report system name and version explicitly
