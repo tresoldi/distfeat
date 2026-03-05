@@ -4,6 +4,11 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from enum import StrEnum
+from types import MappingProxyType
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from collections.abc import Mapping
 
 
 class FeatureState(StrEnum):
@@ -28,14 +33,17 @@ class CategoricalFeatures:
 class ValuedFeatures:
     """A named feature table with explicit symbolic values."""
 
-    values: dict[str, FeatureState]
+    values: Mapping[str, FeatureState]
+
+    def __post_init__(self) -> None:
+        object.__setattr__(self, "values", MappingProxyType(dict(self.values)))
 
 
 type FeatureRepresentation = CategoricalFeatures | ValuedFeatures
 
 
 def _normalize_valued_query(
-    query: dict[str, FeatureState | str],
+    query: Mapping[str, FeatureState | str],
 ) -> dict[str, FeatureState]:
     """Normalize a valued query to FeatureState values."""
     return {

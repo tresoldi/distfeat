@@ -14,6 +14,7 @@ Additional constraints:
 - use dataclasses for core data structures
 - keep the protocol narrow
 - avoid hidden cross-package coupling to `alteruphono`
+- treat frozen model objects as deeply immutable (including nested data)
 
 ## Architecture
 
@@ -62,3 +63,16 @@ This repository uses a standard `src/` layout:
 - the package source lives under `src/distfeat/`
 - tests live under `tests/`
 - documentation pages live under `docs/`
+
+## Local Workflow
+
+Use `uv` for local development and run all commands through `uv run`:
+
+```bash
+uv venv
+uv pip install -e ".[dev]"
+uv run ruff check .
+uv run mypy src
+uv run pytest -q
+uv run python scripts/verify_examples.py
+```

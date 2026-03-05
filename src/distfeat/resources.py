@@ -90,10 +90,10 @@ def load_dataset(
         row["SOUND_CLASS"]: (
             row["DESCRIPTION"],
             row["FEATURES"],
-            row["GRAPHEMES"].split("|") if row["GRAPHEMES"] else [],
+            tuple(row["GRAPHEMES"].split("|")) if row["GRAPHEMES"] else (),
         )
         for row in classes_rows
     }
-    features = [(row["VALUE"], row["FEATURE"]) for row in features_rows]
+    features = tuple((row["VALUE"], row["FEATURE"]) for row in features_rows)
 
     return FeatureDataset(sounds=sounds, classes=classes, features=features)

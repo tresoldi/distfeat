@@ -1,6 +1,13 @@
 """Tests for top-level functional helpers."""
 
-from distfeat import FeatureState, ValuedFeatures, get_class_features, get_features, get_representation, list_systems
+from distfeat import (
+    FeatureState,
+    ValuedFeatures,
+    get_class_features,
+    get_features,
+    get_representation,
+    list_systems,
+)
 
 
 def test_get_features() -> None:

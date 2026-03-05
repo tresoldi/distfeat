@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+from collections.abc import Mapping
 from dataclasses import dataclass
 from functools import cache, cached_property
 from pathlib import Path
@@ -132,7 +133,7 @@ class PBaseFeatureSystem:
     def features_to_grapheme(self, features: object) -> str | None:
         if isinstance(features, ValuedFeatures):
             query = features.values
-        elif isinstance(features, dict):
+        elif isinstance(features, Mapping):
             query = _normalize_valued_query(features)
         else:
             return None
@@ -151,7 +152,7 @@ class PBaseFeatureSystem:
     def matches(self, pattern: object, target: object) -> bool:
         if isinstance(pattern, ValuedFeatures):
             query = pattern.values
-        elif isinstance(pattern, dict):
+        elif isinstance(pattern, Mapping):
             query = _normalize_valued_query(pattern)
         else:
             msg = "P-base systems require dict or ValuedFeatures queries."

@@ -15,7 +15,7 @@ from __future__ import annotations
 import argparse
 import subprocess
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -105,7 +105,7 @@ def verify_example(
 
 
 def _now() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    return datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC")
 
 
 def main() -> None:
@@ -125,7 +125,8 @@ def main() -> None:
 
     dirs = find_example_dirs(args.filter)
     if not dirs:
-        print(f"No example directories found{f' matching {args.filter!r}' if args.filter else ''}.")
+        suffix = f" matching {args.filter!r}" if args.filter else ""
+        print(f"No example directories found{suffix}.")
         sys.exit(1)
 
     results: list[tuple[str, bool, str]] = []

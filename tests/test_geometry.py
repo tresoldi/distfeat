@@ -20,7 +20,6 @@ def test_feature_lookup() -> None:
 def test_feature_distance() -> None:
     """Feature distance is symmetric and zero on identity."""
     assert DEFAULT_GEOMETRY.feature_distance("voiced", "voiced") == 0
-    assert DEFAULT_GEOMETRY.feature_distance("voiced", "voiceless") == DEFAULT_GEOMETRY.feature_distance(
-        "voiceless",
-        "voiced",
-    )
+    left = DEFAULT_GEOMETRY.feature_distance("voiced", "voiceless")
+    right = DEFAULT_GEOMETRY.feature_distance("voiceless", "voiced")
+    assert left == right

@@ -220,10 +220,14 @@ def build_epub(combined_md: Path, version: str) -> bool:
         "--highlight-style=tango",
         "-f", "markdown+smart",
         "--standalone",
-        "--metadata", f"title=The distfeat Handbook",
-        "--metadata", f"author=Tiago Tresoldi",
-        "--metadata", f"lang=en-US",
-        "--metadata", f"description=A phonological feature system for computational historical linguistics (v{version})",
+        "--metadata", "title=The distfeat Handbook",
+        "--metadata", "author=Tiago Tresoldi",
+        "--metadata", "lang=en-US",
+        "--metadata",
+        (
+            "description=A phonological feature system "
+            f"for computational historical linguistics (v{version})"
+        ),
     ]
     result = subprocess.run(cmd, capture_output=True, text=True, cwd=PROJECT_ROOT)
     if result.returncode != 0:
