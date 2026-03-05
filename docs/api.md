@@ -19,6 +19,8 @@ Main exports:
   - `minimal_matrix(...)`
   - `tabulate_matrix(...)`
   - `distance(...)`
+  - `valued_matches(...)`
+  - `valued_distance(...)`
 - export APIs:
   - `export_matrix(...)`
   - `export_distances(...)`
@@ -213,6 +215,13 @@ names to symbolic states:
 matches = distfeat.features_to_graphemes({"syllabic": "+"}, system="pbase-hc")
 ```
 
+For valued queries, you can control underspecification handling:
+
+- `valued_dot_policy="strict"` (default)
+- `valued_dot_policy="query-wildcard"`
+- `valued_dot_policy="target-wildcard"`
+- `valued_dot_policy="either-wildcard"`
+
 ### `derive_class_features(...)`
 
 Returns the strict shared feature intersection for a set of graphemes.
@@ -243,6 +252,20 @@ It can either:
 
 - resolve graphemes through a system and use that system's native distance
 - use an explicitly provided precomputed nested-dict distance matrix
+
+For valued systems, `distance(...)` also accepts:
+
+- `valued_dot_policy="ignore"` (default)
+- `valued_dot_policy="partial"`
+- `valued_dot_policy="strict"`
+
+## Valued Uncertainty Helpers
+
+Use these helpers directly when you need explicit control over DOT-state
+semantics:
+
+- `valued_matches(query, target, dot_policy=...)`
+- `valued_distance(a, b, dot_policy=...)`
 
 ## Export APIs
 

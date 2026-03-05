@@ -11,6 +11,8 @@ from distfeat import (
     get_system,
     minimal_matrix,
     tabulate_matrix,
+    valued_distance,
+    valued_matches,
 )
 
 
@@ -154,3 +156,37 @@ def test_distance_helper_pbase() -> None:
     """The distance helper should use native multi-state distances."""
     assert distance("a", "a", system="pbase-hc") == 0.0
     assert distance("t", "d", system="pbase-hc") > 0.0
+
+
+def test_valued_matches_dot_policies() -> None:
+    """DOT handling in valued matching should be configurable."""
+    query = {"syllabic": FeatureState.DOT, "voice": FeatureState.POSITIVE}
+    target = {"syllabic": FeatureState.NEGATIVE, "voice": FeatureState.POSITIVE}
+    assert valued_matches(query, target, dot_policy="strict") is False
+    assert valued_matches(query, target, dot_policy="query-wildcard") is True
+    assert valued_matches(query, target, dot_policy="either-wildcard") is True
+
+
+def test_valued_distance_dot_policies() -> None:
+    """DOT handling in valued distance should be configurable."""
+    left = {"syllabic": FeatureState.DOT, "voice": FeatureState.POSITIVE}
+    right = {"syllabic": FeatureState.NEGATIVE, "voice": FeatureState.POSITIVE}
+    assert valued_distance(left, right, dot_policy="ignore") == 0.0
+    assert valued_distance(left, right, dot_policy="partial") == 0.25
+    assert valued_distance(left, right, dot_policy="strict") == 0.5
+
+
+def test_features_to_graphemes_valued_dot_policy() -> None:
+    """Valued grapheme queries should support wildcard DOT policies."""
+    strict = features_to_graphemes(
+        {"syllabic": ".", "vocalic": "+"},
+        system="pbase-hc",
+        valued_dot_policy="strict",
+    )
+    wildcard = features_to_graphemes(
+        {"syllabic": ".", "vocalic": "+"},
+        system="pbase-hc",
+        valued_dot_policy="query-wildcard",
+    )
+    assert len(wildcard) >= len(strict)
+    assert "a" in wildcard

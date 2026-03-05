@@ -9,6 +9,8 @@ from distfeat.analysis import (
     features_to_graphemes,
     minimal_matrix,
     tabulate_matrix,
+    valued_distance,
+    valued_matches,
 )
 from distfeat.audit import DatasetAuditReport, audit_dataset
 from distfeat.dataset import FeatureDataset, dataset_from_rows, load_builtin_dataset, load_dataset
@@ -99,4 +101,6 @@ __all__ = [
     "set_registry",
     "sound_distance",
     "tabulate_matrix",
+    "valued_distance",
+    "valued_matches",
 ]

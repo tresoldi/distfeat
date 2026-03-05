@@ -178,6 +178,12 @@ Methodological assumptions:
 - uncertainty handling: `.` is treated as underspecified and excluded from comparables
 - best for: work that needs explicit underspecification and multi-state segment tables
 
+Uncertainty controls:
+
+- `features_to_graphemes(..., valued_dot_policy=...)` exposes wildcard policies for `.`
+- `distance(..., valued_dot_policy=...)` exposes `ignore` / `partial` / `strict` handling
+- `valued_matches(...)` and `valued_distance(...)` expose the same controls directly
+
 ## Shared Behavior
 
 Across systems:
