@@ -1,0 +1,26 @@
+=== Feature Lookup ===
+/p/: ['bilabial', 'consonant', 'stop', 'voiceless']
+/b/: ['bilabial', 'consonant', 'stop', 'voiced']
+/t/: ['alveolar', 'consonant', 'stop', 'voiceless']
+/d/: ['alveolar', 'consonant', 'stop', 'voiced']
+/k/: ['consonant', 'stop', 'velar', 'voiceless']
+/g/: ['consonant', 'stop', 'velar', 'voiced']
+
+=== Representations ===
+IPA: CategoricalFeatures, features: ['bilabial', 'consonant', 'stop', 'voiceless']
+P-base HC: ValuedFeatures, features: 23
+
+=== Available Systems ===
+['ipa', 'tresoldi', 'distinctive', 'pbase-hc', 'pbase-jfh', 'pbase-spe', 'pbase-uftc']
+
+=== Sound Classes ===
+is_class('S'): True
+is_class('p'): False
+class_features('S'): ['stop']
+
+=== Distance ===
+d(p, b) = 0.5455
+d(p, t) = 0.1538
+d(t, d) = 0.5455
+d(k, g) = 0.5455
+d(p, k) = 0.1538

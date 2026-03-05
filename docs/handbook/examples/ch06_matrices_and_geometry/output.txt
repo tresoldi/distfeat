@@ -1,0 +1,54 @@
+=== Minimal Matrix: p vs b ===
+Columns: ('voiced',)
+grapheme | voiced
+---------+-------
+p        | False 
+b        | True  
+
+=== Minimal Matrix: p b t d ===
+Columns: ('alveolar', 'voiced')
+grapheme | alveolar | voiced
+---------+----------+-------
+p        | False    | False 
+b        | False    | True  
+t        | True     | False 
+d        | True     | True  
+
+=== Minimal Matrix: all stops ===
+Columns: ('alveolar', 'bilabial', 'voiced')
+grapheme | alveolar | bilabial | voiced
+---------+----------+----------+-------
+p        | False    | True     | False 
+b        | False    | True     | True  
+t        | True     | False    | False 
+d        | True     | False    | True  
+k        | False    | False    | False 
+g        | False    | False    | True  
+
+=== Markdown Format ===
+grapheme | alveolar | bilabial | voiced
+-------- | -------- | -------- | ------
+p        | False    | True     | False 
+b        | False    | True     | True  
+t        | True     | False    | False 
+d        | True     | False    | True  
+k        | False    | False    | False 
+g        | False    | False    | True  
+
+=== Geometry Tree ===
+Root: Root
+  Laryngeal
+  Manner
+  Place
+  TongueRoot
+  Prosodic
+
+=== Feature Distance ===
+voiced-voiceless: 2.0
+voiced-bilabial: 999.0
+stop-fricative: 999.0
+
+=== Geometry Traversal ===
+find_feature('voiced'): FeatureNode(name='voice', positive='voiced', negative='voiceless')
+Parent of 'voiced': Laryngeal
+Siblings of 'voiced': ['aspirated', 'breathy', 'creaky', 'glottalized', 'voiceless']
