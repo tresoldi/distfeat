@@ -38,6 +38,14 @@ class ValuedFeatures:
     def __post_init__(self) -> None:
         object.__setattr__(self, "values", MappingProxyType(dict(self.values)))
 
+    def __getstate__(self) -> dict[str, FeatureState]:
+        """Serialize with pickle-friendly containers."""
+        return dict(self.values)
+
+    def __setstate__(self, state: dict[str, FeatureState]) -> None:
+        """Restore immutable containers after unpickling."""
+        object.__setattr__(self, "values", MappingProxyType(dict(state)))
+
 
 type FeatureRepresentation = CategoricalFeatures | ValuedFeatures
 
