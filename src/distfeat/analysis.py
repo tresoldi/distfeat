@@ -5,7 +5,7 @@ from __future__ import annotations
 from collections.abc import Mapping
 from dataclasses import dataclass
 from itertools import combinations
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Literal
 
 from distfeat.registry import get_system
 from distfeat.representations import (
@@ -102,6 +102,12 @@ def features_to_graphemes(
     *,
     system: str | None = None,
     exact: bool = False,
+    valued_dot_policy: Literal[
+        "strict",
+        "query-wildcard",
+        "target-wildcard",
+        "either-wildcard",
+    ] = "strict",
 ) -> list[str]:
     """Return all graphemes that satisfy the requested feature query."""
     system_obj = get_system(system)
@@ -116,9 +122,14 @@ def features_to_graphemes(
             representation = system_obj.grapheme_to_representation(grapheme)
             if not isinstance(representation, ValuedFeatures):
                 continue
-            matched = representation.values == normalized_query if exact else system_obj.matches(
-                normalized_query,
-                representation,
+            matched = (
+                representation.values == normalized_query
+                if exact
+                else valued_matches(
+                    normalized_query,
+                    representation.values,
+                    dot_policy=valued_dot_policy,
+                )
             )
             if matched:
                 found.append(grapheme)
@@ -284,6 +295,7 @@ def distance(
     *,
     system: str | None = None,
     precomputed: dict[str, dict[str, float]] | None = None,
+    valued_dot_policy: Literal["ignore", "partial", "strict"] = "ignore",
 ) -> float:
     """Return the distance between two graphemes."""
     if precomputed is not None:
@@ -299,4 +311,88 @@ def distance(
     system_obj = get_system(system)
     representation_a = _lookup_representation(grapheme_a, system_obj)
     representation_b = _lookup_representation(grapheme_b, system_obj)
+    if (
+        isinstance(representation_a, ValuedFeatures)
+        and isinstance(representation_b, ValuedFeatures)
+    ):
+        return valued_distance(
+            representation_a.values,
+            representation_b.values,
+            dot_policy=valued_dot_policy,
+        )
     return system_obj.segment_distance(representation_a, representation_b)
+
+
+def valued_matches(
+    query: Mapping[str, FeatureState | str],
+    target: Mapping[str, FeatureState | str],
+    *,
+    dot_policy: Literal[
+        "strict",
+        "query-wildcard",
+        "target-wildcard",
+        "either-wildcard",
+    ] = "strict",
+) -> bool:
+    """Match valued features with explicit DOT-state semantics."""
+    normalized_query = _normalize_valued_query(query)
+    normalized_target = _normalize_valued_query(target)
+
+    for key, query_state in normalized_query.items():
+        target_state = normalized_target.get(key, FeatureState.DOT)
+
+        if dot_policy == "query-wildcard" and query_state == FeatureState.DOT:
+            continue
+        if dot_policy == "target-wildcard" and target_state == FeatureState.DOT:
+            continue
+        if dot_policy == "either-wildcard" and (
+            query_state == FeatureState.DOT or target_state == FeatureState.DOT
+        ):
+            continue
+        if query_state != target_state:
+            return False
+
+    return True
+
+
+def valued_distance(
+    a: Mapping[str, FeatureState | str],
+    b: Mapping[str, FeatureState | str],
+    *,
+    dot_policy: Literal["ignore", "partial", "strict"] = "ignore",
+) -> float:
+    """Distance between valued feature bundles with configurable DOT handling."""
+    a_values = _normalize_valued_query(a)
+    b_values = _normalize_valued_query(b)
+
+    keys = sorted(set(a_values) | set(b_values))
+    if not keys:
+        return 0.0
+
+    total = 0.0
+    comparable = 0
+
+    for key in keys:
+        left = a_values.get(key, FeatureState.DOT)
+        right = b_values.get(key, FeatureState.DOT)
+
+        if dot_policy == "ignore":
+            if left == FeatureState.DOT or right == FeatureState.DOT:
+                continue
+            comparable += 1
+            total += 0.0 if left == right else 1.0
+            continue
+
+        comparable += 1
+        if dot_policy == "partial":
+            if left == FeatureState.DOT and right == FeatureState.DOT:
+                total += 0.0
+            elif left == FeatureState.DOT or right == FeatureState.DOT:
+                total += 0.5
+            else:
+                total += 0.0 if left == right else 1.0
+            continue
+
+        total += 0.0 if left == right else 1.0
+
+    return (total / comparable) if comparable > 0 else 0.0
