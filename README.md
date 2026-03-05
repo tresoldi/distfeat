@@ -397,6 +397,7 @@ and analysis helpers over those representations.
 - [docs/api.md](docs/api.md) for the public API
 - [docs/datasets.md](docs/datasets.md) for dataset loading
 - [docs/systems.md](docs/systems.md) for built-in systems
+- [docs/recipes.md](docs/recipes.md) for task-oriented workflows
 - [docs/development.md](docs/development.md) for implementation constraints
 
 ## Relationship to alteruphono
