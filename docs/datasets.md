@@ -101,3 +101,28 @@ Columns:
 
 These are enough to support the current built-in systems without adding more
 dataset abstraction.
+
+## Dataset Audit
+
+Use `audit_dataset(...)` to run consistency checks on custom datasets before
+registering systems.
+
+```python
+from distfeat import audit_dataset, load_dataset
+
+dataset = load_dataset(directory="my_data")
+report = audit_dataset(dataset)
+
+print(report.class_reference_coverage)
+print(report.unknown_class_graphemes)
+print(report.unknown_class_features)
+print(report.feature_value_conflicts)
+```
+
+The report includes:
+
+- basic counts and class-reference coverage
+- unknown grapheme references in class definitions
+- duplicate class grapheme references
+- class feature labels not found in `features.tsv`
+- feature-value conflicts (same `VALUE` assigned to multiple `FEATURE` names)

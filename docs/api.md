@@ -28,6 +28,8 @@ Main exports:
   - `load_builtin_dataset()`
   - `load_dataset(...)`
   - `dataset_from_rows(...)`
+  - `DatasetAuditReport`
+  - `audit_dataset(...)`
 - registry APIs:
   - `Registry`
   - `create_registry(...)`
