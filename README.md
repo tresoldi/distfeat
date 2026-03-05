@@ -35,7 +35,17 @@ Development install:
 ```bash
 git clone https://github.com/tresoldi/distfeat.git
 cd distfeat
-pip install -e ".[dev]"
+uv venv
+uv pip install -e ".[dev]"
+```
+
+Run checks in the project environment:
+
+```bash
+uv run ruff check .
+uv run mypy src
+uv run pytest -q
+uv run python scripts/verify_examples.py
 ```
 
 ## Core Concepts

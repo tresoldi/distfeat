@@ -3,12 +3,13 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from types import MappingProxyType
 from typing import TYPE_CHECKING
 
 import distfeat.resources as resources
 
 if TYPE_CHECKING:
-    from collections.abc import Mapping
+    from collections.abc import Mapping, Sequence
     from pathlib import Path
 
 
@@ -16,9 +17,23 @@ if TYPE_CHECKING:
 class FeatureDataset:
     """Container for the canonical feature TSV data."""
 
-    sounds: dict[str, str]
-    classes: dict[str, tuple[str, str, list[str]]]
-    features: list[tuple[str, str]]
+    sounds: Mapping[str, str]
+    classes: Mapping[str, tuple[str, str, tuple[str, ...]]]
+    features: tuple[tuple[str, str], ...]
+
+    def __post_init__(self) -> None:
+        immutable_sounds = MappingProxyType(dict(self.sounds))
+        immutable_classes = MappingProxyType(
+            {
+                name: (desc, feat_str, tuple(graphemes))
+                for name, (desc, feat_str, graphemes) in self.classes.items()
+            },
+        )
+        immutable_features = tuple((value, feature) for value, feature in self.features)
+
+        object.__setattr__(self, "sounds", immutable_sounds)
+        object.__setattr__(self, "classes", immutable_classes)
+        object.__setattr__(self, "features", immutable_features)
 
     @property
     def feature_values(self) -> dict[str, set[str]]:
@@ -63,15 +78,15 @@ def load_dataset(
 def dataset_from_rows(
     *,
     sounds: Mapping[str, str],
-    classes: Mapping[str, tuple[str, str, list[str]]],
-    features: list[tuple[str, str]],
+    classes: Mapping[str, tuple[str, str, Sequence[str]]],
+    features: Sequence[tuple[str, str]],
 ) -> FeatureDataset:
     """Build a dataset directly from in-memory rows."""
     return FeatureDataset(
-        sounds=dict(sounds),
+        sounds=sounds,
         classes={
-            name: (desc, feat_str, list(graphemes))
+            name: (desc, feat_str, tuple(graphemes))
             for name, (desc, feat_str, graphemes) in classes.items()
         },
-        features=list(features),
+        features=tuple(features),
     )

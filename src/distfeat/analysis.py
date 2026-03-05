@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections.abc import Mapping
 from dataclasses import dataclass
 from itertools import combinations
 from typing import TYPE_CHECKING
@@ -16,8 +17,6 @@ from distfeat.representations import (
 )
 
 if TYPE_CHECKING:
-    from collections.abc import Mapping
-
     from distfeat.protocol import FeatureSystem
 
 
@@ -99,7 +98,7 @@ def _select_minimal_columns(rows: Mapping[str, Mapping[str, object]]) -> tuple[s
 
 
 def features_to_graphemes(
-    query: frozenset[str] | dict[str, FeatureState | str],
+    query: frozenset[str] | Mapping[str, FeatureState | str],
     *,
     system: str | None = None,
     exact: bool = False,
@@ -109,7 +108,7 @@ def features_to_graphemes(
     found: list[str] = []
 
     if system_obj.representation_kind == "valued":
-        if not isinstance(query, dict):
+        if not isinstance(query, Mapping):
             msg = f"System {system_obj.name!r} requires dict-valued feature queries."
             raise NotImplementedError(msg)
         normalized_query = _normalize_valued_query(query)
