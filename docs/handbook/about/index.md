@@ -23,9 +23,9 @@ under a single interface.
   in any third-party libraries. Development tools (pytest, ruff, mypy)
   are optional extras.
 - **Protocol-based architecture.** Feature systems conform to a
-  `FeatureSystem` protocol rather than inheriting from a shared base
-  class. This keeps the type hierarchy flat and makes it straightforward
-  to add new systems.
+  `FeatureSystem` protocol. The built-in categorical systems share a
+  `CategoricalFeatureSystem` base class, but any object satisfying the
+  protocol can be registered and used interchangeably.
 - **Bundled data.** All feature datasets ship inside the package as
   plain TSV files, so the library works offline and without network
   access.

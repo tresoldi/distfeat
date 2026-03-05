@@ -20,7 +20,7 @@ Return the names of all registered feature systems.
 
 ```python
 distfeat.list_systems()
-# ['distinctive', 'ipa', 'pbase-hc', 'pbase-jfh', 'pbase-spe', 'pbase-uftc', 'tresoldi']
+# ['ipa', 'tresoldi', 'distinctive', 'pbase-hc', 'pbase-jfh', 'pbase-spe', 'pbase-uftc']
 ```
 
 **Returns:** `list[str]`
@@ -173,7 +173,7 @@ Return the categorical feature set defining a sound class.
 
 ```python
 distfeat.get_class_features("S")
-# frozenset({'consonant', 'stop'})
+# frozenset({'stop'})
 ```
 
 **Returns:** `frozenset[str] | None`
@@ -291,8 +291,8 @@ Return the distance between two graphemes. If `precomputed` is provided,
 look up the pair in the dictionary first.
 
 ```python
-distfeat.distance("p", "b")  # ~0.08
-distfeat.distance("p", "t")  # ~0.17
+distfeat.distance("p", "b")  # ~0.545
+distfeat.distance("p", "t")  # ~0.154
 ```
 
 **Parameters:**
@@ -332,8 +332,8 @@ Return the distance between two native representations.
 Return the tree-edge distance between two individual feature values.
 
 ```python
-distfeat.feature_distance("voiced", "voiceless")  # small
-distfeat.feature_distance("voiced", "bilabial")   # large
+distfeat.feature_distance("voiced", "voiceless")  # 2.0 (same parent node)
+distfeat.feature_distance("voiced", "nasal")       # 6.0 (across branches)
 ```
 
 **Returns:** `float`

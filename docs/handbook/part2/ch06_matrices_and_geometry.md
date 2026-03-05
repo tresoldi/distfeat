@@ -475,27 +475,33 @@ up through the root and back down, accumulating a much larger count.
 
 ### The path-distance algorithm
 
-To understand the numbers, it helps to inspect the paths themselves.
-The tree stores a path as a list of node names from root to value:
+To understand the numbers, it helps to inspect the tree structure.
+We can locate features and their parents with the public traversal
+methods:
 
 ```python
 import distfeat
 
 tree = distfeat.DEFAULT_GEOMETRY
 
-path_voiced = tree._path_to("voiced")
-path_voiceless = tree._path_to("voiceless")
-path_close = tree._path_to("close")
+# "voiced" sits under Root > Laryngeal > voice
+parent_voiced = tree.find_parent("voiced")
+print(f"Parent of 'voiced': {parent_voiced.name}")
+# Parent of 'voiced': Laryngeal
 
-print(f"voiced:    {path_voiced}")
-# voiced:    ['Root', 'Laryngeal', 'voice', 'voiced']
+# "voiceless" sits under the same parent
+parent_voiceless = tree.find_parent("voiceless")
+print(f"Parent of 'voiceless': {parent_voiceless.name}")
+# Parent of 'voiceless': Laryngeal
 
-print(f"voiceless: {path_voiceless}")
-# voiceless: ['Root', 'Laryngeal', 'voice', 'voiceless']
-
-print(f"close:     {path_close}")
-# close:     ['Root', 'Place', 'Dorsal', 'high', 'close']
+# "close" sits deeper: Root > Place > Dorsal > high
+parent_close = tree.find_parent("close")
+print(f"Parent of 'close': {parent_close.name}")
+# Parent of 'close': Dorsal
 ```
+
+The path from root to `voiced` is Root > Laryngeal > voice > voiced
+(depth 3), and `voiceless` shares the same path up to voice.
 
 For `voiced` vs `voiceless`, the paths share the prefix
 `['Root', 'Laryngeal', 'voice']`---three common elements. The
