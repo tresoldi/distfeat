@@ -10,6 +10,7 @@ from distfeat.analysis import (
     minimal_matrix,
     tabulate_matrix,
 )
+from distfeat.audit import DatasetAuditReport, audit_dataset
 from distfeat.dataset import FeatureDataset, dataset_from_rows, load_builtin_dataset, load_dataset
 from distfeat.exporters import export_class_features, export_distances, export_matrix
 from distfeat.geometry import DEFAULT_GEOMETRY, FeatureNode, GeometryNode
@@ -53,6 +54,7 @@ __all__ = [
     "DEFAULT_GEOMETRY",
     "DistinctiveFeatureSystem",
     "CategoricalFeatures",
+    "DatasetAuditReport",
     "FeatureDataset",
     "FeatureMatrix",
     "FeatureNode",
@@ -66,6 +68,7 @@ __all__ = [
     "TresoldiFeatureSystem",
     "ValuedFeatures",
     "add_features",
+    "audit_dataset",
     "create_registry",
     "dataset_from_rows",
     "derive_class_features",
