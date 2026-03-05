@@ -31,7 +31,7 @@ Verify that the installation succeeded and check the version:
 import distfeat
 
 print(distfeat.__version__)
-# 0.4.0
+# 0.5.0
 ```
 
 `distfeat` requires Python 3.12 or newer. If the import fails, check

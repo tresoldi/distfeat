@@ -7,6 +7,24 @@ the project adheres to
 
 ---
 
+## 0.5.0
+
+### Added
+
+- Task-oriented recipes for computational phonology and historical-linguistic
+  workflows.
+- Explicit methodological-assumptions sections for each built-in system.
+- Stable export APIs for matrices, distance maps, and class-feature outputs.
+- Dataset audit/report APIs for coverage and consistency diagnostics.
+- Valued-feature uncertainty controls for matching and distance.
+
+### Changed
+
+- Example verification is now read-only by default; metadata updates are
+  opt-in via `--write-meta`.
+
+---
+
 ## 0.4.0
 
 ### Added

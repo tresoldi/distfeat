@@ -2,12 +2,13 @@
 """Verify all tracked handbook examples.
 
 Runs each example script, captures stdout, compares against the stored
-output.txt, and updates meta.txt with verification status.
+output.txt, and optionally updates meta.txt with verification status.
 
 Usage:
     python scripts/verify_examples.py          # verify all
     python scripts/verify_examples.py ch03     # verify one chapter
     python scripts/verify_examples.py --update # regenerate output.txt
+    python scripts/verify_examples.py --write-meta # write meta.txt status
 """
 
 from __future__ import annotations
@@ -65,6 +66,7 @@ def verify_example(
     example_dir: Path,
     *,
     update: bool = False,
+    write_meta: bool = False,
 ) -> tuple[str, bool, str]:
     """Verify a single example. Returns (name, passed, message)."""
     name = example_dir.name
@@ -76,10 +78,11 @@ def verify_example(
     if not success:
         status = "FAIL"
         msg = f"execution failed: {stderr.strip()[:200]}"
-        meta_txt.write_text(
-            f"verified: {_now()}\nstatus: FAIL\nerror: {stderr.strip()[:200]}\n",
-            encoding="utf-8",
-        )
+        if write_meta:
+            meta_txt.write_text(
+                f"verified: {_now()}\nstatus: FAIL\nerror: {stderr.strip()[:200]}\n",
+                encoding="utf-8",
+            )
         return name, False, msg
 
     if update or not output_txt.exists():
@@ -95,12 +98,13 @@ def verify_example(
             status = "DRIFT"
             msg = "output differs from stored output.txt"
 
-    import distfeat
+    if write_meta:
+        import distfeat
 
-    meta_txt.write_text(
-        f"verified: {_now()}\nversion: {distfeat.__version__}\nstatus: {status}\n",
-        encoding="utf-8",
-    )
+        meta_txt.write_text(
+            f"verified: {_now()}\nversion: {distfeat.__version__}\nstatus: {status}\n",
+            encoding="utf-8",
+        )
     return name, status in {"PASS", "UPDATED", "GENERATED"}, msg
 
 
@@ -121,6 +125,11 @@ def main() -> None:
         action="store_true",
         help="Regenerate output.txt files",
     )
+    parser.add_argument(
+        "--write-meta",
+        action="store_true",
+        help="Update meta.txt verification metadata",
+    )
     args = parser.parse_args()
 
     dirs = find_example_dirs(args.filter)
@@ -130,8 +139,13 @@ def main() -> None:
         sys.exit(1)
 
     results: list[tuple[str, bool, str]] = []
+    write_meta = args.write_meta or args.update
     for d in dirs:
-        name, passed, msg = verify_example(d, update=args.update)
+        name, passed, msg = verify_example(
+            d,
+            update=args.update,
+            write_meta=write_meta,
+        )
         marker = "PASS" if passed else "FAIL"
         print(f"  [{marker}] {name}: {msg}")
         results.append((name, passed, msg))
