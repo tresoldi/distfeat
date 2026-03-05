@@ -361,7 +361,16 @@ def valued_distance(
     *,
     dot_policy: Literal["ignore", "partial", "strict"] = "ignore",
 ) -> float:
-    """Distance between valued feature bundles with configurable DOT handling."""
+    """Distance between valued feature bundles with configurable DOT handling.
+
+    When *dot_policy* is ``"ignore"`` (the default), feature dimensions where
+    either side is DOT are skipped entirely.  If **all** dimensions are skipped
+    the function returns ``0.0``, meaning two fully-unspecified bundles are
+    treated as identical.  This is mathematically consistent (no evidence of
+    difference), but may surprise callers comparing nearly-empty P-base entries.
+    Use ``"partial"`` or ``"strict"`` when unspecified dimensions should
+    contribute to the distance.
+    """
     a_values = _normalize_valued_query(a)
     b_values = _normalize_valued_query(b)
 
